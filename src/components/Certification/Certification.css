@@ -1,0 +1,213 @@
+/* Certification.css */
+
+.certification-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #1a1a2e;
+  background-color: #f9fafc;
+  padding: 4rem 1rem 6rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Container utility */
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Hero Section */
+.certification-hero {
+  background: linear-gradient(135deg, #ff9933 0%, #138808 100%);
+  color: #fff;
+  padding: 3rem 2rem;
+  border-radius: 20px;
+  box-shadow: 0 12px 30px rgba(19, 136, 8, 0.3);
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.certification-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+}
+
+.certification-hero p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  max-width: 700px;
+  margin: 0 auto;
+  font-weight: 500;
+}
+
+/* Certifications Grid */
+.certifications-list h2 {
+  font-size: 2.5rem;
+  color: #16213e;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+}
+
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2.5rem;
+}
+
+/* Individual Certification Item */
+.cert-item {
+  background: #fff;
+  border-radius: 18px;
+  padding: 2rem 1.5rem 2.5rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 50, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  cursor: default;
+  position: relative;
+}
+
+.cert-item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 16px 40px rgba(19, 136, 8, 0.3);
+}
+
+/* Certification Title */
+.cert-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #138808; /* Indian green */
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  user-select: none;
+}
+
+/* Certification Description */
+.cert-item p {
+  font-size: 1rem;
+  color: #2c2c54;
+  line-height: 1.5;
+  margin-bottom: 1.8rem;
+  font-weight: 500;
+}
+
+/* Certification Logo */
+.cert-logo {
+  max-width: 120px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 50, 0.07);
+  transition: transform 0.3s ease;
+}
+
+.cert-item:hover .cert-logo {
+  transform: scale(1.1);
+}
+
+/* CTA Section */
+.cert-cta {
+  background: #138808;
+  color: #fff;
+  padding: 3rem 2rem;
+  border-radius: 20px;
+  margin-top: 5rem;
+  text-align: center;
+  box-shadow: 0 12px 30px rgba(19, 136, 8, 0.4);
+}
+
+.cert-cta h2 {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  letter-spacing: 1.3px;
+}
+
+.cert-cta p {
+  font-size: 1.2rem;
+  margin-bottom: 2.5rem;
+  font-weight: 500;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* CTA Buttons */
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1.8rem;
+  flex-wrap: wrap;
+}
+
+.cta-button {
+  background: #ff9933; /* Saffron */
+  color: #16213e;
+  font-weight: 700;
+  font-size: 1.1rem;
+  padding: 0.85rem 2.2rem;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: 0 6px 15px rgba(255, 153, 51, 0.4);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+
+.cta-button:hover,
+.cta-button:focus {
+  background: #e67e22;
+  color: #fff;
+  box-shadow: 0 10px 25px rgba(230, 126, 34, 0.6);
+  outline: none;
+}
+
+/* Download link style */
+.cta-button[download] {
+  text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .cert-grid {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.8rem;
+  }
+
+  .certification-hero h1 {
+    font-size: 2.2rem;
+  }
+
+  .certifications-list h2 {
+    font-size: 2rem;
+  }
+
+  .cert-cta h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .cert-cta {
+    padding: 2rem 1rem;
+  }
+
+  .cta-buttons {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .cta-button {
+    width: 100%;
+  }
+}

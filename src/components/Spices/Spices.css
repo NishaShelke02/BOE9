@@ -1,0 +1,54 @@
+.spices-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 1000px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.spice-item {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: #fff8f0;
+}
+
+.spice-image img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.spice-description {
+  flex: 1;
+}
+
+.spice-description h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #b22222;
+}
+
+.spice-description p {
+  margin: 0.5rem 0;
+  line-height: 1.4;
+  color: #333;
+}
+
+/* Responsive: stack image on top for small screens */
+@media (max-width: 768px) {
+  .spice-item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .spice-image img {
+    width: 100%;
+    height: auto;
+  }
+}
