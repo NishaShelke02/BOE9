@@ -1,65 +1,25 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 
-// Slugify function to create URL-friendly paths
-const slugify = (str) =>
-  str
-    .toLowerCase()
-    .replace(/\s+/g, "-") // Replace spaces with hyphens
-    .replace(/[&()]/g, "") // Remove &, (, )
-    .replace(/[^\w-]+/g, ""); // Remove other special characters
-
 const Navbar = () => {
-  const [activeDropdown, setActiveDropdown] = useState(null); // For PRODUCTS
-  const [activeAbout, setActiveAbout] = useState(null); // For ABOUT US dropdown
-  const [menuOpen, setMenuOpen] = useState(false); // Mobile menu toggle
+  const [activeDropdown, setActiveDropdown] = useState(null);
+  const [activeAbout, setActiveAbout] = useState(null);
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [categories, setCategories] = useState([]);
 
-  const productCategories = [
-    {
-      name: "Food & FMCG - Health Food",
-      products: [
-        "Nashik Misal Mix",
-        "Jackfruit Products",
-        "Tofu",
-        "Frozen Green Peas",
-        "Onions",
-        "Jaggery",
-      ],
-    },
-    {
-      name: "Medicinal & Herbal Plants",
-      products: [
-        "Ashwagandha",
-        "Zedoary",
-        "Shatavari",
-        "Brahmi/Gotu Kola",
-        "Saptrangi",
-        "Giloy",
-        "Moringa",
-      ],
-    },
-    {
-      name: "Renewable Energy",
-      products: ["Biomass Briquettes"],
-    },
-    {
-      name: "Construction",
-      products: ["Fly Ash Bricks"],
-    },
-    {
-      name: "Indian Spices",
-      products: ["Spices"],
-    },
-    {
-      name: "Indian Super Foods",
-      products: ["Makhana (Fox Nuts)", "Gluten-Free/Roasted millets products"],
-    },
-    {
-      name: "Agriculture",
-      products: ["Organic Manures", "Biofertilizer"],
-    },
-  ];
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const res = await fetch("/data/products.json");
+        const json = await res.json();
+        setCategories(json);
+      } catch (error) {
+        console.error("Error loading categories:", error);
+      }
+    };
+    fetchData();
+  }, []);
 
   const aboutSubItems = [
     { name: "Our Company", path: "/AboutUs/our-company" },
@@ -133,14 +93,14 @@ const Navbar = () => {
             {activeDropdown === "products" && (
               <div className="vertical-dropdown">
                 <ul className="product-categories">
-                  {productCategories.map((category, index) => (
+                  {categories.map((category, index) => (
                     <li key={index} className="category-item">
                       <Link
-                        to={`/products/${slugify(category.name)}`}
+                        to={`/products/${category.slug}`}
                         className="category-header"
                         onClick={() => setMenuOpen(false)}
                       >
-                        {category.name}
+                        {category.category}
                       </Link>
 
                       {category.products && (
@@ -149,10 +109,10 @@ const Navbar = () => {
                             {category.products.map((product, pIndex) => (
                               <li key={pIndex}>
                                 <Link
-                                  to={`/products/${slugify(category.name)}/${slugify(product)}`}
+                                  to={`/products/${category.slug}/${product.slug}`}
                                   onClick={() => setMenuOpen(false)}
                                 >
-                                  {product}
+                                  {product.name}
                                 </Link>
                               </li>
                             ))}
