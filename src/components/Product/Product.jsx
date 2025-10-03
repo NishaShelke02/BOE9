@@ -4,38 +4,44 @@ import "./Product.css";
 
 const Product = () => {
   const { categorySlug, productSlug } = useParams();
-  const [data, setData] = useState(null);
+  const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [mainImage, setMainImage] = useState("");
 
   // Utility: slugify text
-  const slugify = useCallback(
-    (text = "") =>
-      text.toString().toLowerCase().replace(/\s+/g, "-").replace(/[^\w-]+/g, ""),
-    []
-  );
+  const slugify = useCallback((text = "") =>
+    text
+      .toString()
+      .toLowerCase()
+      .trim()
+      .replace(/\s+/g, "-")
+      .replace(/&/g, "and")
+      .replace(/[^\w-]+/g, "")
+  , []);
 
-  // Helper: find product in category or subcategories
-  const getProductFromCategory = useCallback(
-    (category, slug) => {
-      const allProducts = [
-        ...(category.products || []),
-        ...(category.subcategories?.flatMap((sub) => sub.products || []) || []),
-      ];
-      return allProducts.find((p) => (p.slug ? p.slug : slugify(p.name)) === slug);
-    },
-    [slugify]
-  );
+  // Helper: flatten products in category + subcategories
+  const getAllProducts = useCallback((category) => {
+    const mainProducts = category.products || [];
+    const subProducts = category.subcategories?.flatMap(sub => sub.products || []) || [];
+    return [...mainProducts, ...subProducts];
+  }, []);
 
-  // Fetch data from products.json
+  // Helper: find product by slug
+  const findProduct = useCallback((category, slug) => {
+    const products = getAllProducts(category);
+    return products.find(p => (p.slug ? p.slug : slugify(p.name)) === slug);
+  }, [getAllProducts, slugify]);
+
+  // Fetch products JSON
   useEffect(() => {
     const fetchData = async () => {
       try {
         const res = await fetch("/data/products.json");
+        if (!res.ok) throw new Error("Network response not ok");
         const json = await res.json();
         setData(json);
-      } catch (error) {
-        console.error("Error fetching products:", error);
+      } catch (err) {
+        console.error("Failed to fetch products:", err);
       } finally {
         setLoading(false);
       }
@@ -43,41 +49,26 @@ const Product = () => {
     fetchData();
   }, []);
 
-  // Set main image when productSlug changes
+  // Update main image when product changes
   useEffect(() => {
-    if (!data) return;
+    if (!data.length) return;
 
-    const category = data.find(
-      (cat) =>
-        (cat.slug ? cat.slug : slugify(cat.category)) === categorySlug
-    );
+    const category = data.find(cat => (cat.slug ? cat.slug : slugify(cat.category)) === categorySlug);
+    if (!category) return;
 
-    const product =
-      productSlug && category && getProductFromCategory(category, productSlug);
-
-    if (product && product.image) {
-      setMainImage(product.image);
-    }
-  }, [data, categorySlug, productSlug, getProductFromCategory, slugify]);
+    const product = productSlug ? findProduct(category, productSlug) : null;
+    if (product?.image) setMainImage(product.image);
+  }, [data, categorySlug, productSlug, findProduct, slugify]);
 
   if (loading) return <p>Loading...</p>;
-  if (!data) return <p>No data available</p>;
+  if (!data.length) return <p>No data available</p>;
 
-  const category = data.find(
-    (cat) =>
-      (cat.slug ? cat.slug : slugify(cat.category)) === categorySlug
-  );
-  if (!category) return <p>Category not found</p>;
+  // Get category and product objects
+  const category = data.find(cat => (cat.slug ? cat.slug : slugify(cat.category)) === categorySlug);
+  if (!category) return <p>Under Working</p>;
 
-  const product =
-    productSlug && getProductFromCategory(category, productSlug);
-
-  // Flatten all products for category page
-  const allProducts = [
-    ...(category.products || []),
-    ...(category.subcategories?.flatMap((sub) => sub.products || []) || []),
-  ];
-
+  const product = productSlug ? findProduct(category, productSlug) : null;
+  const allProducts = getAllProducts(category);
   const categorySlugValue = category.slug || slugify(category.category);
 
   return (
@@ -105,7 +96,7 @@ const Product = () => {
         <div className="product-detail">
           <div className="product-description">
             <h3>{product.name}</h3>
-            <p>{product.description}</p>
+            <p>{product.description || product.shortDesc || "No description available"}</p>
           </div>
 
           <div className="product-image-container">
@@ -116,8 +107,7 @@ const Product = () => {
                 className="product-image"
               />
             )}
-
-            {product.gallery && product.gallery.length > 0 && (
+            {product.gallery?.length > 0 && (
               <div className="product-gallery">
                 {product.gallery.map((img, i) => (
                   <img
@@ -146,7 +136,7 @@ const Product = () => {
                 style={{ backgroundImage: `url(${p.image})` }}
               />
               <h4>{p.name}</h4>
-              <p>{p.shortDesc}</p>
+              <p>{p.shortDesc || "No description available"}</p>
             </Link>
           ))}
         </div>
