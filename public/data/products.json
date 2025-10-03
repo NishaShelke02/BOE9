@@ -1,6 +1,7 @@
 [
   {
     "category": "Agriculture",
+    "slug": "agriculture",
     "subcategories": [
       {
         "name": "Organic Manures",
@@ -54,7 +55,7 @@
   },
   {
     "category": "Food & FMCG - Health Food",
-    "slug": "food-fmcg-health-food",
+    "slug": "food-and-fmcg-health-food",
     "products": [
       {
         "name": "Nashik Misal Mix",
@@ -173,6 +174,7 @@
   },
   {
     "category": "Renewable Energy",
+    "slug": "renewable-energy",
     "products": [
       {
         "name": "Biomass Briquettes",
@@ -186,6 +188,7 @@
   },
   {
     "category": "Construction",
+    "slug": "construction",
     "products": [
       {
         "name": "Fly Ash Bricks",
@@ -199,6 +202,7 @@
   },
  {
   "category": "Indian Spices",
+  "slug": "indian-spices",
   "categoryImage": "/images/Spices.png",
   "categoryDesc": "🌍 Bumi Organic Exim – Bringing the Taste of Bharat to the World\nAt Bumi Organic Exim, we are dedicated to delivering the authentic soul of India's rich spice heritage to the global culinary stage. Our portfolio includes a premium range of Certified Organic Indian Spices as well as naturally produced, ready-to-use spice blends that carry the true essence of Bharat’s kitchens.\n\nSourced directly from our trusted network of India Organic (NPOP) certified farms, every spice is cultivated using sustainable, chemical-free methods that preserve its intrinsic purity, vibrant color, and potent aroma. From handpicking and natural sun-drying to state-of-the-art hygienic processing and packaging, our meticulous approach ensures compliance with stringent international food safety and quality standards.\n\n✨ Why Choose Bumi Organic Exim?\n- Authenticity & Purity – Spices sourced from traditional Indian farms.\n- Certified Organic & Conventional Options – To meet diverse market needs.\n- Traceable & Sustainable Supply Chain – Supporting farmers & rural communities.\n- Global Quality Standards – Guaranteeing freshness, flavor, and safety.\n- Ready-to-Use Blends – Curry powders, garam masala, and more for modern convenience.\n\n🍴 Our Core Spice Portfolio Includes:\nTurmeric (Curcumin-rich), Cumin Seeds, Coriander Seeds, Black Pepper, Cardamom, Cloves, Fennel Seeds, Fenugreek, Chilli Powder, Mustard Seeds …and a wide range of other authentic Indian spices and blends.\n\nWhether you are a food manufacturer, gourmet brand, retailer, or a discerning chef, our spices provide the foundation of authenticity for everything from traditional curries to innovative world cuisine.\n\n📩 Let the world taste Bharat with you. Contact Bumi Organic Exim today for samples, product catalogs, or competitive bulk quotations. Together, let’s bring India’s finest flavors to global tables."
 ,
@@ -297,6 +301,7 @@
 ,
   {
     "category": "Indian Super Foods",
+    "slug": "indian-super-foods",
     "products": [
       {
         "name": "Makhana (Fox Nuts)",
