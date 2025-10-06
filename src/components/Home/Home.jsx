@@ -48,7 +48,7 @@ const Home = () => {
       title: "Organic Products",
       description:
         "Pure, natural, and sustainable organic products for a healthier lifestyle.",
-      link: "/Products/agriculture",
+      link: "/Products/organic-products",
       cta: "Explore More"
     },
     {
