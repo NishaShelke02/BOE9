@@ -138,7 +138,7 @@ const Product = () => {
           {category.categoryImage && (
             <img
               src={category.categoryImage}
-              alt={`${category.category} category image`}
+              alt={category.category}
               loading="lazy"
             />
           )}
