@@ -17,7 +17,7 @@ const Certification = () => {
         <div className="container">
           <h1>We are Certified</h1>
           <p>
-            At <strong>BOE9 Export Import Pvt Ltd</strong>, we are proud to hold
+            At <strong>BOE9 Export Import </strong>, we are proud to hold
             multiple government-recognized certifications, ensuring trust,
             transparency, and global compliance for our exports. These
             certifications empower us to deliver authentic and quality products
