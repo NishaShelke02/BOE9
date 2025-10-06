@@ -10,8 +10,8 @@ const Footer = () => {
         <div className="footer-section">
           <h3>BOE9</h3>
           <p>
-            Exporting excellence in Organic food, agriculture, renewable energy, and more.
-            Quality products delivered globally with trust.
+           Exporting excellence in Organic Products,Gulten free ,Medicinal & Herbal Plants, Dehardrated Products and many more.
+            Quality products delivered globally with trust. 
           </p>
         </div>
 
