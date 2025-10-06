@@ -44,7 +44,7 @@ const Home = () => {
      
     },
     {
-      image: "/images/Organic.png",
+      image: "/images/Organic Pulse.png",
       title: "Organic Products",
       description:
         "Pure, natural, and sustainable organic products for a healthier lifestyle.",
