@@ -49,7 +49,7 @@ const Footer = () => {
           <h4>Contact Us</h4>
           <p>📍 Nashik, Maharashtra, India</p>
           <p>✉️ <a href="mailto:info@boe9.com">info@boe9.com</a></p>
-          <p> <a href="mailtoExport@boe9.com">Export@boe9.com</a></p>
+          <p> <a href="mailto:Export@boe9.com">Export@boe9.com</a></p>
           <p>📞 +91 9272131561 </p>
           <p>📞 +91 9737305655 </p>
         </div>
