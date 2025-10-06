@@ -1,234 +1,161 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 import "./Navbar.css";
 
-// Slugify function to create URL-friendly paths
-const slugify = (str) =>
-  str
-    .toLowerCase()
-    .replace(/\s+/g, "-") // Replace spaces with hyphens
-    .replace(/[&()]/g, "") // Remove &, (, )
-    .replace(/[^\w-]+/g, ""); // Remove other special characters
-
 const Navbar = () => {
-  const [activeDropdown, setActiveDropdown] = useState(null); // For PRODUCTS
-  const [activeAbout, setActiveAbout] = useState(null); // For ABOUT US dropdown
-  const [menuOpen, setMenuOpen] = useState(false); // Mobile menu toggle
+  const [dropdownOpen, setDropdownOpen] = useState(null);
+  const [menuOpen, setMenuOpen] = useState(false);
 
-  const productCategories = [
-    {
-      name: "Food & FMCG - Health Food",
-      products: [
-        "Nashik Misal Mix",
-        "Jackfruit Products",
-        "Tofu",
-        "Frozen Green Peas",
-        "Onions",
-        "Jaggery",
-      ],
-    },
-    {
-      name: "Medicinal & Herbal Plants",
-      
-      products: [
-        "Ashwagandha",
-        "Zedoary",
-        "Shatavari",
-        "Brahmi/Gotu Kola",
-        "Saptrangi",
-        "Giloy",
-        "Moringa",
-      ],
-    },
-    {
-      name: "Renewable Energy",
-      products: ["Biomass Briquettes"],
-    },
-    {
-      name: "Construction",
-      products: ["Fly Ash Bricks"],
-    },
-    {
-      name: "Indian Spices",
-      products: ["Spices"],
-    },
-    {
-      name: "Indian Super Foods",
-      products: ["Makhana (Fox Nuts)",
-         "Gluten-Free/Roasted millets products"
-        ],
-    },
-    {
-      name: "Agriculture",
-      products: ["Organic Manures",
-         "Biofertilizer"],
-    },
-  ];
+  // Desktop hover handling
+  const handleMouseEnter = (menu) => {
+    if (window.innerWidth > 768) setDropdownOpen(menu);
+  };
+  const handleMouseLeave = () => {
+    if (window.innerWidth > 768) setDropdownOpen(null);
+  };
 
-  const aboutSubItems = [
-    { name: "Our Company", path: "/AboutUs/our-company" },
-    { name: "Certification", path: "/AboutUs/certification" },
-  ];
+  // Mobile click toggle
+  const toggleDropdown = (menu) => {
+    if (window.innerWidth <= 768) {
+      setDropdownOpen(dropdownOpen === menu ? null : menu);
+    }
+  };
 
   return (
-    <header className="navbar-header">
-      {/* Top Bar */}
-      <div className="navbar-top">
-        <div className="navbar-location">📍 Nashik, Maharashtra, India</div>
-        <div className="navbar-contact">
-          <Link to="mailto:info@boe9.com"> info@boe9.com</Link>
+    <header>
+      {/* Top info bar */}
+      <div className="top-bar">
+        <div className="top-left">
+          <span>Nashik, Maharashtra</span> |{" "}
+          <a href="mailto:info@boe9.com">info@boe9.com</a>
         </div>
-        <div className="navbar-social">
+        <div className="top-right">
           <a
             href="https://www.facebook.com/profile.php?id=61580965360742&mibextid=ZbWKwL"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i className="fab fa-facebook-f"></i>
+            <FaFacebook />
           </a>
-          <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
-            <i className="fab fa-twitter"></i>
+          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+            <FaTwitter />
           </a>
-          <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">
-            <i className="fab fa-instagram"></i>
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+            <FaInstagram />
+          </a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+            <FaLinkedin />
           </a>
         </div>
       </div>
 
       {/* Main Navbar */}
       <nav className="navbar">
-        <div className="navbar-brand">
-          <img src="/logo.png" alt="Bumi Logo" className="logo-image" />
-        </div>
-
-        {/* Mobile Hamburger */}
-        <div className="menu-toggle" onClick={() => setMenuOpen(!menuOpen)}>
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-
-        <ul className={`nav-menu ${menuOpen ? "active" : ""}`}>
-          <li className="nav-item">
-            <Link to="/" onClick={() => setMenuOpen(false)}>
-              HOME
+        <div className="nav-container">
+          <div className="logo">
+            <Link to="/">
+              <img src="/logo.png" alt="BOE9 Logo" />
             </Link>
-          </li>
+          </div>
 
-          {/* Products Dropdown */}
-          <li
-            className="nav-item dropdown-trigger"
-            onMouseEnter={() => setActiveDropdown("products")}
-            onMouseLeave={() => setActiveDropdown(null)}
+          {/* Hamburger menu for mobile */}
+          <button
+            className="hamburger"
+            onClick={() => setMenuOpen(!menuOpen)}
+            aria-label="Toggle navigation"
           >
-            <button
-              className="nav-link dropdown-toggle"
-              onClick={(e) => {
-                e.preventDefault();
-                setActiveDropdown(activeDropdown === "products" ? null : "products");
-              }}
+            <span></span>
+
+            <span></span>
+            <span></span>
+          </button>
+
+          <ul className={`nav-links ${menuOpen ? "active" : ""}`}>
+            <li>
+              <Link to="/">HOME</Link>
+            </li>
+
+            {/* Products Dropdown */}
+            <li
+              className={`dropdown ${dropdownOpen === "products" ? "active" : ""}`}
+              onMouseEnter={() => handleMouseEnter("products")}
+              onMouseLeave={handleMouseLeave}
             >
-              PRODUCTS{" "}
-              <span className={`dropdown-arrow ${activeDropdown === "products" ? "open" : ""}`}>
-                ▼
+              <span
+                className="dropdown-toggle"
+                onClick={() => toggleDropdown("products")}
+              >
+                PRODUCTS <span className="arrow">▲</span>
               </span>
-            </button>
-
-            {activeDropdown === "products" && (
-              <div className="vertical-dropdown">
-                <ul className="product-categories">
-                  {productCategories.map((category, index) => (
-                    <li key={index} className="category-item">
-                      <Link
-                        to={`/products/${slugify(category.name)}`}
-                        className="category-header"
-                        onClick={() => setMenuOpen(false)}
-                      >
-                        {category.name}
-                      </Link>
-
-                      {category.products && (
-                        <div className="sub-dropdown">
-                          <ul className="product-list">
-                            {category.products.map((product, pIndex) => (
-                              <li key={pIndex}>
-                                <Link
-                                  to={`/products/${slugify(category.name)}/${slugify(product)}`}
-                                  onClick={() => setMenuOpen(false)}
-                                >
-                                  {product}
-                                </Link>
-                              </li>
-                            ))}
-                          </ul>
-                        </div>
-                      )}
-                    </li>
-                  ))}
+              {dropdownOpen === "products" && (
+                <ul className="dropdown-menu">
+                  <li>
+                    <Link to="/products/food-and-fmcg-health-food">
+                      Food & FMCG - Health Food
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/products/medicinal-herbal-plants">
+                      Medicinal & Herbal Plants
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/products/organic-products">Organic</Link>
+                  </li>
+                  <li>
+                    <Link to="/products/dehydrated-products">
+                      Dehardrated product & powder
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/products/indian-spices">Indian Spices</Link>
+                  </li>
+                  <li>
+                    <Link to="/products/indian-super-foods">
+                      Indian Super Foods
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/products/agriculture">Agriculture BioFertilizer</Link>
+                  </li>
                 </ul>
-              </div>
-            )}
-          </li>
+              )}
+            </li>
 
-          {/* Services */}
-          <li className="nav-item">
-            <Link to="/Services" onClick={() => setMenuOpen(false)}>
-              SERVICES
-            </Link>
-          </li>
+            <li>
+              <Link to="/services">SERVICES</Link>
+            </li>
 
-          {/* About Us Dropdown */}
-          <li
-            className="nav-item dropdown-trigger"
-            onMouseEnter={() => setActiveAbout("about")}
-            onMouseLeave={() => setActiveAbout(null)}
-          >
-            <button
-              className="nav-link dropdown-toggle"
-              onClick={(e) => {
-                e.preventDefault();
-                setActiveAbout(activeAbout === "about" ? null : "about");
-              }}
+            {/* About Us Dropdown */}
+            <li
+              className={`dropdown ${dropdownOpen === "about" ? "active" : ""}`}
+              onMouseEnter={() => handleMouseEnter("about")}
+              onMouseLeave={handleMouseLeave}
             >
-              ABOUT US{" "}
-              <span className={`dropdown-arrow ${activeAbout === "about" ? "open" : ""}`}>▼</span>
-            </button>
-
-            {activeAbout === "about" && (
-              <div className="vertical-dropdown">
-                <ul className="product-categories">
-                  {aboutSubItems.map((item, index) => (
-                    <li key={index} className="category-item">
-                      <Link
-                        to={item.path}
-                        className="category-header"
-                        onClick={() => setMenuOpen(false)}
-                      >
-                        {item.name}
-                      </Link>
-                    </li>
-                  ))}
+              <span
+                className="dropdown-toggle"
+                onClick={() => toggleDropdown("about")}
+              >
+                ABOUT US <span className="arrow">▲</span>
+              </span>
+              {dropdownOpen === "about" && (
+                <ul className="dropdown-menu">
+                  <li>
+                    <Link to="/AboutUs/our-company">Our Company</Link>
+                  </li>
+                  <li>
+                    <Link to="/AboutUs/Certification">Certification</Link>
+                  </li>
                 </ul>
-              </div>
-            )}
-          </li>
+              )}
+            </li>
 
-          <li className="nav-item">
-            <Link to="/WhyUs" onClick={() => setMenuOpen(false)}>
-              WHY US
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/Blogs" onClick={() => setMenuOpen(false)}>
-              BLOGS
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/ContactUs" onClick={() => setMenuOpen(false)}>
-              CONTACT US
-            </Link>
-          </li>
-        </ul>
+            <li>
+              <Link to="/ContactUs">CONTACT US</Link>
+            </li>
+          </ul>
+        </div>
       </nav>
     </header>
   );

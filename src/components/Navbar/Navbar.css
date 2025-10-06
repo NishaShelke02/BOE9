@@ -1,645 +1,472 @@
-/* Navbar.css - Professional Full-Width Responsive Navigation (Fixed Dropdown Visibility) */
+/* ===============================
+   Navbar.css - Organic Theme
+   Natural, Eco-Friendly Design
+   Green Earth Tones | Responsive & Clean
+   =============================== */
 
-/* CSS Custom Properties (Variables) for Theming */
+/* ---------- 1. Google Fonts & CSS Variables (Organic Theme) ---------- */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
 :root {
-  --primary-green: #2E7D32;
-  --dark-green: #1B5E20;
-  --light-green: #4CAF50;
-  --gradient-bg: linear-gradient(135deg, #f5fff5 0%, #e6f7e6 100%);
-  --shadow-light: 0 4px 12px rgba(46, 125, 50, 0.1);
-  --shadow-medium: 0 8px 20px rgba(46, 125, 50, 0.15);
-  --shadow-heavy: 0 15px 30px rgba(46, 125, 50, 0.2);
-  --border-color: #e0e0e0;
-  --text-dark: #333;
-  --text-light: #6c757d;
-  --bg-white: #fff;
-  --hover-bg: rgba(139, 195, 74, 0.1);
-  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  --border-radius: 8px;
+  --organic-green-primary: #4CAF50; /* Vibrant green for accents */
+  --organic-green-dark: #2E7D32; /* Deep forest green */
+  --organic-green-light: #81C784; /* Soft mint green */
+  --organic-earth-brown: #8D6E63; /* Warm earth tone */
+  --organic-bg-light: #F5F5F5; /* Soft off-white */
+  --organic-gradient: linear-gradient(135deg, #E8F5E8 0%, #F1F8E9 100%); /* Foliage-inspired */
+  --organic-shadow-soft: 0 4px 12px rgba(76, 175, 80, 0.1); /* Green-tinted shadow */
+  --organic-shadow-medium: 0 8px 20px rgba(76, 175, 80, 0.15);
+  --organic-border: 1px solid rgba(129, 199, 132, 0.3); /* Light green border */
+  --text-dark: #2E7D32; /* Dark green text */
+  --text-light: #6B8E23; /* Olive for secondary */
+  --transition-organic: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94); /* Smooth, natural easing */
+  --font-family: 'Roboto', sans-serif;
+  --border-radius-organic: 12px; /* Rounded, natural edges */
 }
 
-/* Base Reset */
+/* ---------- 2. Global Resets ---------- */
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
   font-family: var(--font-family);
   line-height: 1.6;
   color: var(--text-dark);
+  background-color: var(--organic-bg-light);
 }
 
-/* Header Container - Full Page Width */
-.navbar-header {
-  width: 100vw; /* Full viewport width */
-  background: var(--bg-white);
-  box-shadow: var(--shadow-light);
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  overflow-x: hidden; /* Prevent any horizontal overflow */
-  overflow: visible; /* Ensure dropdowns aren't clipped */
-}
-
-/* Top Bar - Full Page Width */
-.navbar-top {
-  background: #111;
+/* ---------- 3. Top Bar (Organic Header Info) ---------- */
+.top-bar {
+  background: var(--organic-green-dark);
   color: #fff;
-  padding: 0.5rem 3rem; /* Adjustable padding for full-width feel */
+  padding: 0.75rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-size: 0.9rem;
-  border-bottom: 1px solid #555;
-  width: 100%;
+  font-weight: 300;
+  box-shadow: var(--organic-shadow-soft);
+  border-bottom: var(--organic-border);
 }
 
-.navbar-location,
-.navbar-contact,
-.navbar-social {
+.top-left {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 1rem;
+  font-weight: 400;
 }
 
-.navbar-location {
-  gap: 0.25rem;
-}
-
-.navbar-location span[role="img"] {
-  font-size: 1.1rem;
-}
-
-.navbar-contact a {
-  color: inherit;
+.top-left a {
+  color: #fff;
   text-decoration: none;
-  transition: var(--transition);
+  transition: var(--transition-organic);
+  border-bottom: 1px solid transparent;
 }
 
-.navbar-contact a:hover {
-  text-decoration: underline;
-  color: var(--light-green);
+.top-left a:hover,
+.top-left a:focus {
+  color: var(--organic-green-light);
+  border-bottom-color: var(--organic-green-light);
+  outline: none;
+  text-shadow: 0 0 5px rgba(129, 199, 132, 0.5); /* Subtle glow */
 }
 
-.navbar-social {
+.top-right {
+  display: flex;
+  align-items: center;
   gap: 1rem;
 }
 
-.navbar-social a {
-  color: var(--primary-green);
+.top-right a {
+  color: #fff;
   font-size: 1.2rem;
-  transition: var(--transition);
+  transition: var(--transition-organic);
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
 }
 
-.navbar-social a:hover {
-  color: var(--light-green);
-  transform: scale(1.1);
+.top-right a:hover,
+.top-right a:focus {
+  color: var(--organic-green-light);
+  background: rgba(129, 199, 132, 0.2);
+  transform: scale(1.1) rotate(5deg); /* Organic spin */
+  box-shadow: 0 4px 12px rgba(129, 199, 132, 0.3);
+  outline: none;
 }
 
-/* Main Navbar - Full Page Width */
+/* ---------- 4. Main Navbar ---------- */
 .navbar {
+  background: var(--organic-gradient);
+  padding: 1rem 2rem;
+  height: 80px;
+  box-shadow: var(--organic-shadow-soft);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+
+  border-bottom: var(--organic-border);
+}
+
+.nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 3rem; /* Side padding prevents edge-touching on wide screens */
-  background: var(--gradient-bg);
-  border-bottom: 2px solid var(--light-green);
-  width: 100%; /* Full width of parent (page) */
-  max-width: none; /* Removed constraint for full-page span */
-  margin: 0; /* No auto margins */
-  box-sizing: border-box;
-  position: relative; /* Ensure absolute children position correctly */
-  overflow: visible; /* Allow dropdowns to overflow */
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.navbar-brand {
-  display: flex;
-  align-items: center;
+.logo {
   flex-shrink: 0;
 }
 
-.logo-image {
-  height: 70px;
+.logo img {
+  height: 60px;
   width: auto;
-  max-width: 150px;
+  max-width: 100px;
   object-fit: contain;
-  filter: drop-shadow(0 2px 4px rgba(46, 125, 50, 0.2));
-  transition: var(--transition);
+  filter: drop-shadow(0 2px 8px rgba(76, 175, 80, 0.2)); /* Green shadow for organic feel */
+  transition: var(--transition-organic);
+  border-radius: var(--border-radius-organic);
 }
 
-.logo-image:hover {
+.logo img:hover {
   transform: scale(1.05);
 }
 
-/* Navigation Menu */
-.nav-menu {
+/* Navigation Links */
+.nav-links {
   display: flex;
   list-style: none;
-  gap: 2.5rem;
+  gap: 2rem;
   align-items: center;
   margin: 0;
   padding: 0;
-  position: relative; /* For dropdown positioning */
+  font-weight: 500;
+  font-size: 1rem;
 }
 
-.nav-item {
+.nav-links li {
   position: relative;
 }
 
-.nav-item a,
-.nav-link.dropdown-toggle {
+.nav-links a {
   text-decoration: none;
-  color: var(--primary-green);
-  font-weight: 600;
-  font-size: 1.1rem;
-  letter-spacing: 0.5px;
-  padding: 0.5rem 0;
-  transition: var(--transition);
-  background: none;
-  border: none;
+  color: var(--text-dark);
+  padding: 0.75rem 1rem;
+  transition: var(--transition-organic);
+  border-radius: var(--border-radius-organic);
+  display: inline-block;
+  font-weight: 400;
+}
+
+.nav-links a:hover,
+.nav-links a:focus {
+  color: var(--organic-green-primary);
+  background: rgba(129, 199, 132, 0.1);
+  transform: translateY(-2px); /* Subtle lift */
+  box-shadow: var(--organic-shadow-soft);
+  outline: none;
+}
+
+/* Dropdown Toggle */
+.dropdown-toggle {
   cursor: pointer;
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
+  font-weight: 500;
+  padding: 0.75rem 1rem;
+  border-radius: var(--border-radius-organic);
+  transition: var(--transition-organic);
+  background: none;
+  border: none;
+  color: var(--text-dark);
 }
 
-.nav-item a:hover,
-.nav-link.dropdown-toggle:hover {
-  color: var(--dark-green);
+.dropdown-toggle:hover,
+.dropdown-toggle:focus {
+  color: var(--organic-green-primary);
+  background: rgba(129, 199, 132, 0.1);
+  outline: none;
 }
 
-.nav-link.dropdown-toggle[aria-expanded="true"] .dropdown-arrow {
+.arrow {
+  font-size: 0.8rem;
+  transition: transform 0.3s ease;
+  font-weight: bold;
+}
+
+.dropdown:hover .arrow,
+.dropdown[aria-expanded="true"] .arrow {
   transform: rotate(180deg);
 }
 
-/* Dropdown Arrows */
-.dropdown-arrow,
-.submenu-arrow {
-  font-size: 0.8rem;
-  color: var(--primary-green);
-  transition: var(--transition);
-}
-
-.category-item:hover .submenu-arrow {
-  transform: translateX(0.25rem);
-  color: var(--light-green);
-}
-
-/* FIXED: Vertical Dropdown (Products) - Always Visible When Rendered */
-.vertical-dropdown {
-  /* Base Styles: Positioned under the PRODUCTS item */
+/* ---------- 5. Dropdown Menus ---------- */
+.dropdown-menu {
   position: absolute;
-  top: 100%; /* Below the nav item */
-  left: 0; /* Left-aligned to the trigger (prevents off-screen issues) */
-  width: 300px; /* Fixed width for consistency */
-  background: var(--bg-white);
-  border-radius: var(--border-radius);
-  box-shadow: var(--shadow-medium);
-  padding: 1rem 0;
-  z-index: 1001;
-  border-top: 3px solid var(--light-green); /* Visual indicator it's open */
-  
-  /* FIXED: Default to visible when rendered by JS (no hidden state) */
-  opacity: 1;
-  visibility: visible;
-  display: block; /* Ensure it's not hidden */
-  
-  /* Smooth entrance animation (only when entering) */
-  transform: translateY(-10px);
-  transition: var(--transition);
-  
-  /* DEBUG: Temporary red border to see if it's rendering (remove after testing) */
-  /* border: 1px solid red; */
-}
-
-/* Show/Animate on Hover or State (enhances JS render) */
-.dropdown-trigger:hover .vertical-dropdown,
-.dropdown-trigger[aria-expanded="true"] .vertical-dropdown {
-  transform: translateY(0); /* Slide down */
-  opacity: 1;
-  visibility: visible;
-}
-
-/* Hide on leave (but JS will unrender it anyway) */
-.dropdown-trigger:not(:hover) .vertical-dropdown:not([aria-expanded="true"]) {
-  transform: translateY(-10px);
+  top: 100%;
+  left: 0;
+  background: var(--organic-gradient);
+  min-width: 250px;
+  border-radius: var(--border-radius-organic);
+  box-shadow: var(--organic-shadow-medium);
+  padding: 1rem;
+  list-style: none;
   opacity: 0;
   visibility: hidden;
-  pointer-events: none; /* Prevent interactions when hidden */
+  transform: translateY(-10px);
+  transition: var(--transition-organic);
+  border: var(--organic-border);
+  z-index: 101;
 }
 
-.product-categories {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.category-item {
-  position: relative;
-  border-bottom: 1px solid var(--border-color);
-}
-
-.category-item:last-child {
-  border-bottom: none;
-}
-
-.category-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: var(--primary-green);
-  font-weight: 600;
-  text-decoration: none;
-  padding: 0.75rem 1.5rem;
-  transition: var(--transition);
-  width: 100%;
-  cursor: pointer; /* Indicate interactivity */
-}
-
-.category-header:hover {
-  color: var(--dark-green);
-  background-color: var(--hover-bg);
-  padding-left: 1.75rem;
-}
-
-/* Sub Dropdown (2nd Level) - Similar Fixes */
-.sub-dropdown {
-  position: absolute;
-  left: 100%;
-  top: 0;
-  width: 280px;
-  background: var(--bg-white);
-  border-radius: 0 var(--border-radius) var(--border-radius) 0;
-  box-shadow: var(--shadow-heavy);
-  padding: 1rem 0;
-  z-index: 1002;
-  border-top: 3px solid var(--light-green);
-  
-  /* FIXED: Visible when rendered */
+.dropdown:hover .dropdown-menu,
+.dropdown:focus-within .dropdown-menu {
   opacity: 1;
   visibility: visible;
+  transform: translateY(0);
+}
+
+.dropdown-menu li {
+  margin: 0.5rem 0;
+}
+
+.dropdown-menu a {
   display: block;
-  transform: translateX(-10px);
-  transition: var(--transition);
-}
-
-.category-item:hover .sub-dropdown,
-.category-item[aria-expanded="true"] .sub-dropdown {
-  transform: translateX(0);
-}
-
-.category-item:not(:hover) .sub-dropdown:not([aria-expanded="true"]) {
-  transform: translateX(-10px);
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-}
-
-.product-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.product-list li {
-  border-bottom: 1px solid var(--border-color);
-}
-
-.product-list li:last-child {
-  border-bottom: none;
-}
-
-.product-list a,
-.subcategory-item a {
-  display: block;
+  padding: 0.75rem 1rem;
   color: var(--text-light);
+  font-weight: 400;
   font-size: 0.95rem;
-  padding: 0.75rem 1.5rem;
-  text-decoration: none;
-  transition: var(--transition);
+  border-radius: 8px;
+  transition: var(--transition-organic);
+  position: relative;
+  overflow: hidden;
 }
 
-.product-list a:hover,
-.subcategory-item a:hover {
-  background-color: var(--hover-bg);
-  color: var(--dark-green);
-  padding-left: 1.75rem;
-  border-left: 3px solid var(--light-green);
+.dropdown-menu a::before {
+  content: '🍃'; /* Organic leaf icon */
+  margin-right: 0.5rem;
+  opacity: 0;
+  transition: var(--transition-organic);
 }
 
-/* Sub-Sub Dropdown (3rd Level) - Similar Fixes */
-.sub-sub-dropdown {
-  position: absolute;
-  left: 100%;
-  top: 0;
-  width: 250px;
-  background: var(--bg-white);
-  border-radius: 0 var(--border-radius) var(--border-radius) 0;
-  box-shadow: var(--shadow-heavy);
-  padding: 1rem 0;
-  z-index: 1003;
-  border-top: 3px solid var(--light-green);
-  
-  /* FIXED: Visible when rendered */
+.dropdown-menu a:hover,
+.dropdown-menu a:focus {
+  color: var(--organic-green-dark);
+  background: rgba(76, 175, 80, 0.1);
+  transform: translateX(5px); /* Slide effect */
+  outline: none;
+}
+
+.dropdown-menu a:hover::before,
+.dropdown-menu a:focus::before {
   opacity: 1;
-  visibility: visible;
-  display: block;
-  transform: translateX(-10px);
-  transition: var(--transition);
 }
 
-.subcategory-item:hover .sub-sub-dropdown,
-.subcategory-item[aria-expanded="true"] .sub-sub-dropdown {
-  transform: translateX(0);
-}
-
-.subcategory-item:not(:hover) .sub-sub-dropdown:not([aria-expanded="true"]) {
-  transform: translateX(-10px);
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-}
-
-.sub-sub-dropdown ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.sub-sub-dropdown li {
-  border-bottom: 1px solid var(--border-color);
-}
-
-.sub-sub-dropdown li:last-child {
-  border-bottom: none;
-}
-
-.sub-sub-dropdown li a {
-  font-size: 0.9rem;
-  padding: 0.75rem 1.5rem;
-  color: var(--text-light);
-}
-
-.sub-sub-dropdown li a:hover {
-  background-color: var(--hover-bg);
-  color: var(--dark-green);
-  padding-left: 1.75rem;
-  border-left: 3px solid var(--light-green);
-}
-
-/* Hamburger Menu Toggle */
-.menu-toggle {
-  display: none;
-  flex-direction: column;
-  justify-content: space-around;
-  width: 25px;
-  height: 20px;
-  cursor: pointer;
-  padding: 4px;
-  background: none;
-  border: none;
-  z-index: 1004;
-  transition: var(--transition);
-}
-
-.menu-toggle span {
-  display: block;
-  height: 3px;
-  width: 100%;
-  background: var(--primary-green);
-  border-radius: 2px;
-  transition: var(--transition);
-  transform-origin: center;
-}
-
-.menu-toggle.active span:nth-child(1) {
-  transform: rotate(45deg) translate(5px, 5px);
-}
-
-.menu-toggle.active span:nth-child(2) {
-  opacity: 0;
-  transform: translateX(-20px);
-}
-
-.menu-toggle.active span:nth-child(3) {
-  transform: rotate(-45deg) translate(7px, -6px);
-}
-
-/* Mobile Styles - Full-Width Adaptations */
+/* ---------- 6. Responsive Styles (Mobile-First Enhancements) ---------- */
 @media (max-width: 768px) {
-  .navbar-top {
-    padding: 0.5rem 1.5rem; /* Reduced for mobile */
+  .top-bar {
+    padding: 0.5rem 1rem;
     font-size: 0.85rem;
-    flex-wrap: wrap;
-    gap: 1rem;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+
+  .top-left {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .top-right {
+    gap: 0.75rem;
+  }
+
+  .top-right a {
+    width: 35px;
+    height: 35px;
+    font-size: 1.1rem;
   }
 
   .navbar {
-    padding: 0.75rem 1.5rem; /* Full-width but with mobile-friendly padding */
-    position: relative;
+    padding: 0.75rem 1rem;
   }
 
-  .navbar-brand .logo-image {
-    height: 40px;
-  }
-
-  .menu-toggle {
-    display: flex;
-    position: absolute;
-    right: 1rem;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-
-  .nav-menu {
-    position: fixed;
-    top: 0;
-    left: -100%;
-    width: 100vw; /* Full viewport width for overlay */
-    height: 100vh;
-    background: var(--bg-white);
+  .nav-container {
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: 5rem 1.5rem 1.5rem;
+    gap: 1rem;
+  }
+
+  .logo img {
+    height: 45px;
+    max-width: 140px;
+  }
+
+  /* Hamburger Menu (Add to JSX: <button className="hamburger">☰</button> after logo) */
+  .hamburger {
+  display: none; /* hidden on desktop */
+  flex-direction: column;
+  justify-content: space-between;
+  width: 28px;
+  height: 22px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 110;
+  position: absolute;
+  right: 20px;   /* move to right corner */
+  top: 50%;
+  transform: translateY(-50%);
+}
+  .hamburger:hover {
+    background: rgba(129, 199, 132, 0.1);
+    transform: rotate(90deg);
+  }
+  .hamburger span {
+  display: block;
+  height: 3px;
+  width: 100%;
+  background: var(--text-dark);
+  border-radius: 3px;
+  transition: 0.3s;
+}
+
+  @media (max-width: 768px) {
+    .hamburger {
+      display: flex; /* show on mobile */
+    }
+  }
+
+  .nav-links {
+    display: none; /* Hidden by default on mobile */
+    flex-direction: column;
+    width: 100%;
     gap: 0;
-    transition: left 0.3s ease;
-    overflow-y: auto;
-    box-shadow: var(--shadow-medium);
-    z-index: 999;
-  }
-
-  .nav-menu.active {
+    background: var(--organic-gradient);
+    padding: 1rem;
+    border-radius: var(--border-radius-organic);
+    box-shadow: var(--organic-shadow-medium);
+    position: absolute;
+    top: 100%;
     left: 0;
+    right: 0;
   }
 
-  .nav-item {
-    width: 100%;
-    border-bottom: 1px solid rgba(139, 195, 74, 0.2);
+  .nav-links.active { /* Toggle via JS state */
+    display: flex;
   }
 
-  .nav-item a,
-  .nav-link.dropdown-toggle {
+  .nav-links li {
     width: 100%;
-    padding: 1rem 0;
-    font-size: 1.2rem;
+    border-bottom: 1px solid rgba(129, 199, 132, 0.2);
+  }
+
+  .nav-links a,
+  .dropdown-toggle {
+    width: 100%;
+    text-align: left;
+    padding: 1rem;
+    font-size: 1.1rem;
     justify-content: flex-start;
   }
 
-  /* FIXED: Mobile Dropdowns - Show When State is Active */
-  .vertical-dropdown,
-  .sub-dropdown,
-  .sub-sub-dropdown {
-    position: static !important;
-    width: 100% !important;
-    box-shadow: none !important;
-    background: rgba(139, 195, 74, 0.05);
+  /* Mobile Dropdowns: Click-to-Expand (No Hover) */
+  .dropdown-menu {
+    position: static;
+    width: 100%;
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    display: none; /* Hidden by default */
+    box-shadow: none;
+    border: none;
+    padding: 0.5rem 0 0 1rem; /* Indent for hierarchy */
+    background: rgba(129, 199, 132, 0.05);
     border-radius: 0;
-    opacity: 1 !important;
-    visibility: visible !important;
-    transform: none !important;
-    padding: 0.5rem 0 0.5rem 1.5rem;
-    display: none; /* Hidden by default; JS state shows it */
+    margin-top: 0.5rem;
   }
 
-  .dropdown-trigger[aria-expanded="true"] .vertical-dropdown,
-  .category-item[aria-expanded="true"] .sub-dropdown,
-  .subcategory-item[aria-expanded="true"] .sub-sub-dropdown {
-    display: block !important;
+  .dropdown.active .dropdown-menu { /* Toggle via JS: add 'active' class on click */
+    display: block;
   }
 
-  .category-header,
-  .product-list a,
-  .subcategory-item a {
-    padding: 0.75rem 0;
+  .dropdown-menu li {
+    border-bottom: 1px solid rgba(129, 199, 132, 0.1);
+    margin: 0;
+  }
+
+  .dropdown-menu a {
+    padding-left: 1.5rem;
     font-size: 1rem;
   }
+}
 
-  .submenu-arrow {
-    display: none; /* Simplify mobile view */
+@media (max-width: 480px) {
+  .top-bar {
+    padding: 0.4rem 0.75rem;
+    font-size: 0.8rem;
+  }
+
+  .navbar {
+    padding: 0.5rem 0.75rem;
+  }
+
+  .logo img {
+    height: 40px;
+    max-width: 120px;
+  }
+
+  .nav-links.active {
+    padding: 0.75rem;
+  }
+
+  .nav-links a,
+  .dropdown-toggle {
+    padding: 0.75rem;
+    font-size: 1rem;
   }
 }
 
-/* Tablet Styles - Maintain Full-Width with Adjusted Padding */
-@media (min-width: 769px) and (max-width: 1199px) {
-  .navbar,
-  .navbar-top {
-    padding-left: 2rem;
-    padding-right: 2rem; /* Balanced for tablet full-width */
-  }
-
-  .nav-menu {
-    gap: 1.5rem;
-  }
-
-  .vertical-dropdown {
-    width: 280px;
-  }
-}
-
-/* Large Screens - Extra Padding for Ultra-Wide Displays */
-@media (min-width: 1400px) {
-  .navbar,
-  .navbar-top {
-    padding-left: 4rem;
-    padding-right: 4rem; /* More breathing room on very wide pages */
-  }
-}
-
-/* Reduced Motion Support */
-@media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-  }
-}
-
-/* Focus States for Accessibility */
-.nav-item a:focus,
-.nav-link:focus,
-.category-header:focus,
-.product-list a:focus {
-  outline: 2px solid var(--light-green);
+/* ---------- 7. Accessibility & Utilities ---------- */
+a:focus,
+.dropdown-toggle:focus {
+  outline: 2px solid var(--organic-green-primary);
   outline-offset: 2px;
-  border-radius: var(--border-radius);
+  border-radius: var(--border-radius-organic);
 }
 
-/* High Contrast Mode Support */
-@media (prefers-contrast: high) {
-  :root {
-    --primary-green: #006400;
-    --dark-green: #004d00;
-    --light-green: #00ff00;
- 
+/* Reduce motion for accessibility */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
   }
 }
-/* Add to the existing CSS file */
 
-/* About US Dropdown - Reuse Existing Styles with Minor Overrides */
-.about-categories {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+/* Custom scrollbar for dropdowns/mobile */
+.dropdown-menu::-webkit-scrollbar,
+.nav-links::-webkit-scrollbar {
+  width: 6px;
 }
 
-.about-item {
-  border-bottom: 1px solid var(--border-color);
+.dropdown-menu::-webkit-scrollbar-thumb,
+.nav-links::-webkit-scrollbar-thumb {
+  background: var(--organic-green-light);
+  border-radius: 3px;
 }
 
-.about-item:last-child {
-  border-bottom: none;
-}
-
-.about-header {
-  display: block; /* Full-width for simple links */
-  color: var(--primary-green);
-  font-weight: 600;
-  text-decoration: none;
-  padding: 0.75rem 1.5rem;
-  transition: var(--transition);
-  width: 100%;
-}
-
-.about-header:hover {
-  color: var(--dark-green);
-  background-color: var(--hover-bg);
-  padding-left: 1.75rem;
-}
-
-/* Ensure the about-dropdown positions correctly (if needed, adjust left for alignment) */
-.about-dropdown {
-  left: 0; /* Align under ABOUT US item */
-  width: 250px; /* Slightly narrower for simple list */
-}
-
-/* SERVICES Link - Matches Existing Nav Items (no changes needed, but confirm hover) */
-.nav-item a[href="/services"] {
-  color: var(--primary-green);
-}
-
-.nav-item a[href="/services"]:hover {
-  color: var(--dark-green);
-}
-.navbar-social a {
-  position: relative;
-}
-
-.navbar-social a:hover::after {
-  content: attr(title);
-  position: absolute;
-  bottom: -1.5rem;
-  left: 50%;
-  transform: translateX(-50%);
-  background: var(--primary-green);
-  color: #fff;
-  padding: 2px 6px;
-  border-radius: 4px;
-  font-size: 0.75rem;
-  white-space: nowrap;
+.dropdown-menu::-webkit-scrollbar-thumb:hover,
+.nav-links::-webkit-scrollbar-thumb:hover {
+  background: var(--organic-green-primary);
 }

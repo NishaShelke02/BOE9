@@ -21,6 +21,8 @@ const Footer = () => {
           <ul className="footer-links">
             <li><Link to="/">Home</Link></li>
             <li><Link to="/AboutUs/our-company">About Us</Link></li>
+            <li><Link to="/AboutUs/Certification">Certification</Link></li>
+            <li><Link to="/Services">Services</Link></li>
             <li><Link to="/Product">Products</Link></li>
             <li><Link to="/Blogs">Blogs</Link></li>
             <li><Link to="/WhyUs">Why Us</Link></li>
@@ -35,8 +37,8 @@ const Footer = () => {
             <li><Link to="/products/agriculture">Agriculture Organic Fertilizer</Link></li>
             <li><Link to="/products/food-fmcg-health-food">Food & FMCG - Health Food</Link></li>
             <li><Link to="/products/medicinal-herbal-plants">Medicinal & Herbal Plants</Link></li>
-            <li><Link to="/products/renewable-energy">Renewable Energy</Link></li>
-            <li><Link to="/products/construction">Construction</Link></li>
+            <li><Link to="/products/renewable-energy">Organic Products</Link></li>
+            
             <li><Link to="/products/indian-spices">Indian Spices</Link></li>
             <li><Link to="/products/indian-super-foods">Indian Super Foods</Link></li>
           </ul>
@@ -47,7 +49,9 @@ const Footer = () => {
           <h4>Contact Us</h4>
           <p>📍 Nashik, Maharashtra, India</p>
           <p>✉️ <a href="mailto:info@boe9.com">info@boe9.com</a></p>
-          <p>📞 +91 98765 43210</p>
+          <p> <a href="mailtoExport@boe9.com">Export@boe9.com</a></p>
+          <p>📞 +91 9272131561 </p>
+          <p>📞 +91 9737305655 </p>
         </div>
       </div>
 

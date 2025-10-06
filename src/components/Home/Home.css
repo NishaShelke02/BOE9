@@ -1,268 +1,537 @@
 /* ===============================
-   HERO SLIDER
-=================================*/
+   Home.css - Organic Theme (Updated for Clearer Images & White Text)
+   Eco-Friendly, Natural Design
+   Green Earth Tones | Responsive & Smooth
+   =============================== */
+
+/* ---------- 1. Google Fonts & CSS Variables (Organic Theme) ---------- */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+:root {
+  --organic-green-primary: #4CAF50; /* Vibrant green for CTAs/buttons */
+  --organic-green-dark: #2E7D32; /* Deep forest green for headings */
+  --organic-green-light: #81C784; /* Soft mint for accents/backgrounds */
+  --organic-earth-neutral: #F8FFF8; /* Light, breathable background */
+  --organic-gradient: linear-gradient(135deg, #E8F5E8 0%, #F1F8E9 100%); /* Foliage-inspired */
+  --organic-shadow-soft: 0 4px 12px rgba(76, 175, 80, 0.1); /* Green-tinted shadow */
+  --organic-shadow-medium: 0 8px 20px rgba(76, 175, 80, 0.15);
+  --organic-border: 1px solid rgba(129, 199, 132, 0.3); /* Light green border */
+  --text-dark: #2E7D32; /* Dark green text */
+  --text-light: #6B8E23; /* Olive for secondary text */
+  --transition-organic: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94); /* Smooth, natural easing */
+  --font-family: 'Roboto', sans-serif;
+  --border-radius-organic: 12px; /* Rounded, natural edges */
+}
+
+/* ---------- 2. Global Resets & Base Styles ---------- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family);
+  line-height: 1.6;
+  color: var(--text-dark);
+  background-color: var(--organic-earth-neutral);
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+.home {
+  min-height: 100vh;
+}
+
+/* Container Utility */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Section Titles */
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--organic-green-dark);
+  text-align: center;
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.section-title::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: var(--organic-green-primary);
+  margin: 1rem auto 0;
+  border-radius: 2px;
+}
+
+/* Text Center Utility */
+.text-center {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* ---------- 3. Hero Slider (Updated for Clearer Images) ---------- */
 .hero-slider {
   position: relative;
   height: 100vh;
-  width: 100%;
   overflow: hidden;
-}
-
-.slider-container {
-  height: 100%;
-  width: 100%;
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .slide {
   position: absolute;
   top: 0;
   left: 0;
-  height: 100%;
   width: 100%;
+  height: 100%;
   background-size: cover;
   background-position: center;
   opacity: 0;
-  transform: scale(1.05);
-  transition: opacity 1s ease, transform 1.2s ease;
+  transform: scale(1.1);
+  transition: opacity 0.8s ease, transform 0.8s ease;
 }
 
 .slide.active {
   opacity: 1;
   transform: scale(1);
-  z-index: 1;
 }
 
-/* Overlay with eco gradient */
 .slide-overlay {
-  background: linear-gradient(
-    rgba(0, 0, 0, 0.55),
-    rgba(27, 94, 32, 0.5)
-  );
-  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
+  height: 100%;
+  background: rgba(46, 125, 50, 0.25); /* Lighter green overlay (reduced opacity for clearer images) */
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0 2rem;
 }
 
-/* Slide Content */
 .slide-content {
   text-align: center;
-  color: #fff;
+  color: #fff; /* Pure white text for slider */
   max-width: 800px;
-  padding: 20px;
-  animation: fadeUp 1s ease;
+  z-index: 2;
 }
 
 .slide-title {
-  font-size: 3.2rem;
-  font-weight: bold;
-  margin-bottom: 15px;
-  text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
-  background: linear-gradient(90deg, #4CAF50, #FF8C00);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5); /* Reduced shadow for better white text visibility */
+  animation: fadeInUp 0.8s ease;
+  color: #fff; /* Explicit white */
 }
 
 .slide-description {
-  font-size: 1.2rem;
-  margin-bottom: 25px;
-  text-shadow: 1px 1px 6px rgba(0,0,0,0.6);
+  font-size: 1.3rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Reduced shadow for better white text visibility */
+  animation: fadeInUp 0.8s ease 0.2s both;
+  color: #fff; /* Explicit white */
 }
 
 .cta-button {
-  background: linear-gradient(135deg, #4CAF50, #2E7D32);
+  background: var(--organic-green-primary);
+  color: #fff; /* White text on green button */
   border: none;
-  padding: 12px 32px;
-  color: #fff;
-  font-size: 1rem;
-  border-radius: 30px;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border-radius: var(--border-radius-organic);
   cursor: pointer;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  transition: var(--transition-organic);
+  box-shadow: var(--organic-shadow-soft);
+  animation: fadeInUp 0.8s ease 0.4s both;
 }
 
-.cta-button:hover {
-  background: linear-gradient(135deg, #43a047, #1B5E20);
-  transform: translateY(-3px);
+.cta-button:hover,
+.cta-button:focus {
+  background: var(--organic-green-dark);
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: var(--organic-shadow-medium);
+  color: #fff; /* Keep white on hover */
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5); /* Subtle white glow for emphasis */
+  outline: none;
 }
 
-/* Arrows */
+/* Slider Arrows */
 .slider-arrow {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  font-size: 3rem;
-  color: #fff;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff; /* White arrows */
   border: none;
+  width: 50px;
+  height: 50px;
+  font-size: 2rem;
   cursor: pointer;
-  padding: 10px 18px;
   border-radius: 50%;
-  z-index: 10;
-  transition: background 0.3s ease, transform 0.3s ease;
+  transition: var(--transition-organic);
+  z-index: 3;
+  backdrop-filter: blur(10px);
 }
 
-.slider-arrow:hover {
-  background: rgba(0, 0, 0, 0.6);
-  transform: scale(1.1);
+.prev-arrow {
+  left: 2rem;
 }
 
-.prev-arrow { left: 25px; }
-.next-arrow { right: 25px; }
+.next-arrow {
+  right: 2rem;
+}
 
-/* Dots */
+.slider-arrow:hover,
+.slider-arrow:focus {
+  background: rgba(255, 255, 255, 0.3);
+  transform: translateY(-50%) scale(1.1);
+  color: #fff; /* Keep white */
+  outline: none;
+}
+
+/* Slider Dots */
 .slider-dots {
   position: absolute;
-  bottom: 25px;
+  bottom: 2rem;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
-  gap: 12px;
+  gap: 0.5rem;
+  z-index: 3;
 }
 
 .dot {
   width: 12px;
   height: 12px;
-  background: #fff;
-  border: none;
   border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5); /* Semi-transparent white */
+  border: none;
   cursor: pointer;
-  opacity: 0.6;
-  transition: all 0.3s ease;
+  transition: var(--transition-organic);
 }
 
-.dot.active {
-  opacity: 1;
-  transform: scale(1.3);
-  background: #4CAF50;
+.dot.active,
+.dot:hover,
+.dot:focus {
+  background: #fff; /* Solid white for active */
+  transform: scale(1.2);
+  outline: none;
 }
 
-/* ===============================
-   FEATURES SECTION
-=================================*/
+/* Keyframe for Slide Content Animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ---------- 4. Features Section ---------- */
 .features-section {
-  padding: 70px 20px;
-  background: #f5fdf5;
-  text-align: center;
-}
-
-.section-title {
-  font-size: 2.4rem;
-  margin-bottom: 45px;
-  color: #1B5E20;
-  position: relative;
-  display: inline-block;
-}
-
-.section-title::after {
-  content: '';
-  position: absolute;
-  width: 60px;
-  height: 3px;
-  background: linear-gradient(90deg, #4CAF50, #FF8C00);
-  bottom: -12px;
-  left: 50%;
-  transform: translateX(-50%);
+  padding: 5rem 0;
+  background: var(--organic-gradient);
 }
 
 .features-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
 }
 
 .feature-card {
   background: #fff;
-  border-radius: 15px;
-  padding: 30px;
-  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
-  transition: all 0.3s ease;
+  padding: 2rem;
+  border-radius: var(--border-radius-organic);
+  text-align: center;
+  box-shadow: var(--organic-shadow-soft);
+  transition: var(--transition-organic);
+  border: var(--organic-border);
 }
 
 .feature-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 8px 18px rgba(0,0,0,0.2);
+  box-shadow: var(--organic-shadow-medium);
 }
 
 .feature-icon {
-  font-size: 2.2rem;
-  margin-bottom: 15px;
-  color: #4CAF50;
-  transition: transform 0.3s ease;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  display: block;
 }
 
-.feature-card:hover .feature-icon {
-  transform: scale(1.2) rotate(5deg);
+.feature-card h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--organic-green-dark);
+  margin-bottom: 1rem;
 }
 
-/* ===============================
-   PRODUCTS PREVIEW
-=================================*/
+.feature-card p {
+  color: var(--text-light);
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+/* ---------- 5. Products Preview Section ---------- */
 .products-preview {
-  padding: 70px 20px;
-  text-align: center;
-  background: #fff;
+  padding: 5rem 0;
+  background: var(--organic-earth-neutral);
 }
 
 .products-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
 }
 
 .product-card {
   background: #fff;
-  border-radius: 15px;
+  border-radius: var(--border-radius-organic);
   overflow: hidden;
-  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
-  transition: transform 0.3s ease;
+  box-shadow: var(--organic-shadow-soft);
+  transition: var(--transition-organic);
+  cursor: pointer;
+  border: var(--organic-border);
 }
 
 .product-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 10px 22px rgba(0,0,0,0.15);
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: var(--organic-shadow-medium);
 }
 
 .product-image {
-  height: 220px;
+  height: 200px;
   background-size: cover;
   background-position: center;
+  transition: var(--transition-organic);
+  position: relative;
+}
+
+.product-card:hover .product-image {
+  transform: scale(1.05);
+  filter: brightness(0.9); /* Subtle dim on hover */
 }
 
 .product-card h3 {
-  margin: 18px 0 10px;
-  font-size: 1.25rem;
-  color: #2E7D32;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--organic-green-dark);
+  padding: 1rem 1.5rem 0.5rem;
+  margin: 0;
 }
 
 .product-card p {
-  padding: 0 20px 20px;
+  color: var(--text-light);
+  padding: 0 1.5rem 1.5rem;
   font-size: 0.95rem;
-  color: #666;
+  margin: 0;
 }
 
+.view-product-btn,
 .view-all-btn {
-  margin-top: 35px;
-  background: linear-gradient(135deg, #4CAF50, #2E7D32);
-  border: none;
-  padding: 12px 32px;
+  background: var(--organic-green-primary);
   color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
   font-size: 1rem;
-  border-radius: 30px;
+  font-weight: 500;
+  border-radius: var(--border-radius-organic);
   cursor: pointer;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  transition: var(--transition-organic);
+  margin: 0 1.5rem 1.5rem;
+  width: calc(100% - 3rem); /* Full width minus padding */
+  box-shadow: var(--organic-shadow-soft);
 }
 
-.view-all-btn:hover {
-  background: linear-gradient(135deg, #43a047, #1B5E20);
-  transform: translateY(-3px);
+.view-product-btn:hover,
+.view-all-btn:hover,
+.view-product-btn:focus,
+.view-all-btn:focus {
+  background: var(--organic-green-dark);
+  transform: translateY(-2px);
+  box-shadow: var(--organic-shadow-medium);
+  outline: none;
 }
 
-/* Animation */
-@keyframes fadeUp {
-  from { opacity: 0; transform: translateY(40px); }
-  to { opacity: 1; transform: translateY(0); }
+/* ---------- 6. Responsive Styles ---------- */
+/* Tablet (768px - 1024px) */
+@media (max-width: 1024px) {
+  .slide-title {
+    font-size: 2.8rem;
+  }
+
+  .slide-description {
+    font-size: 1.1rem;
+  }
+
+  .features-grid,
+  .products-grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .product-image {
+    height: 180px;
+  }
+}
+
+/* Mobile (≤768px) */
+@media (max-width: 768px) {
+  .hero-slider {
+    height: 70vh;
+  }
+
+  .slide-title {
+    font-size: 2.2rem;
+  }
+
+  .slide-description {
+    font-size: 1rem;
+  }
+
+  .cta-button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+  }
+
+  .slider-arrow {
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+  }
+
+  .prev-arrow {
+    left: 1rem;
+  }
+
+  .next-arrow {
+    right: 1rem;
+  }
+
+  .slider-dots {
+    bottom: 1rem;
+  }
+
+  .dot {
+    width: 10px;
+    height: 10px;
+  }
+
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .features-section,
+  .products-preview {
+    padding: 3rem 0;
+  }
+
+  .features-grid,
+  .products-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .feature-card {
+    padding: 1.5rem;
+  }
+
+  .feature-icon {
+    font-size: 2.5rem;
+  }
+
+  .product-image {
+    height: 160px;
+  }
+
+  .product-card h3 {
+    font-size: 1.2rem;
+    padding: 1rem 1rem 0.5rem;
+  }
+
+  .product-card p {
+    padding: 0 1rem 1rem;
+    font-size: 0.9rem;
+  }
+
+  .view-product-btn,
+  .view-all-btn {
+    margin: 0 1rem 1rem;
+    width: calc(100% - 2rem);
+    padding: 0.75rem 1rem;
+  }
+
+  /* Hide arrows on small mobile for swipe gesture */
+  @media (max-width: 480px) {
+    .slider-arrow {
+      display: none;
+    }
+
+    .slide-content {
+      padding: 0 1rem;
+    }
+
+    .slide-title {
+      font-size: 1.8rem;
+    }
+
+    .slide-description {
+      font-size: 0.95rem;
+    }
+  }
+}
+
+/* ---------- 7. Accessibility & Utilities ---------- */
+/* Focus Styles */
+button:focus,
+a:focus {
+  outline: 2px solid var(--organic-green-primary);
+  outline-offset: 2px;
+  border-radius: var(--border-radius-organic);
+}
+
+/* Reduce motion for accessibility */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
+  }
+
+  .slide {
+    transition: none;
+  }
+}
+
+/* Custom Scrollbar for Sections (if needed) */
+.features-grid::-webkit-scrollbar,
+.products-grid::-webkit-scrollbar {
+  width: 6px;
+}
+
+.features-grid::-webkit-scrollbar-thumb,
+.products-grid::-webkit-scrollbar-thumb {
+  background: var(--organic-green-light);
+  border-radius: 3px;
+}
+
+.features-grid::-webkit-scrollbar-thumb:hover,
+.products-grid::-webkit-scrollbar-thumb:hover {
+  background: var(--organic-green-primary);
 }

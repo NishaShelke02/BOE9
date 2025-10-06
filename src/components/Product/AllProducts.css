@@ -1,0 +1,210 @@
+/* AllProducts.css - Organic Theme: Natural, earthy greens and soft earth tones for an eco-friendly, organic feel. Clean product grid with hover gallery cycling, smooth transitions, responsive design, and focused on all-products page elements. */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+.all-products-page {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #E8F5E8 0%, #F0F8F0 100%); /* Soft green gradient for organic freshness */
+  min-height: 100vh;
+  padding: 2rem;
+  color: #2C5530; /* Deep green text for natural contrast */
+}
+
+.all-products-page .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.all-products-page h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #228B22; /* Forest green for title */
+  margin-bottom: 3rem;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 2px rgba(50, 205, 50, 0.2); /* Subtle lime glow */
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.product-card {
+  background: rgba(255, 255, 255, 0.9); /* Clean white with transparency */
+  border-radius: 20px;
+  padding: 1.5rem;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.4s ease;
+  box-shadow: 0 8px 25px rgba(107, 142, 35, 0.15); /* Soft olive shadow */
+  border: 1px solid rgba(34, 139, 34, 0.2); /* Subtle green border */
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(50, 205, 50, 0.1), transparent);
+  transition: left 0.6s ease;
+}
+
+.product-card:hover::before {
+  left: 100%; /* Subtle green shimmer on hover */
+}
+
+.product-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 40px rgba(107, 142, 35, 0.3); /* Enhanced organic glow */
+}
+
+.product-thumb {
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+}
+
+/* Gallery Cycling Animation: Smooth fade for image changes */
+@keyframes galleryFade {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+
+.product-thumb {
+  animation: galleryFade 1s ease-in-out;
+}
+
+.product-card:hover .product-thumb {
+  transform: scale(1.05);
+  box-shadow: 0 10px 30px rgba(50, 205, 50, 0.2); /* Green glow on hover */
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.product-info h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #228B22; /* Forest green title */
+  margin-bottom: 0.5rem;
+  text-align: center;
+  letter-spacing: 0.5px;
+  transition: color 0.3s ease;
+}
+
+.product-card:hover .product-info h3 {
+  color: #32CD32; /* Lime on hover */
+}
+
+.product-info p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #556B2F; /* Dark olive text */
+  text-align: center;
+  background: rgba(232, 245, 232, 0.7); /* Light green background */
+  padding: 0.8rem;
+  border-radius: 10px;
+  border-left: 3px solid #32CD32; /* Lime accent border */
+  transition: background 0.3s ease;
+  margin-top: auto;
+}
+
+.product-card:hover .product-info p {
+  background: rgba(232, 245, 232, 0.9); /* Lighter green on hover */
+}
+
+/* Loading State - Attractive placeholder */
+.all-products-page p {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #6B8E23; /* Olive green for loading */
+  padding: 2rem;
+  background: rgba(232, 245, 232, 0.5);
+  border-radius: 10px;
+  margin: 2rem auto;
+  max-width: 600px;
+}
+
+/* Responsive Design for Product Grid */
+@media (max-width: 768px) {
+  .all-products-page {
+    padding: 1rem;
+  }
+
+  .all-products-page h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .product-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .product-thumb {
+    height: 200px;
+  }
+
+  .product-card {
+    padding: 1rem;
+  }
+
+  .product-info h3 {
+    font-size: 1.2rem;
+  }
+
+  .product-info p {
+    font-size: 0.95rem;
+    padding: 0.6rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .product-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .product-thumb {
+    height: 180px;
+  }
+
+  .all-products-page h1 {
+    font-size: 2rem;
+  }
+
+  .product-info p {
+    font-size: 0.9rem;
+    padding: 0.5rem;
+  }
+}
+
+/* Unique Organic Enhancement: Subtle leaf-like pulse for cards */
+@keyframes organicPulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.02) rotate(1deg); } /* Slight organic sway */
+}
+
+.product-card:nth-child(even):hover {
+  animation: organicPulse 2s infinite;
+}

@@ -1,196 +1,448 @@
-/* ------------------------------ */
-/* Product Page Base */
+/* Product.css - Organic Theme: Natural, earthy greens and soft earth tones for an eco-friendly, organic feel. Clean layout with smooth transitions, subtle shadows, and responsive design. Focused on product and category page elements. */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
 .product-page {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #E8F5E8 0%, #F0F8F0 100%); /* Soft green gradient for organic freshness */
+  min-height: 100vh;
   padding: 2rem;
+  color: #2C5530; /* Deep green text for natural contrast */
+}
+
+.breadcrumb {
+  margin-bottom: 2rem;
+  font-size: 0.9rem;
+  color: #6B8E23; /* Olive green for breadcrumbs */
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.breadcrumb a {
+  color: #228B22; /* Forest green accent */
+  text-decoration: none;
+  transition: color 0.3s ease;
+  position: relative;
+  font-weight: 500;
+}
+
+.breadcrumb a:hover {
+  color: #32CD32; /* Lime green on hover */
+}
+
+.breadcrumb a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background: #32CD32; /* Green underline on hover */
+  transition: width 0.3s ease;
+}
+
+.breadcrumb a:hover::after {
+  width: 100%;
+}
+
+.breadcrumb span {
+  color: #8B7355; /* Earthy brown for separators */
+  font-weight: 600;
+}
+
+.category-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
   max-width: 1200px;
-  margin: auto;
-  font-family: Arial, sans-serif;
+  margin: 0 auto 3rem;
+  background: rgba(232, 245, 232, 0.8); /* Semi-transparent light green */
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 8px 25px rgba(107, 142, 35, 0.15); /* Soft olive shadow */
+  border: 1px solid rgba(34, 139, 34, 0.2); /* Subtle green border */
 }
 
-.product-page h2 {
-  color: #2e7d32;
-  margin-bottom: 1.5rem;
+.category-desc-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.category-desc-wrapper h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #228B22; /* Forest green for category title */
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 2px rgba(50, 205, 50, 0.2); /* Subtle lime glow */
+}
+
+.category-desc-wrapper p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #556B2F; /* Dark olive for description */
+  background: rgba(255, 255, 255, 0.7);
+  padding: 1rem;
+  border-radius: 15px;
+  border-left: 4px solid #32CD32; /* Lime accent border */
+  transition: background 0.3s ease;
+}
+
+.category-desc-wrapper p:hover {
+  background: rgba(232, 245, 232, 0.9); /* Lighter green on hover */
+}
+
+.category-image-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.category-image-wrapper img {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(107, 142, 35, 0.2); /* Organic shadow */
+  transition: transform 0.4s ease;
+}
+
+.category-image-wrapper img:hover {
+  transform: scale(1.05);
+}
+
+.product-detail {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: rgba(232, 245, 232, 0.8); /* Semi-transparent light green */
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(107, 142, 35, 0.2); /* Soft olive shadow */
+  border: 1px solid rgba(34, 139, 34, 0.3);
+}
+
+.product-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.product-description h3 {
   font-size: 2rem;
+  font-weight: 700;
+  color: #228B22; /* Forest green for product title */
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.5px;
+  text-shadow: 1px 1px 2px rgba(50, 205, 50, 0.2);
 }
 
-/* ------------------------------ */
-/* Product Grid for Category Listing */
+.product-description p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #556B2F; /* Dark olive text */
+  background: rgba(255, 255, 255, 0.7);
+  padding: 1.5rem;
+  border-radius: 10px;
+  border-left: 4px solid #32CD32; /* Lime accent border */
+  transition: background 0.3s ease;
+  white-space: pre-line; /* Preserve line breaks */
+}
+
+.product-description p:hover {
+  background: rgba(232, 245, 232, 0.9); /* Lighter green on hover */
+}
+
+.product-image-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.product-image {
+  width: 100%;
+  height: auto; /* Auto height for natural aspect ratio */
+  max-height: 500px;
+  object-fit: contain; /* Preserve full image without cropping */
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(107, 142, 35, 0.3); /* Organic green shadow */
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.product-image:hover {
+  transform: scale(1.02);
+  box-shadow: 0 12px 35px rgba(107, 142, 35, 0.4);
+}
+
+.product-gallery {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-thumb {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 3px solid transparent;
+  transition: all 0.3s ease;
+  opacity: 0.7;
+}
+
+.gallery-thumb:hover,
+.gallery-thumb.active {
+  opacity: 1;
+  border-color: #32CD32; /* Lime green border on hover/active */
+  transform: scale(1.1);
+  box-shadow: 0 5px 15px rgba(50, 205, 50, 0.5); /* Green glow */
+}
+
 .product-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .product-card {
-  background: #fff;
-  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.9); /* Clean white with transparency */
+  border-radius: 20px;
+  padding: 1.5rem;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.4s ease;
+  box-shadow: 0 8px 25px rgba(107, 142, 35, 0.15); /* Soft organic shadow */
+  border: 1px solid rgba(34, 139, 34, 0.2);
+  position: relative;
   overflow: hidden;
-  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
-  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(50, 205, 50, 0.1), transparent);
+  transition: left 0.6s ease;
+}
+
+.product-card:hover::before {
+  left: 100%; /* Subtle green shimmer on hover */
 }
 
 .product-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-8px);
+  box-shadow: 0 15px 40px rgba(107, 142, 35, 0.3); /* Enhanced organic glow */
 }
 
 .product-thumb {
   width: 100%;
-  height: 180px;
+  height: 250px;
   background-size: cover;
   background-position: center;
-}
-
-.product-card h4 {
-  margin: 0.5rem 1rem;
-  color: #2e7d32;
-  font-size: 1.1rem;
-}
-
-.product-card p {
-  margin: 0 1rem 1rem 1rem;
-  font-size: 0.95rem;
-  color: #555;
-}
-
-/* ------------------------------ */
-/* Product Detail Page - Side by Side Layout */
-.product-detail {
-  display: flex;
-  flex-direction: row;
-  gap: 2rem;
-  align-items: flex-start;
-  flex-wrap: wrap; /* wraps on smaller screens */
-}
-
-.product-detail .product-description {
-  flex: 1; /* take available space */
-}
-
-.product-detail h3 {
-  color: #1b5e20;
-  font-size: 1.8rem;
+  background-repeat: no-repeat;
+  border-radius: 15px;
   margin-bottom: 1rem;
-}
-
-.product-detail .product-description p {
-  font-size: 1rem;
-  color: #555;
-  line-height: 1.5;
-}
-
-/* Main Image */
-.product-detail img.product-image {
-  flex: 1;
-  max-width: 500px;
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-  object-fit: cover;
-}
-
-/* ------------------------------ */
-/* Product Gallery */
-.product-gallery {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.8rem;
-  margin-top: 1rem;
-}
-
-.product-gallery img {
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
-  border-radius: 6px;
-  cursor: pointer;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.product-gallery img:hover {
+.product-card:hover .product-thumb {
   transform: scale(1.05);
-  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  box-shadow: 0 10px 30px rgba(50, 205, 50, 0.2); /* Green glow on hover */
 }
 
-/* ------------------------------ */
-/* Responsive for Mobile */
-@media (max-width: 1024px) {
-  .product-detail {
-    gap: 1rem;
-  }
-
-  .product-gallery img {
-    width: 80px;
-    height: 80px;
-  }
+.product-card h4 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #228B22; /* Forest green title */
+  margin-bottom: 0.5rem;
+  text-align: center;
+  letter-spacing: 0.5px;
+  transition: color 0.3s ease;
 }
 
+.product-card:hover h4 {
+  color: #32CD32; /* Lime on hover */
+}
+
+.product-card p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #556B2F;
+  text-align: center;
+  background: rgba(232, 245, 232, 0.7);
+  padding: 0.8rem;
+  border-radius: 10px;
+  border-left: 3px solid #32CD32; /* Lime accent */
+  transition: background 0.3s ease;
+  flex-grow: 1;
+}
+
+.product-card:hover p {
+  background: rgba(232, 245, 232, 0.9); /* Lighter green on hover */
+}
+
+/* Loading Spinner - Organic style */
+.loading-spinner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+  text-align: center;
+  color: #228B22;
+}
+
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 4px solid rgba(34, 139, 34, 0.2); /* Light green border */
+  border-top: 4px solid #32CD32; /* Lime top for spin */
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 1rem;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.loading-spinner p {
+  font-size: 1.2rem;
+  color: #6B8E23;
+  background: rgba(232, 245, 232, 0.5);
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+/* Error and No Data States */
+.product-page p {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #8B7355; /* Earthy brown for errors */
+  padding: 2rem;
+  background: rgba(232, 245, 232, 0.5);
+  border-radius: 10px;
+  margin: 2rem auto;
+  max-width: 600px;
+}
+
+/* Responsive Design */
 @media (max-width: 768px) {
-  .product-detail {
-    flex-direction: column; /* stack vertically */
+  .product-page {
+    padding: 1rem;
   }
 
-  .product-detail img.product-image {
-    max-width: 100%;
+  .category-container {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 1.5rem;
+  }
+
+  .category-desc-wrapper h2 {
+    font-size: 2rem;
+  }
+
+  .product-detail {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 1.5rem;
+  }
+
+  .product-image {
+    max-height: 400px;
   }
 
   .product-gallery {
     gap: 0.5rem;
   }
 
-  .product-gallery img {
-    width: 70px;
-    height: 70px;
+  .gallery-thumb {
+    width: 60px;
+    height: 60px;
+  }
+
+  .product-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .product-thumb {
+    height: 200px;
+  }
+
+  .breadcrumb {
+    font-size: 0.8rem;
+    flex-wrap: wrap;
   }
 }
 
-/* ------------------------------ */
-/* Optional Hover Effect for Product Grid Cards */
-.product-card:hover .product-thumb {
-  transform: scale(1.05);
-  transition: transform 0.3s ease;
-}
-.product-detail {
-  display: flex;
-  gap: 2rem;
-  flex-wrap: wrap;
+@media (max-width: 480px) {
+  .product-image {
+    max-height: 350px;
+  }
+
+  .gallery-thumb {
+    width: 50px;
+    height: 50px;
+  }
+
+  .product-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .product-thumb {
+    height: 180px;
+  }
+
+  .category-desc-wrapper h2,
+  .product-description h3 {
+    font-size: 1.8rem;
+  }
+
+  .product-description p,
+  .category-desc-wrapper p {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+
+  .loading-spinner p {
+    font-size: 1rem;
+  }
 }
 
-.product-description {
-  flex: 1;
-  min-width: 250px;
+/* Unique Organic Enhancement: Subtle leaf-like pulse for cards */
+@keyframes organicPulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.02) rotate(1deg); } /* Slight organic sway */
 }
 
-.product-image-container {
-  flex: 1;
-  min-width: 250px;
+.product-card:nth-child(even):hover {
+  animation: organicPulse 2s infinite;
 }
-
-.product-image {
-  width: 100%;
-  border-radius: 8px;
-  object-fit: cover;
-}
-
-.product-gallery {
-  display: flex;
-  gap: 0.5rem;
-  margin-top: 1rem;
-  flex-wrap: wrap;
-}
-
-.product-gallery img {
-  width: 80px;
-  cursor: pointer;
-  border-radius: 6px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.product-gallery img:hover {
-  transform: scale(1.05);
-  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-}
-
-.product-gallery img.active-thumb {
-  border: 2px solid #2e7d32;
-}
-

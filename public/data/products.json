@@ -1,58 +1,5 @@
 [
-  {
-    "category": "Agriculture",
-    "slug": "agriculture",
-    "subcategories": [
-      {
-        "name": "Organic Manures",
-        "products": [
-          {
-            "name": "Neem Oil (Cold-Pressed)",
-            "slug": "neem-oil-cold-pressed",
-            "image": "/images/Neem.png",
-            "gallery": ["/images/Neemoil.png"],
-            "shortDesc": "Pure cold-pressed neem oil for organic farming.",
-            "description": "Our cold-pressed neem oil is 100% organic and ideal for pest control and soil enrichment."
-          },
-          {
-            "name": "Seaweed-Based Products",
-            "slug": "seaweed-based-products",
-            "image": "/images/Seaweeds.png",
-            "gallery": ["/images/Seaweeds.png"],
-            "shortDesc": "Organic seaweed extracts for healthy crops.",
-            "description": "Boost plant growth naturally with our nutrient-rich seaweed-based organic products."
-          }
-        ]
-      },
-      {
-        "name": "Biofertilizer",
-        "products": [
-          {
-            "name": "Cow Dung Cakes (Dry)",
-            "slug": "cow-dung-cakes-dry",
-            "image": "/images/Cow.png",
-            "gallery": ["/images/Biofertilizer.jpeg", 
-            "images/Acetobacter.png","/images/BIO NPK.PNG",
-             "/images/bio.png"],
-            "shortDesc": "Bio-Fertilizer",
-            "description": " Biofertilizer - At Bumi Organic Exim, our Cow Dung Cakes are 100% organic, chemical-free, and crafted to enrich soil naturally. Ideal for sustainable farming, they enhance microbial activity, improve soil structure, and promote healthy crop growth."
-          },
-          {
-            "name": "Vermicompost with Dung",
-            "slug": "vermicompost-with-dung",
-            "image": "/images/vermicompost.png",
-
-            "gallery": ["/images/vermicompost.jpg", "/images/Rhizobuim.png"
-
-          
-          ],
-            "shortDesc": "Bio-Fertilizer",
-            "description": "Biofertilizer - Our Vermi Compost is a 100% natural, nutrient-dense soil conditioner made through advanced organic composting methods using earthworms. Rich in essential nutrients and beneficial microbes, it improves soil structure, boosts fertility, and enhances water retention—helping crops thrive naturally."
-          }
-        ]
-      }
-    ]
-  },
+ 
   {
     "category": "Food & FMCG - Health Food",
     "slug": "food-and-fmcg-health-food",
@@ -93,23 +40,17 @@
         "name": "Onions",
         "slug": "onions",
         "image": "/images/onions.png",
-        "gallery": ["/images/onions.png", "/images/onious1.png"],
+        "gallery": ["/images/onions.png", "/images/onious1.png","/images/onions3.png","/images/onions4.png"],
         "shortDesc": "Premium Indian onions & dehydrated products.",
         "description": "Premium Indian Onions & Dehydrated Onion Products for Global Buyers\nAt Bumi Organic Exim, we bring the freshness of India’s fertile farmlands to kitchens and industries worldwide. Cultivated through traditional, chemical-free practices, our onions are naturally firm, nutrient-rich, and bursting with authentic flavor. Each bulb is carefully harvested at peak maturity and hygienically handled to ensure consistent quality, long shelf life, and international grading standards.\n\nTo serve diverse culinary and industrial needs, we also offer a full range of dehydrated onion products—including powder, flakes, granules, and kibbled forms—providing convenience without compromise on nutrition or taste.\n\n🌱 Why Choose Bumi Organic Exim Onions?\n- Wide range of sizes for global market preferences:\n  • Small: 25–35 mm\n  • Medium: 35–55 mm\n  • Large: 55–70 mm\n  • Extra Large: 70–90 mm\n  • Jumbo: 90+ mm\n- Premium export quality with uniform grading\n- 100% natural, free from harmful chemicals & pesticides\n- Varieties: Red Onion • White Onion • Yellow Onion • Shallots • Sweet Onion\n- Value-added line: Onion Powder • Dehydrated Flakes • Granules • Kibbled Onions\n- Strong commitment to sustainable farming & fair trade\n\nFrom households and supermarkets to food manufacturers, retailers, and industrial kitchens, our onions add rich flavor, aroma, and nutrition to every recipe—whether in fresh or dehydrated form.\n\n👉 Partner with Bumi Organic Exim to source high-quality Indian onions and onion products in bulk. We guarantee timely delivery, customized packing, and consistent supply to meet your market’s demands.\n\n📩 Contact us today to taste the true flavor of India’s finest onions!"
-      },
-      {
-        "name": "Jaggery",
-        "slug": "jaggery",
-        "image": "/images/jaggery.png",
-        "gallery": ["/images/jaggery1.png", "/images/jaggery.jpeg"],
-        "shortDesc": "Natural organic jaggery from India.",
-        "description": "Premium organic jaggery sourced from India’s fertile farmlands. Pure, chemical-free, and ideal for sweetening, cooking, and health-focused applications."
       }
+      
     ]
   },
   {
     "category": "Medicinal & Herbal Plants",
     "slug": "medicinal-herbal-plants",
+    "categoryImage": "/images/Medicinal1.jpeg",
     "categoryDesc":"At Bumi Organic Exim, we are custodians of India's ancient Ayurvedic legacy, channeling its profound wisdom into a curated range of certified organic herbal products for the discerning global market. Sourced from our network of India Organic (NPOP) certified farms, each herb is cultivated sustainably and harvested at its peak to ensure optimal potency and purity of its bioactive compounds. Our commitment to minimal, mindful processing guarantees that the intrinsic therapeutic value of every root, leaf, and berry is meticulously preserved. This dedication to quality provides wellness brands, herbal supplement manufacturers, and practitioners with a trusted, efficacious foundation for products targeting modern health needs—from stress resilience and immune fortification with Ashwagandha and Giloy, to cognitive support with Brahmi and women's wellness with Shatavari. Partnering with Bumi Organic Exim means more than sourcing ingredients; it is an alliance built on rigorous quality standards, ethical sourcing, and a shared vision for a healthier world.\n\nOur Core Portfolio Includes: Ashwagandha (Adaptogen), Zedoary (White Turmeric), Shatavari (Women's Health), Brahmi/Gotu Kola (Cognitive Support), Saptrangi, Giloy (Immune Support), Moringa (Superfood)\n\nFormulate with confidence. Contact us today to request technical data sheets, product samples, or a confidential discussion about your bulk sourcing needs."
 
     ,
@@ -173,30 +114,74 @@
     ]
   },
   {
-    "category": "Renewable Energy",
-    "slug": "renewable-energy",
+    "category": "Organic Products",
+    "slug": "organic-products",
     "products": [
       {
-        "name": "Biomass Briquettes",
-        "slug": "biomass-briquettes",
-        "image": "/images/Renewable.jpg",
-        "gallery": ["/images/Biomass.png", "/images/biomass1.png"],
-        "shortDesc": "Eco-friendly biomass fuel briquettes.",
-        "description": "Biomass briquettes are a cost-effective, environmentally friendly alternative to fossil fuels. Made from compressed organic materials like agricultural waste, they are carbon-neutral, clean-burning, easy to handle, and ideal for industrial heating applications."
+        "name": "Organic Jaggery",
+        "slug": "organic-jaggery",
+        "image": "/images/jaggery.png",
+        "gallery": ["/images/jaggery.png", "/images/jaggery1.png"],
+        "shortDesc": "Premium organic jaggery from India.",
+        "description": "At Bumi Organic Exim, we bring you the finest Organic Jaggery, a traditional Indian sweetener celebrated for its rich flavor and nutritional benefits. Sourced from certified organic sugarcane farms, our jaggery is produced using age-old methods that preserve its natural goodness, free from synthetic chemicals and additives.\n\nOur Organic Jaggery is available in various forms, including blocks, powder, and granules, making it a versatile ingredient for culinary applications ranging from desserts and beverages to savory dishes. Packed with essential minerals like iron, calcium, and magnesium, it serves as a healthier alternative to refined sugars.\n\nBy choosing Bumi Organic Exim, you support sustainable farming practices and the livelihoods of rural Indian communities. Our commitment to quality ensures that every batch of jaggery meets stringent international standards, making it ideal for health-conscious consumers and global markets.\n\nExperience the authentic taste and health benefits of premium Organic Jaggery. Contact Bumi Organic Exim today for samples, product catalogs, or competitive bulk quotations."
       }
     ]
   },
   {
-    "category": "Construction",
-    "slug": "construction",
+    "category": "Dehydrated Products",
+    "slug": "dehydrated-products",
+    "categoryImage": "/images/dehydrated.png",
+    "categoryDesc": "At Bumi Organic Exim, we specialize in delivering premium quality Dehydrated Fruits and Vegetables sourced from India’s finest farms. Our products are carefully processed using advanced dehydration techniques that preserve their natural flavor, color, and nutritional value, making them an ideal choice for a variety of culinary applications. Whether you are looking for dehydrated onion, garlic, ginger, turmeric, or a wide range of fruits and vegetables, we offer a diverse portfolio to meet your needs.\n\nOur commitment to quality ensures that all our dehydrated products are free from additives and preservatives, guaranteeing purity and consistent quality for both domestic and international markets. We work closely with our network of trusted farmers to ensure sustainable farming practices and ethical sourcing.\n\nWhether you are a food manufacturer, retailer, or distributor, our dehydrated products provide the perfect solution for enhancing the taste and convenience of your offerings. Contact Bumi Organic Exim today for samples, product catalogs, or competitive bulk quotations."
+    ,
     "products": [
       {
-        "name": "Fly Ash Bricks",
-        "slug": "fly-ash-bricks",
-        "image": "/images/fly.png",
-        "gallery": ["/images/fly1.png"],
-        "shortDesc": "High-quality fly ash bricks for construction.",
-        "description": "🌍 Fly Ash Bricks Export – Building the Future, Sustainably\nAt Bumi Organic Exim, we believe modern infrastructure should not come at the cost of our environment. That’s why we proudly bring Fly Ash Bricks from India to the world, offering a smart, sustainable, and cost-effective alternative for construction projects in developing nations.\n\n✨ Why Choose Bumi Organic Exim Fly Ash Bricks?\n- 🌱 Eco-Friendly – Reduces carbon footprint and saves natural topsoil\n- 🧱 Durable & Strong – High compressive strength for lasting structures\n- 🌡 Thermal Insulation – Keeps buildings cooler, saves energy\n- 📏 Uniform Shape & Size – Faster construction, less mortar consumption\n- 💰 Cost-Effective – Affordable solution for mass housing & infrastructure\n\nBy partnering with Bumi Organic Exim, you choose more than just a building material—you choose sustainability, innovation, and progress. Contact us today to explore partnership opportunities and bring Fly Ash Bricks to your market."
+        "name": "Dehydrated Onion",
+        "slug": "dehydrated-onion",
+        "image": "/images/dehydrated-onions.png",
+        "gallery": ["/images/dehydrated-onions.png"],
+        "shortDesc": "Premium quality dehydrated onion products from India.",
+        "description": "At Bumi Organic Exim, we offer premium quality Dehydrated Onion products sourced from India’s finest farms. Our dehydrated onions are carefully processed to retain their natural flavor, aroma, and nutritional value, making them an ideal ingredient for a variety of culinary applications. Available in various forms such as flakes, granules, and powder, our dehydrated onions are perfect for soups, sauces, seasonings, and ready-to-eat meals. Free from additives and preservatives, our products ensure purity and consistent quality for both domestic and international markets."
+      },
+      {
+        "name": "Dehydrated Garlic",
+        "slug": "dehydrated-garlic",
+        "image": "/images/dehydrated-garlic.png",
+        "gallery": ["/images/dehydrated-garlic.png"],
+        "shortDesc": "Premium quality dehydrated garlic products from India.",
+        "description": "At Bumi Organic Exim, we provide premium quality Dehydrated Garlic products sourced from India’s top farms. Our dehydrated garlic is processed to preserve its robust flavor, aroma, and health benefits, making it a versatile ingredient for various culinary uses. Available in forms such as flakes, granules, and powder, our dehydrated garlic is perfect for enhancing the taste of soups, sauces, marinades, and spice blends. Free from additives and preservatives, our products guarantee purity and consistent quality for both domestic and international markets."
+      },
+      {
+        "name": "Dehydrated Ginger",
+        "slug": "dehydrated-ginger",
+        "image": "/images/dehydrated-ginger.png",
+        "gallery": ["/images/dehydrated-ginger.png"],
+        "shortDesc": "Premium quality dehydrated ginger products from India.",
+        "description": "At Bumi Organic Exim, we offer premium quality Dehydrated Ginger products sourced from India’s finest farms. Our dehydrated ginger is carefully processed to retain its natural pungency, aroma, and health benefits, making it an essential ingredient for various culinary applications. Available in forms such as flakes, granules, and powder, our dehydrated ginger is perfect for adding flavor to teas, baked goods, sauces, and spice blends. Free from additives and preservatives, our products ensure purity and consistent quality for both domestic and international markets."
+      },
+      {
+        "name": "Dehydrated Turmeric",
+        "slug": "dehydrated-turmeric",
+        "image": "/images/dehydrated-turmeric.png",
+        "gallery": ["/images/dehydrated-turmeric.png"],
+        "shortDesc": "Premium quality dehydrated turmeric products from India.",
+        "description": "At Bumi Organic Exim, we provide premium quality Dehydrated Turmeric products sourced from India’s top farms. Our dehydrated turmeric is processed to preserve its vibrant color, earthy flavor, and health benefits, making it a valuable ingredient for various culinary and medicinal applications. Available in forms such as flakes, granules, and powder, our dehydrated turmeric is perfect for enhancing the taste and color of curries, soups, sauces, and spice blends. Free from additives and preservatives, our products guarantee purity and consistent quality for both domestic and international markets."
+      },
+      {
+        "name": "ALL Types of Dehydrated Fruits",
+        "slug": "all-types-of-dehydrated-fruits",
+        "image": "/images/dehydrated-fruits.png",
+        "gallery": ["/images/dehydrated-fruits1.png", "/images/dehydrated-fruits2.png"],
+        "shortDesc": "Premium quality dehydrated fruit products from India.",
+        "description": "At Bumi Organic Exim, we offer a wide range of premium quality Dehydrated Fruit products sourced from India’s finest farms. Our dehydrated fruits are carefully processed to retain their natural sweetness, flavor, and nutritional value, making them an ideal ingredient for various culinary applications. Available in various forms such as slices, chunks, and powders, our dehydrated fruits are perfect for snacks, baking, cereals, trail mixes, and desserts. Free from additives and preservatives, our products ensure purity and consistent quality for both domestic and international markets."
+      
+      },
+      {
+        "name": "ALL Types of Dehydrated Vegetables",
+        "slug": "all-types-of-dehydrated-vegetables",
+        "image": "/images/dehyadrated-veg.png",
+        "gallery": ["/images/dehydrated-veg1.png", "/images/dehydrated-vegetables1.png", "/images/dehydrated-vegetables2.png"],
+        "shortDesc": "Premium quality dehydrated vegetable products from India.",
+        "description": "At Bumi Organic Exim, we provide a wide range of premium quality Dehydrated Vegetable products sourced from India’s top farms. Our dehydrated vegetables are processed to preserve their natural flavor, texture, and nutritional value, making them versatile ingredients for various culinary uses. Available in forms such as flakes, granules, and powders, our dehydrated vegetables are perfect for soups, stews, sauces, seasonings, and ready-to-eat meals. Free from additives and preservatives, our products guarantee purity and consistent quality for both domestic and international markets."
       }
     ]
   },
@@ -205,6 +190,7 @@
   "slug": "indian-spices",
   "categoryImage": "/images/Spices.png",
   "categoryDesc": "🌍 Bumi Organic Exim – Bringing the Taste of Bharat to the World\nAt Bumi Organic Exim, we are dedicated to delivering the authentic soul of India's rich spice heritage to the global culinary stage. Our portfolio includes a premium range of Certified Organic Indian Spices as well as naturally produced, ready-to-use spice blends that carry the true essence of Bharat’s kitchens.\n\nSourced directly from our trusted network of India Organic (NPOP) certified farms, every spice is cultivated using sustainable, chemical-free methods that preserve its intrinsic purity, vibrant color, and potent aroma. From handpicking and natural sun-drying to state-of-the-art hygienic processing and packaging, our meticulous approach ensures compliance with stringent international food safety and quality standards.\n\n✨ Why Choose Bumi Organic Exim?\n- Authenticity & Purity – Spices sourced from traditional Indian farms.\n- Certified Organic & Conventional Options – To meet diverse market needs.\n- Traceable & Sustainable Supply Chain – Supporting farmers & rural communities.\n- Global Quality Standards – Guaranteeing freshness, flavor, and safety.\n- Ready-to-Use Blends – Curry powders, garam masala, and more for modern convenience.\n\n🍴 Our Core Spice Portfolio Includes:\nTurmeric (Curcumin-rich), Cumin Seeds, Coriander Seeds, Black Pepper, Cardamom, Cloves, Fennel Seeds, Fenugreek, Chilli Powder, Mustard Seeds …and a wide range of other authentic Indian spices and blends.\n\nWhether you are a food manufacturer, gourmet brand, retailer, or a discerning chef, our spices provide the foundation of authenticity for everything from traditional curries to innovative world cuisine.\n\n📩 Let the world taste Bharat with you. Contact Bumi Organic Exim today for samples, product catalogs, or competitive bulk quotations. Together, let’s bring India’s finest flavors to global tables."
+
 ,
   "products":[
   {
@@ -321,7 +307,41 @@
       }
     ]
 
-  }
+  },
+  {
+    "category": "Agriculture Biofertilizer",
+    "slug": "agriculture",
+    
+      
 
-]
+     
+        "products": [
+          {
+            "name": "Cow Dung Cakes (Dry)",
+            "slug": "cow-dung-cakes-dry",
+            "image": "/images/Cow.png",
+            "gallery": ["/images/Cow1.png", "/images/Cow2.png", "/images/Cow3.png"],
+            "shortDesc": "Bio-Fertilizer",
+            
+            "description": " Biofertilizer - At Bumi Organic Exim, our Cow Dung Cakes are 100% organic, chemical-free, and crafted to enrich soil naturally. Ideal for sustainable farming, they enhance microbial activity, improve soil structure, and promote healthy crop growth."
+          },
+          {
+            "name": "Vermicompost with Dung",
+            "slug": "vermicompost-with-dung",
+            "image": "/images/vermicompost.png",
+
+            "gallery": ["/images/vermicompost.jpg"],
+
+          
+          
+            "shortDesc": "Bio-Fertilizer",
+            "description": "Biofertilizer - Our Vermi Compost is a 100% natural, nutrient-dense soil conditioner made through advanced organic composting methods using earthworms. Rich in essential nutrients and beneficial microbes, it improves soil structure, boosts fertility, and enhances water retention—helping crops thrive naturally."
+          }
+        ]
+      }
+    ]
+  
+
+
+
 

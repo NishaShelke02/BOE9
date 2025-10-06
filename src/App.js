@@ -10,6 +10,7 @@ import Footer from "./components/Footer";
 import WhyUs from "./components/WhyUs";
 import Services from "./components/Services/Services";
 import Certification from "./components/Certification";
+import AllProducts from "./components/Product/AllProducts";
 import PrivacyPolicy from "./components/PrivacyPolicy/PrivacyPolicy";
 import "./App.css";
 
@@ -25,6 +26,7 @@ function App() {
           {/* Product routes */}
           <Route path="/products/:categorySlug" element={<Product />} />
           <Route path="/products/:categorySlug/:productSlug" element={<Product />} />
+          <Route path="/all-products" element={<AllProducts />} />
           <Route path="/Spices" element={<Spices />} />
           {/* Other pages */}
           <Route path="/AboutUs" element={<AboutUs />} />
