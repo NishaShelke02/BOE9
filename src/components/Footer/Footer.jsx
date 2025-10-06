@@ -10,8 +10,11 @@ const Footer = () => {
         <div className="footer-section">
           <h3>BOE9</h3>
           <p>
-           Exporting excellence in Organic Products,Gulten free ,Medicinal & Herbal Plants, Dehardrated Products and many more.
-            Quality products delivered globally with trust. 
+          Documentation errors. Quality swings. Certification hurdles.
+            These are the hidden costs that eat into your profits.
+             Our value is eliminating these costs before they occur.
+              We deliver a seamless, transparent, and dependable export process.
+               Reach out to build a hassle-free import pipeline
           </p>
         </div>
 
