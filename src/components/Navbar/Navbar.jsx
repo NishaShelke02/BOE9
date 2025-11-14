@@ -39,10 +39,10 @@ const Navbar = () => {
             <FaFacebook />
           </a>
           
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/bumi_organicexim?igsh=MWFjMW0yazUzbjZ6Nw==" target="_blank" rel="noopener noreferrer">
             <FaInstagram />
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/company/109393938/admin/dashboard/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin />
 
           </a>

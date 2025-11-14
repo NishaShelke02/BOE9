@@ -93,7 +93,7 @@ const Home = () => {
     },
      {
       name: "Indian Super Food - Makhana",
-      image: "/images/Makhana.png",
+      image: "/images/Makha.png",
       description: "Low-fat, high-fiber, and protein-rich fox nuts for healthy snacking.",
       link: "/products/indian-super-foods",
     },
