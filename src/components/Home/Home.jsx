@@ -13,17 +13,13 @@ const FeatureCard = ({ icon, title, description }) => (
 
 // Reusable ProductCard Component
 const ProductCard = ({ product, onClick }) => (
-  <div className="product-card">
-    <div
-      className="product-image"
-      style={{ backgroundImage: `url(${product.image})` }}
-      role="img"
-      aria-label={product.name}
-      onClick={onClick}
-    ></div>
+  <div className="product-card" onClick={onClick}>
+    <div className="product-image-container">
+      <img src={product.image} alt={product.name} className="product-img" />
+    </div>
     <h3>{product.name}</h3>
     <p>{product.description}</p>
-    <button className="view-product-btn" onClick={onClick}>
+    <button className="view-product-btn">
       View Product
     </button>
   </div>
@@ -35,97 +31,112 @@ const Home = () => {
 
   const slides = [
     {
-      image: "/images/Spices.png",
-      title: "Indian Homemade Spices",
-      description:
-        "Experience the authentic flavors of India with our homemade spices, crafted to perfection.",
-        link: "/Products/indian-spices",
-      cta: "Shop Now"
-     
-    },
-    {
       image: "/images/Organic.png",
       title: "Organic Products",
       description:
         "Pure, natural, and sustainable organic products for a healthier lifestyle.",
-      link: "/Products/agriculture",
+      link: "/products/organic-products",
       cta: "Explore More"
-    },
-    {
-      image:" /images/Medicinal.jpeg",
-      title: "Medicinal & Herbal Plants",
-      description:
-        "Sourcing India's finest organic medicinal and herbal plants for wellness and vitality.",
-      link: "/Products/medicinal-herbal-plants",
-      cta: "Discover Now"
-    },
-    {
-      image: "/images/Biofertilizer.jpeg",
-      title: "Agricultural Organic Fertilizers - Biofertilizer",
-      
-      
-      link: "/Products/agriculture",
-      cta: "Buy Now"
     },
     {
       image: "/images/millet.png",
       title: "Healthy Food Products - Gluten-Free Millets",
       description:
         "Fueling health naturally with gluten-free superfoods for a better tomorrow.",
-      link: "/Products/indian-super-foods",
+      link: "/products/indian-super-foods",
       cta: "Shop Healthy"
     },
     {
-      image: "/images/Misal.png",
-      title: "Nashik Misal Mix - Ready to Eat",
+      image: "/images/Spices.png",
+      title: "Indian Homemade Spices",
+      description:
+        "Experience the authentic flavors of India with our homemade spices, crafted to perfection.",
+      link: "/products/indian-spices",
+      cta: "Shop Now"
+    },
+    {
+      image: "/images/dehydrated.png",
+      title: "Dehydrated Products & Powder",
+      description:
+        "Premium quality dehydrated vegetables and powders for culinary excellence.",
+      link: "/products/dehydrated-products",
+      cta: "Buy Now"
       
-        
-      link: "/Products/nashik-misal-mix",
+    },
+    {
+      image: "/images/onions5.png",
+      title: "Onions",
+      description: "Fresh, high-quality onions sourced directly from farms for superior taste and nutrition.",
+      link: "/products/food-and-fmcg-health-food",
       cta: "Order Now"
     },
+    {
+      image: "/images/Medicinal.jpeg",
+      title: "Medicinal & Herbal Plants",
+      description:
+        "Sourcing India's finest organic medicinal and herbal plants for wellness and vitality.",
+      link: "/products/medicinal-herbal-plants",
+      cta: "Discover Now"
+    }
+    
+    
   ];
 
   const products = [
-    
     {
-      name: "Cow Dung Cakes",
-      image: "/images/Cow.png",
+      name: "Organic Products",
+      image: "/images/Organic.png",
       description:
-        "Nourishing your soil with natural cow dung cakes for healthier crops.",
-      link: "/Products/agriculture",
+        "Pure, natural, and sustainable organic products for a healthier lifestyle.",
+      link: "/products/organic-products",
+
     },
-   
-    
+     {
+      name: "Indian Super Food - Makhana",
+      image: "/images/Makhana.png",
+      description: "Low-fat, high-fiber, and protein-rich fox nuts for healthy snacking.",
+      link: "/products/indian-super-foods",
+    },
     {
       name: "Indian Spices",
       image: "/images/Spices.png",
       description: "Experience the authentic flavors of India with our homemade spices.",
-      link: "/Products/indian-spices",
+      link: "/products/indian-spices",
     },
+    {
+      name: "Dehardrated Product & Powder",
+      image: "/images/dehyadrated-veg.png",
+      description: "Premium quality dehydrated vegetables and powders for culinary excellence.",
+      link: "/products/dehydrated-products",
+    },
+    
     {
       name: "Gluten-Free Millets",
       image: "/images/millet.png",
       description: "Fueling health naturally with gluten-free superfoods.",
-      link: "/Products/indian-super-foods",
+      link: "/products/indian-super-foods",
     },
     {
-      name: "Nashik Misal Mix",
-      image: "/images/misal.png",
-      description: "Experience the authentic taste of Nashik with our Misal Mix.",
-      link: "/Products/nashik-misal-mix",
+      name: "Food & FMCG - Ready to Eat & Cook Products",
+      image: "/images/food.png",
+      description: "Convenient and nutritious ready-to-eat and cook food products.",
+      link: "/products/food-and-fmcg-health-food",
+
     },
+    
+   
     {
-      name: "Super Food - Makhana",
-      image: "/images/Makhana.png",
-      description: "Low-fat, high-fiber, and protein-rich fox nuts for healthy snacking.",
-      link: "/Products/makhana-fox-nuts",
-    },
-    {
-      name: "Medicinal & Herbal Plants" ,
+      name: "Medicinal & Herbal Plants",
       image: "/images/Medicinal1.jpeg",
       description: "Sourcing India's finest organic medicinal and herbal plants for wellness.",
-      link: "/Products/medicinal-herbal-plants",
-    }
+      link: "/products/medicinal-herbal-plants",
+    },
+    {
+      name: "Agriculture Organic Fertilizer",
+      image: "/images/seaweed.png",
+      description: "Eco-friendly organic fertilizers to enrich your soil and boost crop yield.",
+      link: "/products/agriculture",
+    },
   ];
 
   useEffect(() => {
@@ -154,8 +165,12 @@ const Home = () => {
               <div className="slide-content">
                 <h1 className="slide-title">{slide.title}</h1>
                 <p className="slide-description">{slide.description}</p>
-                <button className="cta-button" onClick={() => navigate(slide.link)}>
-
+                <button className="cta-button" 
+                  onClick={() => {
+                    console.log("Navigating to:", slide.link);
+                    navigate(slide.link);
+                  }}
+                >
                   {slide.cta || "Learn More"}
                 </button>
               </div>
@@ -179,6 +194,27 @@ const Home = () => {
         </div>
       </section>
 
+      
+      {/* Products Preview */}
+      <section className="products-preview">
+        <div className="container">
+          <h2 className="section-title">Our Featured Products</h2>
+          <div className="products-grid">
+            {products.map((product, index) => (
+              <ProductCard
+                key={index}
+                product={product}
+                onClick={() => navigate(product.link)}
+              />
+            ))}
+          </div>
+          <div className="text-center">
+            <button className="view-all-btn" onClick={() => navigate("/all-products")}>
+              View All Products
+            </button>
+          </div>
+        </div>
+      </section>
       {/* Features */}
       <section className="features-section">
         <div className="container">
@@ -208,26 +244,6 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Products Preview */}
-      <section className="products-preview">
-        <div className="container">
-          <h2 className="section-title">Our Featured Products</h2>
-          <div className="products-grid">
-            {products.map((product, index) => (
-              <ProductCard
-                key={index}
-                product={product}
-                onClick={() => navigate(product.link)}
-              />
-            ))}
-          </div>
-          <div className="text-center">
-            <button className="view-all-btn" onClick={() => navigate("/all-products")}>
-              View All Products
-            </button>
-          </div>
-        </div>
-      </section>
     </div>
   );
 };

@@ -2,7 +2,7 @@ import React, { useEffect, useState, useCallback } from "react";
 import { useParams, Link } from "react-router-dom";
 import "./Product.css";
 
-// Simple loading spinner component
+// Loading Spinner
 const LoadingSpinner = () => (
   <div className="loading-spinner" role="status" aria-label="Loading products...">
     <div className="spinner"></div>
@@ -11,7 +11,8 @@ const LoadingSpinner = () => (
 );
 
 const Product = () => {
-  const { categorySlug, productSlug } = useParams();
+  const { categorySlug, productSlug, itemSlug } = useParams();
+
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -24,13 +25,14 @@ const Product = () => {
     []
   );
 
-  // Recursive category finder
+  // Find category recursively
   const findCategory = useCallback(
     (categories, slug) => {
       for (const cat of categories) {
-        const catSlug = cat.slug ? cat.slug : slugify(cat.category || cat.name);
+        const catSlug = cat.slug || slugify(cat.category || cat.name);
         if (catSlug === slug) return cat;
-        if (cat.subcategories && cat.subcategories.length > 0) {
+
+        if (cat.subcategories?.length > 0) {
           const found = findCategory(cat.subcategories, slug);
           if (found) return found;
         }
@@ -40,18 +42,17 @@ const Product = () => {
     [slugify]
   );
 
-  // Recursive product finder
+  // Find product recursively
   const findProductRecursively = useCallback(
     (categories, productSlug) => {
       for (const cat of categories) {
-        // Check products at this level
         if (cat.products) {
           const found = cat.products.find(
-            (p) => (p.slug ? p.slug : slugify(p.name)) === productSlug
+            (p) => (p.slug || slugify(p.name)) === productSlug
           );
           if (found) return found;
         }
-        // Check subcategories
+
         if (cat.subcategories) {
           const foundInSub = findProductRecursively(cat.subcategories, productSlug);
           if (foundInSub) return foundInSub;
@@ -64,66 +65,109 @@ const Product = () => {
 
   // Fetch data
   useEffect(() => {
-    const fetchData = async () => {
+    const loadData = async () => {
       try {
         setLoading(true);
-        setError(null);
         const res = await fetch("/data/products.json");
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+
         const json = await res.json();
         setData(json);
       } catch (err) {
-        console.error("Error fetching products:", err);
         setError("Failed to load products");
       } finally {
         setLoading(false);
       }
     };
-    fetchData();
+
+    loadData();
   }, []);
 
-  // Set main image when productSlug changes
+  // Update main image
   useEffect(() => {
-    if (!data || !productSlug) return;
-    const prod = findProductRecursively(data, productSlug);
-    if (prod && prod.image) setMainImage(prod.image);
-  }, [data, productSlug, findProductRecursively]);
+    if (!data || !categorySlug) return;
+
+    const category = findCategory(data, categorySlug);
+    if (!category) return;
+
+    const product = productSlug ? findProductRecursively([category], productSlug) : null;
+
+    if (product && itemSlug && product.items) {
+      const item = product.items.find(
+        (it) => (it.slug || slugify(it.name)) === itemSlug
+      );
+      if (item && item.image) {
+        setMainImage(item.image);
+        return;
+      }
+    }
+
+    if (product?.image) {
+      setMainImage(product.image);
+      return;
+    }
+
+    if (category.categoryImage) {
+      setMainImage(category.categoryImage);
+      return;
+    }
+
+    setMainImage("");
+  }, [data, categorySlug, productSlug, itemSlug, findCategory, findProductRecursively, slugify]);
 
   if (loading) return <LoadingSpinner />;
   if (error) return <p>{error}</p>;
-  if (!data) return <p>No data available</p>;
+  if (!data) return <p>No data found.</p>;
 
-  // Find category for breadcrumb
   const category = findCategory(data, categorySlug);
-  if (!category) return <p>Category not found</p>;
+  if (!category) return <p>under working</p>;
 
-  // Find product
   const product = productSlug ? findProductRecursively([category], productSlug) : null;
 
-  // Flatten all products for category page
+  let currentItem = null;
+  if (product && itemSlug && product.items) {
+    currentItem = product.items.find(
+      (it) => (it.slug || slugify(it.name)) === itemSlug
+    );
+  }
+
+  // Flatten products for category page
   const flattenProducts = (cat) => {
-    let result = [...(cat.products || [])];
+    let items = [...(cat.products || [])];
     if (cat.subcategories) {
-      for (let sub of cat.subcategories) {
-        result = result.concat(flattenProducts(sub));
+      for (const sub of cat.subcategories) {
+        items = [...items, ...flattenProducts(sub)];
       }
     }
-    return result;
+    return items;
   };
-  const allProducts = flattenProducts(category);
 
+  const allProducts = flattenProducts(category);
   const categorySlugValue = category.slug || slugify(category.category);
 
   return (
     <div className="product-page" role="main">
+      
       {/* Breadcrumb */}
-      <nav className="breadcrumb" aria-label="Breadcrumb">
+      <nav className="breadcrumb">
         <Link to="/">Home</Link>
         <span> / </span>
+
         <Link to={`/products/${categorySlugValue}`}>{category.category}</Link>
+
         {product && (
           <>
             <span> / </span>
-            <span aria-current="page">{product.name}</span>
+            <Link to={`/products/${categorySlugValue}/${product.slug || slugify(product.name)}`}>
+              {product.name}
+            </Link>
+          </>
+        )}
+
+        {currentItem && (
+          <>
+            <span> / </span>
+            <span aria-current="page">{currentItem.name}</span>
           </>
         )}
       </nav>
@@ -134,34 +178,36 @@ const Product = () => {
           <h2>{category.category}</h2>
           {category.categoryDesc && <p>{category.categoryDesc}</p>}
         </div>
+
         <div className="category-image-wrapper">
           {category.categoryImage && (
-            <img
-              src={category.categoryImage}
-              alt={`${category.category} category image`}
-              loading="lazy"
-            />
+            <img src={category.categoryImage} alt={category.category} loading="lazy" />
           )}
         </div>
       </div>
 
-      {product ? (
-        // Product detail page
+      {/* ===========================
+          CONDITIONAL RENDERING
+      =========================== */}
+
+      {currentItem ? (
+        /* ITEM DETAIL */
         <div className="product-detail">
           <div className="product-description">
-            <h3>{product.name}</h3>
-            <p>{product.description}</p>
+            <h3>{currentItem.name}</h3>
+            <p>{currentItem.description}</p>
           </div>
 
           <div className="product-image-container">
-            {mainImage && <img src={mainImage} alt={product.name} className="product-image" />}
-            {product.gallery && product.gallery.length > 0 && (
+            {mainImage && <img src={mainImage} alt={currentItem.name} className="product-image" />}
+
+            {currentItem.gallery?.length > 0 && (
               <div className="product-gallery">
-                {product.gallery.map((img, i) => (
+                {currentItem.gallery.map((img, i) => (
                   <img
                     key={i}
                     src={img}
-                    alt={`${product.name} ${i + 1}`}
+                    alt={`${currentItem.name} ${i + 1}`}
                     className={`gallery-thumb ${mainImage === img ? "active" : ""}`}
                     onClick={() => setMainImage(img)}
                   />
@@ -170,8 +216,66 @@ const Product = () => {
             )}
           </div>
         </div>
+      ) : product ? (
+        product.items?.length > 0 ? (
+          /* PRODUCT WITH MULTIPLE ITEMS */
+          <div className="items-grid">
+            <h3>{product.name}</h3>
+            {product.description && <p>{product.description}</p>}
+
+            <div className="product-grid">
+              {product.items.map((it, i) => {
+                const itemSlugValue = it.slug || slugify(it.name);
+                const productSlugValue = product.slug || slugify(product.name);
+
+                return (
+                  <Link
+                    key={i}
+                    to={`/products/${categorySlugValue}/${productSlugValue}/${itemSlugValue}`}
+                    className="product-card"
+                  >
+                    <div
+                      className="product-thumb"
+                      style={{ backgroundImage: `url(${it.image})` }}
+                      role="img"
+                      aria-label={it.name}
+                    />
+                    <h4>{it.name}</h4>
+                    <p>{it.shortDesc}</p>
+                  </Link>
+                );
+              })}
+            </div>
+          </div>
+        ) : (
+          /* PRODUCT DETAIL (NO ITEMS) */
+          <div className="product-detail">
+            <div className="product-description">
+              <h3>{product.name}</h3>
+              <p>{product.description}</p>
+            </div>
+
+            <div className="product-image-container">
+              {mainImage && <img src={mainImage} alt={product.name} className="product-image" />}
+
+              {product.gallery?.length > 0 && (
+                <div className="product-gallery">
+                  {product.gallery.map((img, i) => (
+                    <img
+                      key={i}
+                      src={img}
+                      alt={`${product.name} ${i + 1}`}
+                      className={`gallery-thumb ${mainImage === img ? "active" : ""}`}
+                      onClick={() => setMainImage(img)}
+                    />
+                  ))}
+                </div>
+              )}
+            </div>
+          </div>
+        )
       ) : (
-        // Category page: list all products
+        /* CATEGORY PAGE (PRODUCT LIST) */
         <div className="product-grid">
           {allProducts.map((p, i) => (
             <Link
@@ -189,6 +293,31 @@ const Product = () => {
           ))}
         </div>
       )}
+
+      {/* CONTACT US SECTION */}
+      <section className="contact-us-section">
+        <div className="container contact-box">
+          <h2>📞 Contact Us</h2>
+          <p>
+            Need premium quality products, bulk orders, or export details?
+            Our team is here to help 24/7.
+          </p>
+
+          <div className="contact-details">
+            <p>✉️ <a href="mailto:info@boe9.com">info@boe9.com</a></p>
+            <p>✉️ <a href="mailto:exports@boe9.com">exports@boe9.com</a></p>
+
+            <p><strong>📞 Phone:</strong> +91 9272131561</p>
+
+            <p><strong>🌍 Location:</strong> Nashik, Maharashtra, India</p>
+          </div>
+
+          <Link to="/ContactUs" className="contact-btn">
+            Send Inquiry →
+          </Link>
+        </div>
+      </section>
+
     </div>
   );
 };

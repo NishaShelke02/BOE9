@@ -3,6 +3,8 @@
   {
     "category": "Food & FMCG - Health Food",
     "slug": "food-and-fmcg-health-food",
+    "categoryImage": "/images/food.png",
+    "categoryDesc": "Bumi Organic Exim offers a premium range of Ready-to-Eat and Ready-to-Cook foods including Jackfruit products, English vegetables, Nashik Misal, and more. Our products are made in hygienic, export-ready facilities to deliver authentic taste, long shelf life, and consistent quality. Perfect for importers, retailers, and HoReCa, & Restaurants our RTE/RTC foods provide convenience with the true Flavors of India. Contact us for samples, catalogues, or private-label pricing.",
     "products": [
       {
         "name": "Nashik Misal Mix",
@@ -10,7 +12,7 @@
         "image": "/images/Misal.png",
         "gallery": ["/images/Misal1.png", "/images/Misal2.png"],
         "shortDesc": "Authentic Nashik misal spice mix.",
-        "description": "This combo pack helps recreate the classic taste of Nashik Misal at home in minutes. With authentic spices, ready-to-use gravy mix, and a matki-based flavor profile, it ensures extra spicy Tarri and a complete meal experience served with Pav, Farsan, onions, coriander, and lime."
+        "description": "Bumi Organic Exim's Nashik Misal Mix is crafted using a blend of traditional spices sourced from trusted Indian farms. This mix captures the authentic flavors of Nashik misal, allowing you to prepare this popular Maharashtrian dish with ease. Perfect for restaurants, retailers, and households seeking convenience without compromising on taste."
       },
       {
         "name": "Jackfruit Products",
@@ -21,12 +23,12 @@
         "description": "Our premium Jackfruit is sourced from carefully selected farms, ensuring quality and freshness. Offers ripe and unripe varieties, nutritional benefits, and versatile applications: fresh, canned, frozen, seeds, and meat-alternative products, all packed hygienically for global markets."
       },
       {
-        "name": "Tofu",
-        "slug": "tofu",
-        "image": "/images/Tofu1.png",
-        "gallery": ["/images/Tofu.png"],
-        "shortDesc": "Premium organic tofu from India.",
-        "description": "At Bumi Organic Exim, we bring plant-based nutrition to your table with the purest ingredients. Our Organic Tofu is crafted from certified organic soybeans grown across India without synthetic pesticides or chemicals, ensuring a clean, wholesome, and protein-rich product. Each block is carefully prepared using traditional methods to preserve its smooth texture, subtle flavor, and high nutritional value, making it a versatile ingredient for a variety of dishes.\n\nIdeal for health-conscious families, chefs, and food manufacturers, our Organic Tofu can be enjoyed in stir-fries, curries, salads, desserts, or as a standalone snack. By choosing Bumi Organic Exim, you support Indian organic farmers and sustainable practices that nourish both people and the planet.\n\nTaste the goodness of organic plant-based nutrition – contact Bumi Organic Exim today."
+        "name": "Pomegranate",
+        "slug": "pomegranate",
+        "image": "/images/pomegranate.png",
+        "gallery": ["/images/pomegranate.png", "/images/pomegranate1.png","/images/pomegranate2.png"],
+        "shortDesc": "Fresh and juicy pomegranates.",
+        "description": " Bumi Organic Exim sources premium-quality pomegranates from trusted Indian farms known for their ideal growing conditions. Our pomegranates are handpicked at peak ripeness to ensure optimal sweetness, juiciness, and vibrant color. Carefully sorted, cleaned, and packed, they maintain freshness and quality during transit. Ideal for retail, export, and bulk supply to food industries worldwide, our pomegranates meet global quality and hygiene standards."
       },
       {
         "name": "Frozen Green Peas",
@@ -34,15 +36,31 @@
         "image": "/images/peas.png",
         "gallery": ["/images/peas1.png", "/images/peas.png"],
         "shortDesc": "Premium organic frozen green peas.",
-        "description": "Premium Organic Frozen Green Peas – Fresh from India to Your Table\nAt Bumi Organic Exim, we take pride in delivering nature’s finest bounty directly to the global market. Our Organic Frozen Green Peas are cultivated exclusively on certified organic farms, where sustainable farming practices, soil health, and biodiversity are prioritized. Grown without synthetic fertilizers or pesticides, these peas are harvested at peak ripeness and immediately flash-frozen to preserve their vibrant color, natural sweetness, and rich nutritional value.\n\nIdeal for chefs, wholesalers, retailers, and health-conscious consumers, our Organic Frozen Green Peas offer the perfect combination of taste, convenience, and nutrition. They cook quickly, retain their texture, and are versatile enough for curries, soups, pastas, salads, and more—bringing the garden-fresh experience to every dish.\n\nBy choosing Bumi Organic Exim, you are supporting ethical trade and sustainable organic farming practices that benefit both people and the planet. Our products are carefully packed to meet international export standards, ensuring freshness and quality from India to your doorstep.\n\nDiscover the taste of premium Indian organic peas. Contact Bumi Organic Exim today for bulk orders and partnership opportunities!"
-},
+        "description": "Bumi Organic Exim offers premium-quality Frozen Green Peas processed from fresh, tender harvests to preserve natural sweetness, vibrant color, and nutrition. Quickly frozen using advanced IQF technology, our peas maintain farm-fresh taste and texture in every bite. Ideal for restaurants, retailers, and households, they are perfect for curries, soups, salads, and ready-to-cook meals—all year round freshness, convenience, and quality guaranteed."
+    },
       {
         "name": "Onions",
         "slug": "onions",
         "image": "/images/onions.png",
-        "gallery": ["/images/onions.png", "/images/onious1.png","/images/onions3.png","/images/onions4.png"],
+        "gallery": ["/images/onions1.png","/images/onions6.png","/images/onions.png", "/images/onions5.png","/images/onions3.png","/images/onions4.png"],
         "shortDesc": "Premium Indian onions & dehydrated products.",
-        "description": "Premium Indian Onions & Dehydrated Onion Products for Global Buyers\nAt Bumi Organic Exim, we bring the freshness of India’s fertile farmlands to kitchens and industries worldwide. Cultivated through traditional, chemical-free practices, our onions are naturally firm, nutrient-rich, and bursting with authentic flavor. Each bulb is carefully harvested at peak maturity and hygienically handled to ensure consistent quality, long shelf life, and international grading standards.\n\nTo serve diverse culinary and industrial needs, we also offer a full range of dehydrated onion products—including powder, flakes, granules, and kibbled forms—providing convenience without compromise on nutrition or taste.\n\n🌱 Why Choose Bumi Organic Exim Onions?\n- Wide range of sizes for global market preferences:\n  • Small: 25–35 mm\n  • Medium: 35–55 mm\n  • Large: 55–70 mm\n  • Extra Large: 70–90 mm\n  • Jumbo: 90+ mm\n- Premium export quality with uniform grading\n- 100% natural, free from harmful chemicals & pesticides\n- Varieties: Red Onion • White Onion • Yellow Onion • Shallots • Sweet Onion\n- Value-added line: Onion Powder • Dehydrated Flakes • Granules • Kibbled Onions\n- Strong commitment to sustainable farming & fair trade\n\nFrom households and supermarkets to food manufacturers, retailers, and industrial kitchens, our onions add rich flavor, aroma, and nutrition to every recipe—whether in fresh or dehydrated form.\n\n👉 Partner with Bumi Organic Exim to source high-quality Indian onions and onion products in bulk. We guarantee timely delivery, customized packing, and consistent supply to meet your market’s demands.\n\n📩 Contact us today to taste the true flavor of India’s finest onions!"
+        "description": "Bumi Organic Exim supplies premium-grade Fresh Onions sourced from trusted Indian farms known for quality and freshness. Our onions are carefully sorted, cleaned, and packed to ensure long shelf life, uniform size, and consistent flavor. Rich in natural nutrients and aroma, they are ideal for retail, export, and bulk supply to food industries worldwide. Available in red, white, and yellow varieties, our onions meet global quality and hygiene standards."
+      },
+      {
+        "name": "Potato",
+        "slug": "potato",
+        "image": "/images/potato.png",
+        "gallery": ["/images/potato1.png", "/images/potato2.png","/images/potato3.png"],
+        "shortDesc": "High-quality Indian potatoes.",
+        "description": "Bumi Organic Exim sources premium-quality Potatoes from trusted Indian farms known for their ideal growing conditions. Our potatoes are handpicked at peak maturity to ensure optimal taste, texture, and nutritional value. Carefully sorted, cleaned, and packed, they maintain freshness and quality during transit. Ideal for retail, export, and bulk supply to food industries worldwide, our potatoes meet global quality and hygiene standards."
+      },
+      {
+        "name":"Elephant Foot Yam(Suran)",
+        "slug":"elephant-foot-yam-suran",
+        "image": "/images/suran.png",
+        "gallery": ["/images/suran1.png","/images/suran2.png","/images/suran3.png"],
+        "shortDesc": "Fresh and high-quality elephant foot yam (suran).",
+        "description": "Bumi Organic Exim sources premium-quality Elephant Foot Yam (Suran) from trusted Indian farms known for their ideal growing conditions. Our suran is handpicked at peak maturity to ensure optimal taste, texture, and nutritional value. Carefully sorted, cleaned, and packed, they maintain freshness and quality during transit. Ideal for retail, export, and bulk supply to food industries worldwide, our elephant foot yam meets global quality and hygiene standards."
       }
       
     ]
@@ -51,7 +69,7 @@
     "category": "Medicinal & Herbal Plants",
     "slug": "medicinal-herbal-plants",
     "categoryImage": "/images/Medicinal1.jpeg",
-    "categoryDesc":"At Bumi Organic Exim, we are custodians of India's ancient Ayurvedic legacy, channeling its profound wisdom into a curated range of certified organic herbal products for the discerning global market. Sourced from our network of India Organic (NPOP) certified farms, each herb is cultivated sustainably and harvested at its peak to ensure optimal potency and purity of its bioactive compounds. Our commitment to minimal, mindful processing guarantees that the intrinsic therapeutic value of every root, leaf, and berry is meticulously preserved. This dedication to quality provides wellness brands, herbal supplement manufacturers, and practitioners with a trusted, efficacious foundation for products targeting modern health needs—from stress resilience and immune fortification with Ashwagandha and Giloy, to cognitive support with Brahmi and women's wellness with Shatavari. Partnering with Bumi Organic Exim means more than sourcing ingredients; it is an alliance built on rigorous quality standards, ethical sourcing, and a shared vision for a healthier world.\n\nOur Core Portfolio Includes: Ashwagandha (Adaptogen), Zedoary (White Turmeric), Shatavari (Women's Health), Brahmi/Gotu Kola (Cognitive Support), Saptrangi, Giloy (Immune Support), Moringa (Superfood)\n\nFormulate with confidence. Contact us today to request technical data sheets, product samples, or a confidential discussion about your bulk sourcing needs."
+    "categoryDesc": "At Bumi Organic Exim, we bring India’s Ayurvedic heritage to the global market with premium dehydrated herbs and pure herbal powders. Sourced from trusted farms, each herb is harvested at peak potency and gently processed to preserve its natural bioactive strength. Our core range includes Ashwagandha, Giloy, Brahmi, Shatavari, Zedoary, Moringa, Saptrangi, and more—ideal for wellness brands, supplement manufacturers, and herbal formulators seeking clean, potent, and traceable ingredients. As these are seasonal botanicals, we encourage advance bookings to ensure timely supply and priority allocation. Contact Bumi Organic Exim for technical sheets, samples, or bulk pricing—your trusted source for premium Ayurvedic ingredients."
 
     ,
     "products": [
@@ -117,21 +135,384 @@
     "category": "Organic Products",
     "slug": "organic-products",
     "products": [
+      
       {
-        "name": "Organic Jaggery",
-        "slug": "organic-jaggery",
-        "image": "/images/jaggery.png",
-        "gallery": ["/images/jaggery.png", "/images/jaggery1.png"],
-        "shortDesc": "Premium organic jaggery from India.",
-        "description": "At Bumi Organic Exim, we bring you the finest Organic Jaggery, a traditional Indian sweetener celebrated for its rich flavor and nutritional benefits. Sourced from certified organic sugarcane farms, our jaggery is produced using age-old methods that preserve its natural goodness, free from synthetic chemicals and additives.\n\nOur Organic Jaggery is available in various forms, including blocks, powder, and granules, making it a versatile ingredient for culinary applications ranging from desserts and beverages to savory dishes. Packed with essential minerals like iron, calcium, and magnesium, it serves as a healthier alternative to refined sugars.\n\nBy choosing Bumi Organic Exim, you support sustainable farming practices and the livelihoods of rural Indian communities. Our commitment to quality ensures that every batch of jaggery meets stringent international standards, making it ideal for health-conscious consumers and global markets.\n\nExperience the authentic taste and health benefits of premium Organic Jaggery. Contact Bumi Organic Exim today for samples, product catalogs, or competitive bulk quotations."
+        "name": "Organic Pulses",
+        "slug": "organic-pulses",
+        "image": "/images/Organic.png",
+        "shortDesc": "A wide range of certified organic pulsees rich in protein and nutrients.",
+        "description":"Bumi Organic Exim offers a premium collection of certified Organic Pulses sourced from trusted organic farms. These pulses are cultivated without synthetic fertilizers or pesticides, ensuring purity, nutrition, and superior taste. Rich in plant-based protein, fiber, and essential minerals, our pulses are a perfect addition to healthy diets worldwide.",
+        "items":[
+           {
+            "name": "Organic Brown Chickpeas (Kala Chana)",
+            "slug": "organic-brown-chickpeas-kala-chana",
+            "image": "/images/Organic/kalachana.png",
+            "gallery": ["/images/Organic/kalachana.png","/images/Organic/kalachana1.png","/images/Organic/kalachana2.png"],
+            "shortDesc": "High-protein brown chickpeas ideal for curries and salads.",
+            "description": "Organic Brown Chana, also known as Kala Chana, is packed with fiber, iron, and protein. Grown organically without synthetic inputs, it supports a balanced diet and sustainable agriculture."
+
+           },
+           {
+            "name": "Organic Moong Dal Yellow Split",
+            "slug": "organic-moong-dal-yellow-split",
+            "image": "/images/Organic/moong.png",
+            "gallery": ["/images/Organic/moong.png","/images/Organic/moong1.png","/images/Organic/moong2.png"],
+            "shortDesc": "Easily digestible split yellow moong dal.",
+            "description": "Our Organic Moong Dal Yellow Split is a rich source of plant-based protein and essential nutrients. Cultivated on certified organic farms, it is perfect for making wholesome soups and dals."
+           },
+           {
+            "name": "Organic Kabuli Chana (Chickpeas)",
+            "slug": "organic-kabuli-chana-chickpeas",
+            "image": "/images/Organic/chana.png",
+            "gallery": ["/images/Organic/chana.png","/images/Organic/chana1.png","/images/Organic/chana2.png"],
+            "shortDesc": "Nutritious kabuli chickpeas for diverse culinary uses. Large white chickpeas full of protein and fiber.",
+            "description": "Our Organic Kabuli Chana is a versatile pulse rich in protein, fiber, and essential minerals. Grown without synthetic chemicals, it is ideal for salads, stews, and snacks."
+           },
+           {
+            "name": "Organic Arhar Dal (Toor Dal)",
+            "slug": "organic-arhar-dal-toor-dal",
+            "image": "/images/Organic/toor.png",
+            "gallery": ["/images/Organic/toor.png","/images/Organic/toor1.png","/images/Organic/toor2.png"],
+            "shortDesc": "High-quality organic toor dal for traditional Indian dishes.",
+            "description": "Our Organic Arhar Dal, also known as Toor Dal, is a staple in Indian cuisine. Rich in protein and dietary fiber, it is cultivated on certified organic farms, ensuring purity and superior taste."
+           },
+           {
+            "name":"Organic Mix Dal",
+            "slug":"organic-mix-dal",
+            "image": "/images/Organic/mix.png",
+            "gallery": ["/images/Organic/mix.png","/images/Organic/mix1.png"],
+            "shortDesc": "Nutrient-rich organic mixed dal blend.",
+            "description": "Our Organic Mix Dal combines various pulses to provide a balanced nutritional profile. Grown organically, it is perfect for hearty soups and traditional dishes.A perfect mix of high-quality organic pulses like moong, masoor, arhar, and chana for wholesome and protein-packed meals."
+           },
+           {
+            "name": "Organic Moong Whole (Green Gram Whole)",
+            "slug": "organic-moong-whole-green-gram-whole",
+            "image": "/images/Organic/wmoong.png",
+            "gallery": ["/images/Organic/wmoong.png","/images/Organic/wmoong1.png","/images/Organic/wmoong2.png"],
+            "shortDesc": "Whole green gram rich in protein and fiber.",
+            "description": "Our Organic Moong Whole, also known as Green Gram Whole, is a nutrient-dense pulse cultivated without synthetic chemicals. It is an excellent source of plant-based protein and dietary fiber, ideal for soups, salads, and sprouting."
+           },
+           {
+            "name":"Organic Yellow Chana Dal",
+            "slug":"organic-yellow-chana-dal",
+            "image": "/images/Organic/chanadal.png",
+            "gallery": ["/images/Organic/chanadal.png","/images/Organic/chanadal1.png","/images/Organic/chanadal2.png"],
+            "shortDesc": "Protein-rich yellow chana dal for nutritious meals.",
+            "description": "Our Organic Yellow Chana Dal is a split version of brown chickpeas, rich in protein and dietary fiber. Grown on certified organic farms, it is perfect for making wholesome dals and curries."
+
+           },
+           {
+            "name":"Organic Black Urad Dal",
+            "slug":"organic-black-urad-dal",
+            "image": "/images/Organic/urad.png",
+            "gallery": ["/images/Organic/urad.png","/images/Organic/urad1.png","/images/Organic/urad2.png"],
+            "shortDesc": "Nutrient-dense black urad dal for traditional recipes.",
+            "description": "Our Organic Black Urad Dal is a staple in Indian cuisine, known for its rich protein and fiber content. Cultivated without synthetic inputs, it is ideal for making dals, idlis, and dosas."
+           },
+           {
+            "name":"Organic Malka Masoor Dal (Red Lentils)",
+            "slug":"organic-malka-masoor-dal-red-lentils",
+            "image": "/images/Organic/masoor.png",
+            "gallery": ["/images/Organic/masoor.png","/images/Organic/masoor1.png","/images/Organic/masoor2.png"],
+            "shortDesc": "High-quality red lentils for nutritious meals.",
+            "description": "Our Organic Malka Masoor Dal, or Red Lentils, is a quick-cooking pulse rich in protein and essential nutrients. Grown on certified organic farms, it is perfect for making wholesome soups and dals."
+           },
+           {
+            "name":"Organic Whole Masoor Dal",
+            "slug":"organic-whole-masoor-dal",
+            "image": "/images/Organic/wmasoor.png",
+            "gallery": ["/images/Organic/wmasoor.png","/images/Organic/wmasoor1.png","/images/Organic/wmasoor2.png"],
+            "shortDesc": "Whole masoor dal rich in protein and fiber.",
+            "description": "Our Organic Whole Masoor Dal is a nutrient-dense pulse cultivated without synthetic chemicals. It is an excellent source of plant-based protein and dietary fiber, ideal for soups, salads, and traditional dishes."
+
+           },
+           {
+            "name":"Organic Rajma (Kidney Beans)",
+            "slug":"organic-rajma-kidney-beans",
+            "image": "/images/Organic/rajma.png",
+            "gallery": ["/images/Organic/rajma.png","/images/Organic/rajma1.png","/images/Organic/rajma2.png"],
+            "shortDesc": "Nutritious kidney beans for hearty meals.",
+            "description": "Our Organic Rajma, or Kidney Beans, is a versatile pulse rich in protein, fiber, and essential minerals. Grown without synthetic chemicals, it is ideal for stews, salads, and traditional dishes."
+           },
+           {
+            "name":"Organic Cowpea White (Lobia)",
+            "slug":"organic-cowpea-white-lobia",
+            "image": "/images/Organic/lobia.png",
+            "gallery": ["/images/Organic/lobia.png","/images/Organic/lobia1.png","/images/Organic/lobia2.png"],
+            "shortDesc": "High-protein white cowpeas for diverse culinary uses.",
+            "description": "Our Organic Cowpea White, also known as Lobia, is a versatile pulse rich in protein and dietary fiber. Grown on certified organic farms, it is perfect for soups, stews, and salads."
+           }
+        ]
+      },
+      {
+        "name":"Natural Oils & Ghee",
+        "slug":"natural-oils-ghee",
+        "image": "/images/Organic/neemoil-ghee.png",
+        "shortDesc": "A variety of natural oils and ghee sourced from India.",
+        "description":"Bumi Organic Exim offers a premium selection of Natural Oils and Ghee sourced from trusted Indian producers. Our oils and ghee are extracted using traditional methods that preserve their natural flavor, aroma, and nutritional benefits. Free from synthetic additives, our products are ideal for cooking, baking, and health applications.",
+        "items":[
+          {
+            "name":"Organic Cold Pressed Black Mustard Oil - Argemone Free",
+            "slug":"organic-cold-pressed-black-mustard-oil-argemone-free",
+            "image": "/images/Organic/mustard.png",
+            "gallery": ["/images/Organic/mustard.png","/images/Organic/mustard1.png","/images/Organic/mustard2.png"],
+            "shortDesc": "Premium organic cold-pressed black mustard oil.",
+            "description": "Our Organic Cold Pressed Black Mustard Oil is extracted using traditional cold-pressing methods, ensuring maximum retention of its natural flavor, aroma, and nutritional benefits. Free from argemone contamination, this oil is ideal for cooking, massage, and therapeutic applications."
+            
+          },
+          {
+            "name":"Jivamrit Organic Desi Cow Ghee (Bilona Method,Glass Jar)",
+            "slug":"jivamrit-organic-desi-cow-ghee-bilona-method-glass-jar",
+            "image": "/images/Organic/ghee.png",
+            "gallery": ["/images/Organic/ghee.png","/images/Organic/ghee1.png","/images/Organic/ghee2.png"],
+            "shortDesc": "Premium organic desi cow ghee made using the Bilona method.",
+            "description": "Our Jivamrit Organic Desi Cow Ghee is crafted using the traditional Bilona method, ensuring a rich, authentic flavor and superior nutritional profile. Made from the milk of organically raised desi cows, this ghee is ideal for cooking, Ayurvedic practices, and enhancing the taste of various dishes."
+
+
+          },
+          {
+            "name":"Organic Extra Virgin Coconut Oil - Cold Pressed",
+            "slug":"organic-extra-virgin-coconut-oil-cold-pressed",
+            "image": "/images/Organic/coconut.png",
+            "gallery": ["/images/Organic/coconut.png","/images/Organic/coconut1.png","/images/Organic/coconut2.png"],
+            "shortDesc": "Premium organic extra virgin coconut oil.",
+            "description": "Our Organic Extra Virgin Coconut Oil is cold-pressed from fresh, mature coconuts, preserving its natural aroma, flavor, and health benefits. This versatile oil is perfect for cooking, skincare, haircare, and therapeutic uses."
+
+          },
+          {
+            "name":"Organic Sunflower Oil - Cold Pressed",
+            "slug":"organic-sunflower-oil-cold-pressed",
+            "image": "/images/Organic/sunflower.png",
+            "gallery": ["/images/Organic/sunflower.png","/images/Organic/sunflower1.png","/images/Organic/sunflower2.png"],
+
+            "shortDesc": "Premium organic cold-pressed sunflower oil.",
+            "description": "Our Organic Sunflower Oil is extracted using cold-pressing techniques, ensuring the retention of its natural flavor, aroma, and nutritional properties. Rich in essential fatty acids and vitamin E, this oil is ideal for cooking, baking, and salad dressings."
+
+          },
+          {
+            "name":"Organic Groundnut Oil(Peanut Oil)- Cold Pressed",
+            "slug":"organic-groundnut-oil-peanut-oil-cold-pressed",
+            "image": "/images/Organic/groundnut.png",
+            "gallery": ["/images/Organic/groundnut.png","/images/Organic/groundnut1.png","/images/Organic/groundnut2.png"],
+            "shortDesc": "Premium organic cold-pressed groundnut (peanut) oil.",
+            "description": "Our Organic Groundnut Oil, also known as Peanut Oil, is cold-pressed to retain its natural flavor, aroma, and nutritional benefits. Rich in monounsaturated fats and vitamin E, this oil is perfect for cooking, frying, and salad dressings."
+          },
+          {
+            "name": "A2 Cow Ghee - 100% Pure Desi Cow Ghee",
+            "slug": "a2-cow-ghee-100-pure-desi-cow-ghee",
+            "image": "/images/Organic/cowghee.png",
+            "gallery": ["/images/Organic/cowghee.png","/images/Organic/cowghee1.png","/images/Organic/cowghee2.png"],
+            "shortDesc": "Premium A2 desi cow ghee made from organic milk.",
+            "description": "Our A2 Cow Ghee is made from the milk of A2 desi cows, ensuring a rich, authentic flavor and superior nutritional profile. Crafted using traditional methods, this ghee is ideal for cooking, Ayurvedic practices, and enhancing the taste of various dishes."
+          }
+        ]
+      },
+      {
+        "name":"Organic Sweetners & Honey",
+        "slug":"organic-sweetners-honey",
+        "image": "/images/Organic/sh.png",
+        "shortDesc": "A variety of organic sweeteners and honey sourced from India.",
+        "description":"Bumi Organic Exim offers a premium selection of Organic Sweeteners and Honey sourced from trusted Indian producers. Our sweeteners are derived from natural sources and processed minimally to retain their authentic flavor and nutritional benefits. Free from synthetic additives, our products are ideal for cooking, baking, beverages, and health applications.",
+        "items":[
+          {
+            "name":"Organic Jaggery Powder",
+            "slug":"organic-jaggery-powder",
+            "image": "/images/Organic/jagery.png",
+            "gallery": ["/images/Organic/jagery.png","/images/Organic/jagery1.png","/images/Organic/jagery2.png"],
+            "shortDesc": "Premium organic jaggery powder.",
+            "description": "Our Organic Jaggery Powder is made from the concentrated juice of organically grown sugarcane or palm, ensuring a rich, caramel-like flavor and superior nutritional profile. This natural sweetener is ideal for cooking, baking, and traditional desserts."
+          },
+          {
+            "name":"Organic Raw Sugar",
+            "slug":"organic-raw-sugar",
+            "image": "/images/Organic/sugar.png",
+            "gallery": ["/images/Organic/sugar.png","/images/Organic/sugar1.png","/images/Organic/sugar2.png"],
+            "shortDesc": "Premium organic raw sugar.",
+            "description": "Our Organic Raw Honey is harvested from the nectar of flowers collected by bees on certified organic farms. This unprocessed honey retains its natural enzymes, antioxidants, and health benefits, making it a perfect addition to beverages, desserts, and wellness routines."
+
+          },
+          
+          {
+            "name":"Organic Dhaga Mishri – Organic Sugar Threads",
+            "slug":"organic-dhaga-mishri-organic-sugar-threads",
+            "image": "/images/Organic/mishri.png",
+            "gallery": ["/images/Organic/mishri.png","/images/Organic/mishri1.png","/images/Organic/mishri2.png"],
+            "shortDesc": "Premium organic sugar threads (mishri).",
+            "description": "Our Organic Dhaga Mishri is made from the concentrated juice of organically grown sugarcane, formed into delicate threads. This natural sweetener is ideal for traditional uses, cooking, and as a wholesome treat."
+          },
+          {
+            "name":"Organic Multiflora Forest Honey – Organic Honey",
+            "slug":"organic-multiflora-forest-honey-organic-honey",
+            "image": "/images/Organic/multiflora.png",
+            "gallery": ["/images/Organic/multiflora.png","/images/Organic/multiflora1.png","/images/Organic/multiflora2.png"],
+            "shortDesc": "Premium organic multiflora forest honey.",
+            "description": "Our Organic Multiflora Forest Honey is harvested from the nectar of diverse wildflowers collected by bees in organic forest areas. This unprocessed honey retains its natural enzymes, antioxidants, and health benefits, making it a perfect addition to beverages, desserts, and wellness routines."
+
+          },
+          {
+            "name":"Organic Coconut Sugar Powder – Organic Coconut Sugar",
+            "slug":"organic-coconut-sugar-powder-organic-coconut-sugar",
+            "image": "/images/Organic/coco.png",
+            "gallery": ["/images/Organic/coco.png","/images/Organic/coco1.png","/images/Organic/coco2.png"],
+            "shortDesc": "Premium organic coconut sugar powder.",
+            "description": "Our Organic Coconut Sugar Powder is made from the sap of organically grown coconut palm trees. This natural sweetener has a low glycemic index and retains its natural nutrients, making it ideal for cooking, baking, and beverages."
+
+          },
+          {
+            "name":"Organic Jaggery Kaju Katli – Organic Sweeteners",
+            "slug":"organic-jaggery-kaju-katli-organic-sweeteners",
+            "image": "/images/Organic/kaju.png",
+            "gallery": ["/images/Organic/kaju.png","/images/Organic/kaju1.png","/images/Organic/kaju2.png"],
+            "shortDesc": "Delicious organic jaggery kaju katli sweets.",
+            "description": "Our Organic Jaggery Kaju Katli is a traditional Indian sweet made from organic jaggery and premium cashew nuts. This delectable treat combines the rich flavor of jaggery with the creamy texture of cashews, making it a perfect indulgence for festive occasions and everyday enjoyment."
+
+          },
+          {
+            "name":"Organic Brown Sugar – Organically Processed & Refined Cane Sugar",
+            "slug":"organic-brown-sugar-organically-processed-refined-cane-sugar",
+            "image": "/images/Organic/brown-sugar.png",
+            "gallery": ["/images/Organic/brown-sugar.png","/images/Organic/brown-sugar1.png","/images/Organic/brown-sugar2.png"],
+            "shortDesc": "Premium organic brown sugar.",
+            "description": "Our Organic Brown Sugar is made from organically grown sugarcane and processed to retain its natural molasses content. This natural sweetener offers a rich flavor and superior nutritional profile, making it ideal for cooking, baking, and beverages."
+          },
+          {
+            "name":"Organic White Crystal Sugar",
+            "slug":"organic-white-crystal-sugar",
+            "image": "/images/Organic/white.png",
+            "gallery": ["/images/Organic/white.png","/images/Organic/white1.png","/images/Organic/white2.png"],
+            "shortDesc": "Premium organic white crystal sugar.",
+            "description": "Our Organic White Crystal Sugar is made from organically grown sugarcane and processed to produce pure, white crystals. This natural sweetener is ideal for cooking, baking, and beverages, providing a clean, sweet taste without synthetic additives."
+          },
+          
+          {
+            "name":"Organic Jaggery Whole – Organic Jaggery Cubes",
+            "slug":"organic-jaggery-whole-organic-jaggery-cubes",
+            "image": "/images/cube.png",
+            "gallery": ["/images/cube1.png","/images/cube2.png","/images/cube.png"],
+            "shortDesc": "Premium organic jaggery cubes.",
+            "description": "Our Organic Jaggery Whole is made from the concentrated juice of organically grown sugarcane or palm, formed into convenient cubes. This natural sweetener is ideal for cooking, baking, and traditional desserts."
+          }
+
+        ]
+      },
+      {
+        "name":"Organic Healthy Jams",
+        "slug":"organic-healthy-jams",
+        "image": "/images/Organic/jam.png",
+        "shortDesc": "A variety of organic healthy jams sourced from India.",
+        "description":"Bumi Organic Exim offers a premium selection of Organic Healthy Jams made from fresh, organically grown fruits. Our jams are prepared using traditional recipes with minimal processing to retain the natural flavor, color, and nutritional benefits of the fruits. Free from synthetic additives and preservatives, our jams are perfect for spreading on bread, adding to desserts, or enjoying as a wholesome snack.",
+        "items":[
+          {
+            "name":"Organic Mango Jam",
+            "slug":"organic-mango-jam",
+            "image": "/images/Organic/mango.png",
+            "gallery": ["/images/Organic/mango.png","/images/Organic/mango1.png","/images/Organic/mango2.png"],
+            "shortDesc": "Delicious organic mango jam made from ripe mangoes.",
+            "description": "Our Organic Mango Jam is crafted from fresh, organically grown mangoes, ensuring a rich, tropical flavor and vibrant color. This wholesome jam is perfect for spreading on bread, adding to desserts, or enjoying as a sweet treat."
+          },
+          {
+            "name":"Organic Mixed Fruit Jam",
+            "slug":"organic-mixed-fruit-jam",
+            "image": "/images/Organic/mix-jam.png",
+            "gallery": ["/images/Organic/mix-jam3.png","/images/Organic/mix-jam1.png","/images/Organic/mix-jam2.png"],
+            "shortDesc": "Tasty organic mixed fruit jam made from a blend of fruits.",
+            "description": "Our Organic Mixed Fruit Jam combines a variety of fresh, organically grown fruits to create a delightful blend of flavors. This versatile jam is perfect for spreading on toast, enhancing desserts, or enjoying as a wholesome snack."
+          },
+          {
+            "name": "Organic Pineapple Jam",
+            "slug": "organic-pineapple-jam",
+            "image": "/images/Organic/pineapple.png",
+            "gallery": ["/images/Organic/pineapple1.png","/images/Organic/pineapple2.png","/images/Organic/pineapple3.png"],
+            "shortDesc": "Sweet and tangy organic pineapple jam.",
+            "description": "Our Organic Pineapple Jam is made from fresh, organically grown pineapples, delivering a perfect balance of sweetness and tanginess. This delicious jam is ideal for spreading on bread, adding to desserts, or enjoying as a refreshing treat."
+          },
+          {
+            "name":"Organic Orange Jam",
+            "slug":"organic-orange-jam",
+            "image": "/images/Organic/orange.png",
+            "gallery": ["/images/Organic/orange1.png","/images/Organic/orange2.png","/images/Organic/orange3.png"],
+            "shortDesc": "Zesty organic orange jam made from ripe oranges.",
+            "description": "Our Organic Orange Jam is crafted from fresh, organically grown oranges, providing a vibrant citrus flavor and bright color. This tangy jam is perfect for spreading on toast, enhancing desserts, or enjoying as a refreshing snack."
+          },
+          {
+            "name":"Organic Apple Jam",
+            "slug":"organic-apple-jam",
+            "image": "/images/Organic/apple.png",
+            "gallery": ["/images/Organic/apple1.png","/images/Organic/apple2.png","/images/Organic/apple3.png"],
+            "shortDesc": "Delicious organic apple jam made from fresh apples.",
+            "description": "Our Organic Apple Jam is made from fresh, organically grown apples, ensuring a sweet and comforting flavor. This wholesome jam is perfect for spreading on bread, adding to desserts, or enjoying as a nutritious treat."
+          }
+        ]
+      },
+      {
+        "name":"Organic dryfruits & nuts",
+        "slug":"organic-dryfruits-nuts",
+        "image": "/images/Organic/spices.png",
+        "shortDesc": "A variety of organic dry fruits and nuts sourced from India.",
+        "description":"Bumi Organic Exim offers a premium selection of Organic Dry Fruits and Nuts sourced from trusted Indian producers. Our dry fruits and nuts are cultivated on certified organic farms, ensuring they are free from synthetic pesticides and fertilizers. Carefully processed and packed, our products retain their natural flavor, texture, and nutritional benefits. Ideal for snacking, baking, cooking, and health applications, our organic dry fruits and nuts cater to health-conscious consumers worldwide.",
+        "items":[
+          {
+            "name":"Organic Almonds (Badam)",
+            "slug":"organic-almonds-badam",
+            "image": "/images/Organic/almond.png",
+            "gallery": ["/images/Organic/almond.png","/images/Organic/almond1.png","/images/Organic/almond2.png"],
+            "shortDesc": "Premium organic almonds (badam) rich in nutrients.",
+            "description": "Our Organic Almonds (Badam) are sourced from certified organic farms, ensuring they are free from synthetic pesticides and fertilizers. These nutrient-dense nuts are perfect for snacking, baking, cooking, and health applications."
+            
+          },
+          {
+            "name":"Organic Cashews (Kaju)",
+            "slug":"organic-cashews-kaju",
+            "image": "/images/Organic/cashew.png",
+            "gallery": ["/images/Organic/cashew.png","/images/Organic/cashew1.png","/images/Organic/cashew2.png"],
+            "shortDesc": "High-quality organic cashews (kaju) for snacking and cooking.",
+            "description": "Our Organic Cashews (Kaju) are cultivated on certified organic farms, ensuring they are free from synthetic pesticides and fertilizers. These creamy, nutrient-rich nuts are ideal for snacking, baking, cooking, and health applications."
+
+          },
+          {
+            "name":"Organic Walnuts (Akhrot)",
+            "slug":"organic-walnuts-akhrot",
+            "image": "/images/Organic/walnut.png",
+            "gallery": ["/images/Organic/walnut.png","/images/Organic/walnut1.png","/images/Organic/walnut2.png"],
+            "shortDesc": "Nutrient-dense organic walnuts (akhrot) for health-conscious consumers.",
+            "description": "Our Organic Walnuts (Akhrot) are sourced from certified organic farms, ensuring they are free from synthetic pesticides and fertilizers. These nutrient-dense nuts are perfect for snacking, baking, cooking, and health applications."
+          },
+          {
+            "name":"Organic Pistachios (Pista)",
+            "slug":"organic-pistachios-pista",
+            "image": "/images/Organic/pistachio.png",
+            "gallery": ["/images/Organic/pistachio.png","/images/Organic/pistachio1.png","/images/Organic/pistachio2.png"],
+            "shortDesc": "Premium organic pistachios (pista) for snacking and culinary uses.",
+            "description": "Our Organic Pistachios (Pista) are cultivated on certified organic farms, ensuring they are free from synthetic pesticides and fertilizers. These flavorful, nutrient-rich nuts are ideal for snacking, baking, cooking, and health applications."
+          },
+          {
+            "name":"Organic Raisins (Kishmish)",
+            "slug":"organic-raisins-kishmish",
+            "image": "/images/Organic/raisin.png",
+            "gallery": ["/images/Organic/raisin.png","/images/Organic/raisin1.png","/images/Organic/raisin2.png"],
+            "shortDesc": "Sweet and nutritious organic raisins (kishmish).",
+            "description": "Our Organic Raisins (Kishmish) are made from organically grown grapes, ensuring they are free from synthetic pesticides and fertilizers. These naturally sweet dried fruits are perfect for snacking, baking, cooking, and health applications."
+          },
+          {
+            "name":"Organic Dates (Khajoor)",
+            "slug":"organic-dates-khajoor",
+            "image": "/images/Organic/dates.png",
+            "gallery": ["/images/Organic/dates.png","/images/Organic/dates1.png","/images/Organic/dates2.png"],
+            "shortDesc": "Delicious and nutrient-rich organic dates (khajoor).",  
+            "description": "Our Organic Dates (Khajoor) are sourced from certified organic farms, ensuring they are free from synthetic pesticides and fertilizers. These naturally sweet dried fruits are perfect for snacking, baking, cooking, and health applications."
+          }
+
+        ]
       }
+
+
     ]
   },
   {
     "category": "Dehydrated Products",
     "slug": "dehydrated-products",
     "categoryImage": "/images/dehydrated.png",
-    "categoryDesc": "At Bumi Organic Exim, we specialize in delivering premium quality Dehydrated Fruits and Vegetables sourced from India’s finest farms. Our products are carefully processed using advanced dehydration techniques that preserve their natural flavor, color, and nutritional value, making them an ideal choice for a variety of culinary applications. Whether you are looking for dehydrated onion, garlic, ginger, turmeric, or a wide range of fruits and vegetables, we offer a diverse portfolio to meet your needs.\n\nOur commitment to quality ensures that all our dehydrated products are free from additives and preservatives, guaranteeing purity and consistent quality for both domestic and international markets. We work closely with our network of trusted farmers to ensure sustainable farming practices and ethical sourcing.\n\nWhether you are a food manufacturer, retailer, or distributor, our dehydrated products provide the perfect solution for enhancing the taste and convenience of your offerings. Contact Bumi Organic Exim today for samples, product catalogs, or competitive bulk quotations."
+    "categoryDesc": "Bumi Organic Exim supplies premium-grade dehydrated fruits, vegetables, and powders sourced from India’s trusted farms. Using advanced dehydration technology, we retain natural aroma, color, and nutrients—with zero additives and consistent quality. Our range includes dehydrated onion, garlic, ginger, turmeric, and a wide selection of fruit and vegetable powders tailored for food processors, seasoning manufacturers, retailers, and distributors. With reliable sourcing, strict quality checks, and timely bulk supply, we deliver products that enhance your formulations and optimize your costs. Contact us for samples, specifications, and competitive export pricing—your trusted partner in premium dehydrated ingredients."
     ,
     "products": [
       {
@@ -189,8 +570,7 @@
   "category": "Indian Spices",
   "slug": "indian-spices",
   "categoryImage": "/images/Spices.png",
-  "categoryDesc": "🌍 Bumi Organic Exim – Bringing the Taste of Bharat to the World\nAt Bumi Organic Exim, we are dedicated to delivering the authentic soul of India's rich spice heritage to the global culinary stage. Our portfolio includes a premium range of Certified Organic Indian Spices as well as naturally produced, ready-to-use spice blends that carry the true essence of Bharat’s kitchens.\n\nSourced directly from our trusted network of India Organic (NPOP) certified farms, every spice is cultivated using sustainable, chemical-free methods that preserve its intrinsic purity, vibrant color, and potent aroma. From handpicking and natural sun-drying to state-of-the-art hygienic processing and packaging, our meticulous approach ensures compliance with stringent international food safety and quality standards.\n\n✨ Why Choose Bumi Organic Exim?\n- Authenticity & Purity – Spices sourced from traditional Indian farms.\n- Certified Organic & Conventional Options – To meet diverse market needs.\n- Traceable & Sustainable Supply Chain – Supporting farmers & rural communities.\n- Global Quality Standards – Guaranteeing freshness, flavor, and safety.\n- Ready-to-Use Blends – Curry powders, garam masala, and more for modern convenience.\n\n🍴 Our Core Spice Portfolio Includes:\nTurmeric (Curcumin-rich), Cumin Seeds, Coriander Seeds, Black Pepper, Cardamom, Cloves, Fennel Seeds, Fenugreek, Chilli Powder, Mustard Seeds …and a wide range of other authentic Indian spices and blends.\n\nWhether you are a food manufacturer, gourmet brand, retailer, or a discerning chef, our spices provide the foundation of authenticity for everything from traditional curries to innovative world cuisine.\n\n📩 Let the world taste Bharat with you. Contact Bumi Organic Exim today for samples, product catalogs, or competitive bulk quotations. Together, let’s bring India’s finest flavors to global tables."
-
+  "categoryDesc": "Bumi Organic Exim brings the true taste of Bharat to global kitchens with premium organic and conventional Indian spices sourced from trusted certified farms. Each spice is pure, aroma-rich, and naturally processed to ensure vibrant color, freshness, and export-grade quality. From turmeric, cumin, coriander, pepper, and cardamom to custom spice blends, our range is designed for manufacturers, retailers, and gourmet brands. We provide a traceable, sustainable supply chain with consistent bulk availability and international-standard packaging. Contact us for samples and pricing—your trusted partner for authentic Indian spices."
 ,
   "products":[
   {
@@ -295,7 +675,7 @@
         "image": "/images/makhana.png",
         "gallery": ["/images/makhana1.png", "/images/makhana2.png", "/images/Makhan3.png", "/images/Makhana4.jpg", "/images/makhana5.jpg"],
         "shortDesc": "Premium quality fox nuts from India.",
-        "description":"At Bumi Organic Exim, we bring you the finest Makhana (Fox Nuts), a revered Indian superfood celebrated for its lightness, delicate crunch, and exceptional nutritional profile. Sourced from certified, chemical-free ponds and carefully handpicked, our Makhana is sun-dried to preserve its natural flavor and rich nutrients, including plant-based protein, magnesium, and antioxidants.\n\nOur minimally processed Fox Nuts are perfect for diverse applications – from ready-to-eat snacks and gourmet toppings to traditional confectionery and modern health food products. By choosing Bumi Organic Exim, you partner with a company committed to sustainable aquaculture, ethical trade, and the empowerment of rural Indian communities, while delivering superior quality to your customers worldwide.\n\nExperience the purity and crunch of premium Organic Makhana. Contact us today for samples, a detailed catalog, or competitive bulk pricing."
+        "description":"At Bumi Organic Exim, we offer premium quality Makhana (Fox Nuts) sourced from the pristine lakes of India. Our Makhana is carefully harvested, cleaned, and processed to retain its natural crunch, flavor, and nutritional benefits. Rich in protein, fiber, and essential minerals, our fox nuts are an ideal healthy snack for health-conscious consumers worldwide. Free from additives and preservatives, our products ensure purity and consistent quality for both domestic and international markets."
       },
       {
         "name": "Gluten-free/Roasted Millets Products",
@@ -303,7 +683,7 @@
         "image": "/images/millet.png",
         "gallery": ["/images/millet.png", "/images/millets2.jpg", "/images/millets3.png", "/images/millets4.jpg", "/images/millets5.jpg", "/images/millets6.png", "/images/millets7.jpg"],
         "shortDesc": "Healthy roasted millet snacks.",
-        "description": "At Bumi Organic Exim, we bring the richness of India’s ancient agricultural heritage to the global stage, offering premium, nutrient-dense millets that cater to the growing demand for natural, gluten-free foods. Our Organic Millets are sourced exclusively from NPOP-certified farms, cultivated without synthetic pesticides or fertilizers, ensuring a product that is both wholesome and safe.\n\nOur gentle roasting process enhances the natural nutty flavor of the grains while maintaining their full nutritional profile, including high-quality protein, dietary fiber, and essential minerals. The result is a versatile, superfood-grade ingredient perfect for a wide range of applications: ready-to-eat cereals, wholesome snacks, gluten-free flours, baked goods, and health-focused food innovations.\n\nWe offer a wide range of millet varieties, including but not limited to: Foxtail Millet, Finger Millet (Ragi), Little Millet, Kodo Millet, Barnyard Millet, Sorghum (Jowar), Puffed Millets & Millet Mixes.\n\nPartnering with Bumi Organic Exim ensures more than just a supply relationship—it is a collaboration founded on trust, strict quality control, and sustainable farming practices that nourish both people and the planet.\n\nReady to elevate your product line with trusted Indian superfoods? Contact us today to request a product sample, detailed catalog, or competitive bulk quote. Experience the perfect blend of tradition, nutrition, and premium quality."
+        "description": "At Bumi Organic Exim, we provide a variety of Gluten-free Roasted Millets Products sourced from India’s finest farms. Our millets are carefully roasted to enhance their natural flavor, crunch, and nutritional profile. Rich in fiber, protein, and essential nutrients, our roasted millet snacks are perfect for health-conscious consumers seeking gluten-free options. Free from additives and preservatives, our products ensure purity and consistent quality for both domestic and international markets."
       }
     ]
 
@@ -335,7 +715,7 @@
           
           
             "shortDesc": "Bio-Fertilizer",
-            "description": "Biofertilizer - Our Vermi Compost is a 100% natural, nutrient-dense soil conditioner made through advanced organic composting methods using earthworms. Rich in essential nutrients and beneficial microbes, it improves soil structure, boosts fertility, and enhances water retention—helping crops thrive naturally."
+            "description": "Biofertilizer - Our Vermicompost with Dung is a nutrient-rich organic fertilizer produced through the natural breakdown of organic matter by earthworms. It enhances soil fertility, promotes healthy plant growth, and supports sustainable agriculture practices."
           }
         ]
       }

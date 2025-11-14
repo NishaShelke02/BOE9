@@ -19,34 +19,48 @@ const ContactUs = () => {
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    emailjs
-      .send(
-        "service_9ad4tbj", // your EmailJS service ID
-        "template_ea20mjg", // your EmailJS template ID
+
+    try {
+      // ✅ Send email using EmailJS
+      await emailjs.send(
+        "service_9ad4tbj", // Your service ID
+        "template_ea20mjg", // Your template ID
         formData,
-        "V4XOc5_23GjM09fQN" // your EmailJS public key
-      )
-      .then(
-        () => {
-          setStatus("✅ Message sent successfully!");
-          setFormData({
-            fullName: "",
-            email: "",
-            phone: "",
-            subject: "",
-            message: "",
-          });
-        },
-        (error) => {
-          setStatus("❌ Failed to send message. Please try again.");
-          console.error(error);
+        "V4XOc5_23GjM09fQN" // Your public key
+      );
+
+      // ✅ Send data to Google Sheet via Apps Script
+      const response = await fetch(
+        "https://script.google.com/macros/s/AKfycbwb5VDFVH93PwxXsdgPGgwLokFbPzoVptpu3-BhJKlLjUxmWWfMuuOTvAozqHh6d7NO/exec",
+        {
+          method: "POST",
+          mode: "no-cors",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(formData),
         }
       );
+
+      if (response.ok) {
+        setStatus("✅ Message sent & saved to Google Sheet!");
+      } else {
+        setStatus("Successfully submitted details,I will get back to you soon!");
+      }
+
+      setFormData({
+        fullName: "",
+        email: "",
+        phone: "",
+        subject: "",
+        message: "",
+      });
+    } catch (error) {
+      console.error("Error:", error);
+      setStatus("❌ Failed to send or save message.");
+    }
   };
 
-  // Auto-hide status message after 4 seconds
   useEffect(() => {
     if (status) {
       const timer = setTimeout(() => setStatus(""), 4000);
@@ -72,7 +86,7 @@ const ContactUs = () => {
         <div>
           <h3><FaEnvelope /> Email</h3>
           <p>info@boe9.com</p>
-          <p>Export@boe9.com</p>
+          <p>exports@boe9.com</p>
         </div>
         <div>
           <h3><FaClock /> Business Hours</h3>
@@ -123,15 +137,13 @@ const ContactUs = () => {
             required
           ></textarea>
           <button type="submit">Send Message</button>
-
-          {/* Status message with fade-in/out */}
           {status && <p className="status-message">{status}</p>}
         </form>
 
         <div className="map-container">
           <iframe
             title="Bumi Organic Exim Location"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.209800188764!2d73.75735407491016!3d20.0054886940109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd9c93c4f3a1b31%3A0x1234567890abcdef!2sNashik%2C%20Maharashtra%2C%20India!5e0!3m2!1sen!2sin!4v1695637841234!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18..."
             width="100%"
             height="400"
             style={{ border: 0 }}

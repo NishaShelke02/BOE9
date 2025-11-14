@@ -1,11 +1,12 @@
 /* ===============================
-   Navbar.css - Organic Theme
+   Navbar.css - Organic Theme (Updated)
    Natural, Eco-Friendly Design
    Green Earth Tones | Responsive & Clean
+   Updated: Changed dropdown effects to fade-in with bounce, adjusted sizes (smaller min-width, reduced padding)
    =============================== */
 
 /* ---------- 1. Google Fonts & CSS Variables (Organic Theme) ---------- */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap'); /* Changed from Roboto to Montserrat for a softer, more organic look */
 
 :root {
   --organic-green-primary: #4CAF50; /* Vibrant green for accents */
@@ -20,7 +21,7 @@
   --text-dark: #2E7D32; /* Dark green text */
   --text-light: #6B8E23; /* Olive for secondary */
   --transition-organic: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94); /* Smooth, natural easing */
-  --font-family: 'Roboto', sans-serif;
+  --font-family: 'Montserrat', sans-serif; /* Updated font */
   --border-radius-organic: 12px; /* Rounded, natural edges */
 }
 
@@ -113,7 +114,6 @@ body {
   position: sticky;
   top: 0;
   z-index: 100;
-
   border-bottom: var(--organic-border);
 }
 
@@ -203,7 +203,7 @@ body {
 .arrow {
   font-size: 0.8rem;
   transition: transform 0.3s ease;
-  font-weight: bold;
+  /* Removed font-weight: bold; */
 }
 
 .dropdown:hover .arrow,
@@ -211,53 +211,69 @@ body {
   transform: rotate(180deg);
 }
 
-/* ---------- 5. Dropdown Menus ---------- */
+/* ---------- 5. Dropdown Menus (Updated Effects and Sizes) ---------- */
 .dropdown-menu {
   position: absolute;
   top: 100%;
+  
   left: 0;
   background: var(--organic-gradient);
-  min-width: 250px;
+  min-width: 400px; /* Updated: Smaller size */
   border-radius: var(--border-radius-organic);
   box-shadow: var(--organic-shadow-medium);
-  padding: 1rem;
+  padding: 0.85rem 1.2rem; /* Updated: Reduced padding */
   list-style: none;
   opacity: 0;
   visibility: hidden;
-  transform: translateY(-10px);
+  transform: scale(0.9); /* Updated: Bounce effect with scale */
   transition: var(--transition-organic);
   border: var(--organic-border);
   z-index: 101;
+  animation: none; /* Prepare for bounce */
 }
 
 .dropdown:hover .dropdown-menu,
 .dropdown:focus-within .dropdown-menu {
   opacity: 1;
   visibility: visible;
-  transform: translateY(0);
+  transform: scale(1); /* Updated: Bounce to full scale */
+  animation: bounceIn 0.5s ease; /* Updated: Added bounce animation */
+}
+
+@keyframes bounceIn {
+  0% { transform: scale(0.3); opacity: 0; }
+  50% { transform: scale(1.05); }
+  70% { transform: scale(0.9); }
+  100% { transform: scale(1); opacity: 1; }
 }
 
 .dropdown-menu li {
-  margin: 0.5rem 0;
+  margin: 0.25rem 0;
+  font-size: 10px;
+  font-weight: 800;
+  color: var(--organic-green-dark);
+  border-bottom: 1px solid rgba(129, 199, 132, 0.2);
+
+}
+.dropdown-menu li a {
+  color: var(--organic-green-dark);
+  text-decoration: none;
+  font-size: 17px;
+  font-family: var(--font-family);
+  transition: color 0.3s ease;
 }
 
 .dropdown-menu a {
   display: block;
-  padding: 0.75rem 1rem;
+  padding: 0.5rem 0.75rem; /* Updated: Reduced padding */
   color: var(--text-light);
   font-weight: 400;
-  font-size: 0.95rem;
+  font-size: 0.9rem; /* Updated: Slightly smaller font */
   border-radius: 8px;
   transition: var(--transition-organic);
   position: relative;
   overflow: hidden;
-}
-
-.dropdown-menu a::before {
-  content: '🍃'; /* Organic leaf icon */
-  margin-right: 0.5rem;
-  opacity: 0;
-  transition: var(--transition-organic);
+  /* Removed ::before with leaf icon */
 }
 
 .dropdown-menu a:hover,
@@ -266,11 +282,6 @@ body {
   background: rgba(76, 175, 80, 0.1);
   transform: translateX(5px); /* Slide effect */
   outline: none;
-}
-
-.dropdown-menu a:hover::before,
-.dropdown-menu a:focus::before {
-  opacity: 1;
 }
 
 /* ---------- 6. Responsive Styles (Mobile-First Enhancements) ---------- */
@@ -314,33 +325,35 @@ body {
 
   /* Hamburger Menu (Add to JSX: <button className="hamburger">☰</button> after logo) */
   .hamburger {
-  display: none; /* hidden on desktop */
-  flex-direction: column;
-  justify-content: space-between;
-  width: 28px;
-  height: 22px;
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 0;
-  z-index: 110;
-  position: absolute;
-  right: 20px;   /* move to right corner */
-  top: 50%;
-  transform: translateY(-50%);
-}
+    display: none; /* hidden on desktop */
+    flex-direction: column;
+    justify-content: space-between;
+    width: 28px;
+    height: 22px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    z-index: 110;
+    position: absolute;
+    right: 20px;   /* move to right corner */
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
   .hamburger:hover {
     background: rgba(129, 199, 132, 0.1);
     transform: rotate(90deg);
   }
+
   .hamburger span {
-  display: block;
-  height: 3px;
-  width: 100%;
-  background: var(--text-dark);
-  border-radius: 3px;
-  transition: 0.3s;
-}
+    display: block;
+    height: 3px;
+    width: 100%;
+    background: var(--text-dark);
+    border-radius: 3px;
+    transition: 0.3s;
+  }
 
   @media (max-width: 768px) {
     .hamburger {

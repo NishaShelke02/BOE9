@@ -30,6 +30,7 @@
 .certification-hero h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
+  color:#f9fafc;
   font-weight: 700;
   letter-spacing: 1.5px;
   text-shadow: 2px 2px 6px rgba(0,0,0,0.3);
@@ -109,6 +110,30 @@
 
 .cert-item:hover .cert-logo {
   transform: scale(1.1);
+}
+
+/* View PDF Button */
+.view-pdf-btn {
+  background: #ff9933; /* Saffron */
+  color: #16213e;
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 0.6rem 1.5rem;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(255, 153, 51, 0.3);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+  margin-top: 1rem;
+  user-select: none;
+}
+
+.view-pdf-btn:hover,
+.view-pdf-btn:focus {
+  background: #e67e22;
+  color: #fff;
+  box-shadow: 0 6px 15px rgba(230, 126, 34, 0.5);
+  outline: none;
 }
 
 /* CTA Section */
@@ -195,6 +220,11 @@
   .cert-cta h2 {
     font-size: 2rem;
   }
+
+  .view-pdf-btn {
+    font-size: 0.8rem;
+    padding: 0.5rem 1.2rem;
+  }
 }
 
 @media (max-width: 480px) {
@@ -209,5 +239,10 @@
 
   .cta-button {
     width: 100%;
+  }
+
+  .view-pdf-btn {
+    font-size: 0.8rem;
+    padding: 0.5rem 1rem;
   }
 }

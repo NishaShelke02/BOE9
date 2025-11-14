@@ -10,6 +10,10 @@ const Certification = () => {
     navigate("/ContactUs"); // 👈 make sure you have this route defined in App.js
   };
 
+  const handleViewPDF = (pdfPath) => {
+    window.open(pdfPath, '_blank');
+  };
+
   return (
     <div className="certification-container">
       {/* Hero Section */}
@@ -40,6 +44,9 @@ const Certification = () => {
                 products worldwide.
               </p>
               <img src="/images/APEDA.png" alt="APEDA Logo" className="cert-logo" />
+              <button className="view-pdf-btn" onClick={() => handleViewPDF('/pdf/APEDA.pdf')}>
+                View PDF
+              </button>
             </div>
 
             {/* Aadhaar */}
@@ -50,27 +57,37 @@ const Certification = () => {
                 transparency in business identity.
               </p>
               <img src="/images/AADHAAR.png" alt="Aadhaar Logo" className="cert-logo" />
+             
             </div>
 
             {/* DGFT */}
             <div className="cert-item">
-              <h3>📑 DGFT</h3>
+              <h3>📑 DGFT(IEC)</h3>
               <p>
                 Licensed with the Directorate General of Foreign Trade, allowing
                 us to conduct import-export operations legally.
               </p>
               <img src="/images/DGFT.png" alt="DGFT Logo" className="cert-logo" />
+              <button className="view-pdf-btn" onClick={() => handleViewPDF('/pdf/IEC.pdf')}>
+                View PDF
+              </button>
             </div>
 
-            {/* FICCI */}
-            <div className="cert-item">
-              <h3>🏢 FICCI</h3>
-              <p>
-                Member of the Federation of Indian Chambers of Commerce &amp;
-                Industry, supporting global trade networks.
-              </p>
-              <img src="/images/FICCI.png" alt="FICCI Logo" className="cert-logo" />
-            </div>
+           {/* FSSAI */}
+<div className="cert-item">
+  <h3>🥗 FSSAI</h3>
+  <p>
+    Licensed under the Food Safety and Standards Authority of India (FSSAI),
+    ensuring our products meet national food safety and quality standards.
+  </p>
+  <img src="/images/FSSAI.png" alt="FSSAI Logo" className="cert-logo" />
+  <button
+    className="view-pdf-btn"
+    onClick={() => handleViewPDF('/pdf/FSSAI.pdf')}
+  >
+    View PDF
+  </button>
+</div>
 
             {/* GST */}
             <div className="cert-item">
@@ -80,16 +97,22 @@ const Certification = () => {
                 ensuring lawful financial operations.
               </p>
               <img src="/images/GST.png" alt="GST Logo" className="cert-logo" />
+              <button className="view-pdf-btn" onClick={() => handleViewPDF('/pdf/GST.pdf')}>
+                View PDF
+              </button>
             </div>
 
             {/* MSME */}
             <div className="cert-item">
-              <h3>🏭 MSME</h3>
+              <h3>🏭 MSME(Udyam)</h3>
               <p>
-                Recognized under India’s Micro, Small, and Medium Enterprises
-                (MSME) scheme to promote sustainable business growth.
+                Recognized under India’s Micro, Small, and Medium Enterprises 
+                (MSME)   scheme to promote sustainable business growth.
               </p>
               <img src="/images/MSME.png" alt="MSME Logo" className="cert-logo" />
+              <button className="view-pdf-btn" onClick={() => handleViewPDF('/pdf/Udyam.pdf')}>
+                View PDF
+              </button>
             </div>
 
             {/* Spice Board */}
@@ -100,6 +123,48 @@ const Certification = () => {
                 and quality for our premium spices exports.
               </p>
               <img src="/images/SPICEB.png" alt="Spice Board Logo" className="cert-logo" />
+              <button className="view-pdf-btn" onClick={() => handleViewPDF('/pdf/SPICEB.pdf')}>
+                View PDF
+              </button>
+            </div>
+
+            {/* ECGC */}
+            <div className="cert-item">
+              <h3>🛡️ ECGC</h3>
+              <p>
+                Covered by the Export Credit Guarantee Corporation of India for
+                risk mitigation in international trade and export financing.
+              </p>
+              <img src="/images/ECGC.png" alt="ECGC Logo" className="cert-logo" />
+              <button className="view-pdf-btn" onClick={() => handleViewPDF('/pdfs/ECGC.pdf')}>
+                View PDF
+              </button>
+            </div>
+
+            {/* NPOP */}
+            <div className="cert-item">
+              <h3>🌱 NPOP - Under Progress</h3>
+              <p>
+                Working towards certification under the National Programme for
+                Organic Production to ensure organic standards in our products.
+              </p>
+              <img src="/images/NPOP.png" alt="NPOP Logo" className="cert-logo" />
+              <button className="view-pdf-btn" onClick={() => handleViewPDF('/pdfs/NPOP.pdf')}>
+                View PDF
+              </button>
+            </div>
+
+            {/* FIEO */}
+            <div className="cert-item">
+              <h3>🏢 FIEO - Under Process</h3>
+              <p>
+                In the process of affiliation with the Federation of Indian Export
+                Organisations for enhanced export support and networking.
+              </p>
+              <img src="/images/FIEO.png" alt="FIEO Logo" className="cert-logo" />
+              <button className="view-pdf-btn" onClick={() => handleViewPDF('/pdfs/FIEO.pdf')}>
+                View PDF
+              </button>
             </div>
           </div>
         </div>
@@ -114,9 +179,7 @@ const Certification = () => {
             verification details.
           </p>
           <div className="cta-buttons">
-            <a href="/certificates.pdf" className="cta-button" download>
-              Download Certificates
-            </a>
+           
             <button className="cta-button" onClick={handleContactClick}>
               Contact Us
             </button>

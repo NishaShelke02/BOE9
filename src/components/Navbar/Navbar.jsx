@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaWhatsapp, FaInstagram, FaLinkedin } from "react-icons/fa";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -27,7 +27,7 @@ const Navbar = () => {
       {/* Top info bar */}
       <div className="top-bar">
         <div className="top-left">
-          <span>Nashik, Maharashtra</span> |{" "}
+          <span>Nashik, Maharashtra</span>{" "}
           <a href="mailto:info@boe9.com">info@boe9.com</a>
         </div>
         <div className="top-right">
@@ -38,14 +38,20 @@ const Navbar = () => {
           >
             <FaFacebook />
           </a>
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-            <FaTwitter />
-          </a>
+          
           <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
             <FaInstagram />
           </a>
           <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
             <FaLinkedin />
+
+          </a>
+          <a
+            href="https://wa.me/919272131561"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaWhatsapp />
           </a>
         </div>
       </div>
@@ -66,7 +72,6 @@ const Navbar = () => {
             aria-label="Toggle navigation"
           >
             <span></span>
-
             <span></span>
             <span></span>
           </button>
@@ -91,25 +96,9 @@ const Navbar = () => {
               {dropdownOpen === "products" && (
                 <ul className="dropdown-menu">
                   <li>
-                    <Link to="/products/food-and-fmcg-health-food">
-                      Food & FMCG - Health Food
+                    <Link to="/products/organic-products">
+                      Organic Products (NPOP Certified)
                     </Link>
-                  </li>
-                  <li>
-                    <Link to="/products/medicinal-herbal-plants">
-                      Medicinal & Herbal Plants
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/products/organic-products">Organic</Link>
-                  </li>
-                  <li>
-                    <Link to="/products/dehydrated-products">
-                      Dehardrated product & powder
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/products/indian-spices">Indian Spices</Link>
                   </li>
                   <li>
                     <Link to="/products/indian-super-foods">
@@ -117,7 +106,27 @@ const Navbar = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link to="/products/agriculture">Agriculture BioFertilizer</Link>
+                    <Link to="/products/indian-spices">Indian Spices</Link>
+                  </li>
+                  <li>
+                    <Link to="/products/dehydrated-products">
+                      Dehydrated Products & Powder
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/products/food-and-fmcg-health-food">
+                      Food & FMCG – Ready to Eat & Cook Products
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/products/medicinal-herbal-plants">
+                      Medicinal & Herbal Products
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/products/agriculture">
+                      Agriculture Organic Fertilizer – Save the Soil
+                    </Link>
                   </li>
                 </ul>
               )}
@@ -127,28 +136,17 @@ const Navbar = () => {
               <Link to="/services">SERVICES</Link>
             </li>
 
-            {/* About Us Dropdown */}
-            <li
-              className={`dropdown ${dropdownOpen === "about" ? "active" : ""}`}
-              onMouseEnter={() => handleMouseEnter("about")}
-              onMouseLeave={handleMouseLeave}
-            >
-              <span
-                className="dropdown-toggle"
-                onClick={() => toggleDropdown("about")}
-              >
-                ABOUT US <span className="arrow">▲</span>
-              </span>
-              {dropdownOpen === "about" && (
-                <ul className="dropdown-menu">
-                  <li>
-                    <Link to="/AboutUs/our-company">Our Company</Link>
-                  </li>
-                  <li>
-                    <Link to="/AboutUs/Certification">Certification</Link>
-                  </li>
-                </ul>
-              )}
+            {/* About Us - single link */}
+            <li>
+              <Link to="/AboutUs/our-company">ABOUT US</Link>
+            </li>
+
+            {/* Verify Us - single link (no dropdown) */}
+            <li>
+              <Link to="/AboutUs/Certification">VERIFY US</Link>
+            </li>
+            <li>
+              <Link to="/Blogs">BLOG</Link>
             </li>
 
             <li>
