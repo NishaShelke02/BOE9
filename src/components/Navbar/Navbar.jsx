@@ -115,7 +115,7 @@ const Navbar = () => {
                   </li>
                   <li>
                     <Link to="/products/food-and-fmcg-health-food">
-                      Food & FMCG – Fresh Vegetables & Fruits
+                      Fresh Vegetables & Fruits
                     </Link>
                   </li>
                   <li>
