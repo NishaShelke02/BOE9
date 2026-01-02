@@ -91,12 +91,7 @@ const Home = () => {
       link: "/products/organic-products",
 
     },
-     {
-      name: "Indian Super Food - Makhana",
-      image: "/images/Makhana4.png",
-      description: "Low-fat, high-fiber, and protein-rich fox nuts for healthy snacking.",
-      link: "/products/indian-super-foods",
-    },
+     
     {
       name: "Indian Spices",
       image: "/images/Spices.png",
@@ -114,6 +109,12 @@ const Home = () => {
       name: "Gluten-Free Millets",
       image: "/images/millet.png",
       description: "Fueling health naturally with gluten-free superfoods.",
+      link: "/products/indian-super-foods",
+    },
+    {
+      name: "Indian Super Food - Makhana",
+      image: "/images/Makhana4.png",
+      description: "Low-fat, high-fiber, and protein-rich fox nuts for healthy snacking.",
       link: "/products/indian-super-foods",
     },
     {
