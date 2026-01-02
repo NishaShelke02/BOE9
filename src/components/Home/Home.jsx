@@ -71,11 +71,11 @@ const Home = () => {
       cta: "Order Now"
     },
     {
-      image: "/images/Medicinal.jpeg",
-      title: "Medicinal & Herbal Plants",
+      image: "/images/coffee2.png",
+      title: "Coffee & Cocoa Powder",
       description:
-        "Sourcing India's finest organic medicinal and herbal plants for wellness and vitality.",
-      link: "/products/medicinal-herbal-plants",
+        "Rich and aromatic coffee and cocoa powders for a delightful experience.",
+      link: "/products/coffee-and-cocoa-powder",
       cta: "Discover Now"
     }
     
@@ -117,7 +117,7 @@ const Home = () => {
       link: "/products/indian-super-foods",
     },
     {
-      name: "Food & FMCG - Ready to Eat & Cook Products",
+      name: "Food & FMCG - Fresh Vegetables & Fruits",
       image: "/images/food.png",
       description: "Convenient and nutritious ready-to-eat and cook food products.",
       link: "/products/food-and-fmcg-health-food",
@@ -126,16 +126,16 @@ const Home = () => {
     
    
     {
-      name: "Medicinal & Herbal Plants",
-      image: "/images/Medicinal1.jpeg",
-      description: "Sourcing India's finest organic medicinal and herbal plants for wellness.",
-      link: "/products/medicinal-herbal-plants",
+      name: "Coffee & Cocoa Powder",
+      image: "/images/coffee2.png",
+      description: "Rich and aromatic coffee and cocoa powders for a delightful experience.",
+      link: "/products/coffee-and-cocoa-powder",
     },
     {
-      name: "Agriculture Organic Fertilizer",
-      image: "/images/seaweed.png",
-      description: "Eco-friendly organic fertilizers to enrich your soil and boost crop yield.",
-      link: "/products/agriculture",
+      name: "Dairy Products",
+      image: "/images/dairy.png",
+      description: "Fresh and high-quality dairy products sourced from trusted farms.",
+      link: "/products/dairy-products",
     },
   ];
 

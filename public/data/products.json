@@ -4,38 +4,33 @@
     "category": "Food & FMCG - Health Food",
     "slug": "food-and-fmcg-health-food",
     "categoryImage": "/images/food.png",
-    "categoryDesc": "Bumi Organic Exim offers a premium range of Ready-to-Eat and Ready-to-Cook foods including Jackfruit products, English vegetables, Nashik Misal, and more. Our products are made in hygienic, export-ready facilities to deliver authentic taste, long shelf life, and consistent quality. Perfect for importers, retailers, and HoReCa, & Restaurants our RTE/RTC foods provide convenience with the true Flavors of India. Contact us for samples, catalogues, or private-label pricing.",
+   
     "products": [
-      {
-        "name": "Nashik Misal Mix",
-        "slug": "nashik-misal-mix",
-        "image": "/images/Misal.png",
-        "gallery": ["/images/Misal1.png", "/images/Misal2.png"],
-        "shortDesc": "Authentic Nashik misal spice mix.",
-        "description": "Bumi Organic Exim's Nashik Misal Mix is crafted using a blend of traditional spices sourced from trusted Indian farms. This mix captures the authentic flavors of Nashik misal, allowing you to prepare this popular Maharashtrian dish with ease. Perfect for restaurants, retailers, and households seeking convenience without compromising on taste."
-      },
-      {
-        "name": "Jackfruit Products",
-        "slug": "jackfruit-products",
-        "image": "/images/jackfruit2.png",
-        "gallery": ["/images/jackfruit1.png", "/images/jakfruit.png", "/images/jackfruit2.png"],
-        "shortDesc": "Delicious jackfruit-based snacks and products.",
-        "description": "Our premium Jackfruit is sourced from carefully selected farms, ensuring quality and freshness. Offers ripe and unripe varieties, nutritional benefits, and versatile applications: fresh, canned, frozen, seeds, and meat-alternative products, all packed hygienically for global markets."
-      },
+      
+      
       {
         "name": "Pomegranate",
         "slug": "pomegranate",
         "image": "/images/pomegranate.png",
         "gallery": ["/images/pomegranate.png", "/images/pomegranate1.png","/images/pomegranate2.png"],
-        "shortDesc": "Fresh and juicy pomegranates.",
+        "shortDesc": "High-quality, ruby-red fruits packed with antioxidants and known for their deep color and sweet-tart arils.",
         "description": " Bumi Organic Exim sources premium-quality pomegranates from trusted Indian farms known for their ideal growing conditions. Our pomegranates are handpicked at peak ripeness to ensure optimal sweetness, juiciness, and vibrant color. Carefully sorted, cleaned, and packed, they maintain freshness and quality during transit. Ideal for retail, export, and bulk supply to food industries worldwide, our pomegranates meet global quality and hygiene standards."
+      },
+      {
+        "name":"Grapes",
+        "slug":"grapes",
+        "image": "/images/grapes1.png",
+        "gallery": ["/images/grapes.png","/images/grapes2.png","/images/grapes3.png","/images/grapes4.png"],
+        "shortDesc": "Premium, juicy table grapes available in seedless varieties, offering a perfect balance of sweetness and firm texture.",
+        "description": "Bumi Organic Exim sources premium-quality Grapes from trusted Indian farms known for their ideal growing conditions. Our grapes are handpicked at peak maturity to ensure optimal taste, texture, and nutritional value. Carefully sorted, cleaned, and packed, they maintain freshness and quality during transit. Ideal for retail, export, and bulk supply to food industries worldwide, our grapes meet global quality and hygiene standards."
+
       },
       {
         "name": "Frozen Green Peas",
         "slug": "frozen-green-peas",
         "image": "/images/peas.png",
         "gallery": ["/images/peas1.png", "/images/peas.png"],
-        "shortDesc": "Premium organic frozen green peas.",
+        "shortDesc": "Farm-fresh peas harvested at peak ripeness and IQF-frozen to lock in natural sweetness and vibrant green color.",
         "description": "Bumi Organic Exim offers premium-quality Frozen Green Peas processed from fresh, tender harvests to preserve natural sweetness, vibrant color, and nutrition. Quickly frozen using advanced IQF technology, our peas maintain farm-fresh taste and texture in every bite. Ideal for restaurants, retailers, and households, they are perfect for curries, soups, salads, and ready-to-cook meals—all year round freshness, convenience, and quality guaranteed."
     },
       {
@@ -43,7 +38,7 @@
         "slug": "onions",
         "image": "/images/onions.png",
         "gallery": ["/images/onions1.png","/images/onions6.png","/images/onions.png", "/images/onions5.png","/images/onions3.png","/images/onions4.png"],
-        "shortDesc": "Premium Indian onions & dehydrated products.",
+        "shortDesc": "Export-grade onions featuring crisp layers, strong pungency, and excellent shelf life for global shipping.",
         "description": "Bumi Organic Exim supplies premium-grade Fresh Onions sourced from trusted Indian farms known for quality and freshness. Our onions are carefully sorted, cleaned, and packed to ensure long shelf life, uniform size, and consistent flavor. Rich in natural nutrients and aroma, they are ideal for retail, export, and bulk supply to food industries worldwide. Available in red, white, and yellow varieties, our onions meet global quality and hygiene standards."
       },
       {
@@ -51,7 +46,7 @@
         "slug": "potato",
         "image": "/images/potato.png",
         "gallery": ["/images/potato1.png", "/images/potato2.png","/images/potato3.png"],
-        "shortDesc": "High-quality Indian potatoes.",
+        "shortDesc": "Versatile, starch-rich potatoes with smooth skin and consistent sizing, ideal for both retail and industrial processing.",
         "description": "Bumi Organic Exim sources premium-quality Potatoes from trusted Indian farms known for their ideal growing conditions. Our potatoes are handpicked at peak maturity to ensure optimal taste, texture, and nutritional value. Carefully sorted, cleaned, and packed, they maintain freshness and quality during transit. Ideal for retail, export, and bulk supply to food industries worldwide, our potatoes meet global quality and hygiene standards."
       },
       {
@@ -59,78 +54,32 @@
         "slug":"elephant-foot-yam-suran",
         "image": "/images/suran.png",
         "gallery": ["/images/suran1.png","/images/suran2.png","/images/suran3.png"],
-        "shortDesc": "Fresh and high-quality elephant foot yam (suran).",
+        "shortDesc": "Nutritious, earthy tubers with a firm texture, carefully cured for long-distance transport and durability.",
         "description": "Bumi Organic Exim sources premium-quality Elephant Foot Yam (Suran) from trusted Indian farms known for their ideal growing conditions. Our suran is handpicked at peak maturity to ensure optimal taste, texture, and nutritional value. Carefully sorted, cleaned, and packed, they maintain freshness and quality during transit. Ideal for retail, export, and bulk supply to food industries worldwide, our elephant foot yam meets global quality and hygiene standards."
+      },
+      {
+        "name":"Broccoli",
+        "slug":"broccoli",
+        "image": "/images/bro.png",
+        "gallery": ["/images/bro1.png","/images/bro2.png","/images/bro3.png"],
+        "shortDesc": "Fresh, densely packed green florets rich in nutrients and maintained under strict cold-chain standards for maximum crispness.",
+        "description": "Bumi Organic Exim sources premium-quality Broccoli from trusted Indian farms known for their ideal growing conditions. Our broccoli is handpicked at peak maturity to ensure optimal taste, texture, and nutritional value. Carefully sorted, cleaned, and packed, they maintain freshness and quality during transit. Ideal for retail, export, and bulk supply to food industries worldwide, our broccoli meets global quality and hygiene standards."
+      },
+      {
+        "name":"G4 Green Chilli",
+        "slug":"green-chilli",
+        "image": "/images/green.png",
+        "gallery": ["/images/green1.png","/images/green2.png","/images/green3.png"],
+        "shortDesc": "High-pungency, slender chillies (including the G4 variety) prized for their intense heat and bright green color.",
+        "description": "Bumi Organic Exim sources premium-quality Green Chilli from trusted Indian farms known for their ideal growing conditions. Our green chillies are handpicked at peak maturity to ensure optimal heat, flavor, and nutritional value. Carefully sorted, cleaned, and packed, they maintain freshness and quality during transit. Ideal for retail, export, and bulk supply to food industries worldwide, our green chillies meet global quality and hygiene standards."
+
       }
       
     ]
   },
-  {
-    "category": "Medicinal & Herbal Plants",
-    "slug": "medicinal-herbal-plants",
-    "categoryImage": "/images/Medicinal1.jpeg",
-    "categoryDesc": "At Bumi Organic Exim, we bring India’s Ayurvedic heritage to the global market with premium dehydrated herbs and pure herbal powders. Sourced from trusted farms, each herb is harvested at peak potency and gently processed to preserve its natural bioactive strength. Our core range includes Ashwagandha, Giloy, Brahmi, Shatavari, Zedoary, Moringa, Saptrangi, and more—ideal for wellness brands, supplement manufacturers, and herbal formulators seeking clean, potent, and traceable ingredients. As these are seasonal botanicals, we encourage advance bookings to ensure timely supply and priority allocation. Contact Bumi Organic Exim for technical sheets, samples, or bulk pricing—your trusted source for premium Ayurvedic ingredients."
-
-    ,
-    "products": [
-      {
-        "name": "Ashwagandha",
-        "slug": "ashwagandha",
-        "image": "/images/ashwagandha.jpeg",
-        "gallery": ["/images/Midicinal.jpeg"],
-        "shortDesc": "Herbal adaptogen for wellness.",
-        "description": "Aromatic herbal teas made from natural ingredients for stress resilience and immune support. Sourced from certified organic farms ensuring potency and purity."
-      },
-      {
-        "name": "Zedoary",
-        "slug": "zedoary",
-        "image": "/images/Zedoary.png",
-        "gallery": ["/images/Zedoary.png"],
-        "shortDesc": "White turmeric for health applications.",
-        "description": "Aromatic herbal teas and powders made from Zedoary, promoting natural wellness and derived from certified organic farms."
-      },
-      {
-        "name": "Brahmi",
-        "slug": "brahmi",
-        "image": "/images/Brahmi.png",
-        "gallery": ["/images/Brahmi.png"],
-        "shortDesc": "Cognitive support herbal.",
-        "description": "Natural Brahmi products sourced organically, supporting cognitive health and well-being."
-      },
-      {
-        "name": "Shatavari",
-        "slug": "shatavari",
-        "image": "/images/shatavari.jpeg",
-        "gallery": ["/images/shatavari.png"],
-        "shortDesc": "Women’s health herbal.",
-        "description": "Certified organic Shatavari, promoting women’s wellness and sourced sustainably from India."
-      },
-      {
-        "name": "Saptrangi",
-        "slug": "saptrangi",
-        "image": "/images/saptrangi.png",
-        "gallery": ["/images/saptrangi.png"],
-        "shortDesc": "Herbal wellness product.",
-        "description": "Organic Saptrangi, offering wellness benefits with minimal processing to retain natural properties."
-      },
-      {
-        "name": "Giloy",
-        "slug": "giloy",
-        "image": "/images/giloy.png",
-        "gallery": ["/images/giloy.png"],
-        "shortDesc": "Immune support herbal.",
-        "description": "Certified organic Giloy for immune support, sustainably sourced and minimally processed."
-      },
-      {
-        "name": "Moringa",
-        "slug": "moringa",
-        "image": "/images/moringa.png",
-        "gallery": ["/images/moringa.png"],
-        "shortDesc": "Superfood herbal product.",
-        "description": "Organic Moringa with full nutritional profile, harvested from certified farms for global wellness markets."
-      }
-    ]
-  },
+  
+      
+    
   {
     "category": "Organic Products",
     "slug": "organic-products",
@@ -141,7 +90,7 @@
         "slug": "organic-pulses",
         "image": "/images/Organic.png",
         "shortDesc": "A wide range of certified organic pulsees rich in protein and nutrients.",
-        "description":"Bumi Organic Exim offers a premium collection of certified Organic Pulses sourced from trusted organic farms. These pulses are cultivated without synthetic fertilizers or pesticides, ensuring purity, nutrition, and superior taste. Rich in plant-based protein, fiber, and essential minerals, our pulses are a perfect addition to healthy diets worldwide.",
+        
         "items":[
            {
             "name": "Organic Brown Chickpeas (Kala Chana)",
@@ -512,7 +461,7 @@
     "category": "Dehydrated Products",
     "slug": "dehydrated-products",
     "categoryImage": "/images/dehydrated.png",
-    "categoryDesc": "Bumi Organic Exim supplies premium-grade dehydrated fruits, vegetables, and powders sourced from India’s trusted farms. Using advanced dehydration technology, we retain natural aroma, color, and nutrients—with zero additives and consistent quality. Our range includes dehydrated onion, garlic, ginger, turmeric, and a wide selection of fruit and vegetable powders tailored for food processors, seasoning manufacturers, retailers, and distributors. With reliable sourcing, strict quality checks, and timely bulk supply, we deliver products that enhance your formulations and optimize your costs. Contact us for samples, specifications, and competitive export pricing—your trusted partner in premium dehydrated ingredients."
+    "shortDesc": "A variety of dehydrated products sourced from India."
     ,
     "products": [
       {
@@ -522,6 +471,14 @@
         "gallery": ["/images/dehydrated-onions.png"],
         "shortDesc": "Premium quality dehydrated onion products from India.",
         "description": "At Bumi Organic Exim, we offer premium quality Dehydrated Onion products sourced from India’s finest farms. Our dehydrated onions are carefully processed to retain their natural flavor, aroma, and nutritional value, making them an ideal ingredient for a variety of culinary applications. Available in various forms such as flakes, granules, and powder, our dehydrated onions are perfect for soups, sauces, seasonings, and ready-to-eat meals. Free from additives and preservatives, our products ensure purity and consistent quality for both domestic and international markets."
+      },
+      {
+        "name": "Moringa",
+        "slug": "moringa",
+        "image": "/images/moringa.png",
+        "gallery": ["/images/moringa.png","/images/moringa1.png","/images/moringa2.png"],
+        "shortDesc": "Superfood herbal product.",
+        "description": "Organic Moringa with full nutritional profile, harvested from certified farms for global wellness markets."
       },
       {
         "name": "Dehydrated Garlic",
@@ -569,8 +526,8 @@
  {
   "category": "Indian Spices",
   "slug": "indian-spices",
-  "categoryImage": "/images/Spices.png",
-  "categoryDesc": "Bumi Organic Exim brings the true taste of Bharat to global kitchens with premium organic and conventional Indian spices sourced from trusted certified farms. Each spice is pure, aroma-rich, and naturally processed to ensure vibrant color, freshness, and export-grade quality. From turmeric, cumin, coriander, pepper, and cardamom to custom spice blends, our range is designed for manufacturers, retailers, and gourmet brands. We provide a traceable, sustainable supply chain with consistent bulk availability and international-standard packaging. Contact us for samples and pricing—your trusted partner for authentic Indian spices."
+  "categoryImage": "/images/Spices.png"
+  
 ,
   "products":[
   {
@@ -661,12 +618,11 @@
     "shortDesc": "Premium quality cinnamon from India.",
     "description": "Step into the world of organic with our Cinnamon, sourced from India’s top farms. Its warm, sweet aroma and flavor enhance desserts, beverages, and spice blends. Carefully processed and free from additives, this premium organic spice ensures purity, quality, and consistent flavor for both domestic and global markets."
   }
-]
+  ]
 
-}
-,
+},
   {
-    "category": "Indian Super Foods",
+    "category": "Indian Super Foods/Gulten-free Products",
     "slug": "indian-super-foods",
     "products": [
       {
@@ -689,37 +645,87 @@
 
   },
   {
-    "category": "Agriculture Biofertilizer",
-    "slug": "agriculture",
-    
+     "category": "Coffee & Cocoa Powder",
+    "slug": "coffee-and-cocoa-powder",
+    "products": [
       
+      {
+        "name": "Coffee Beans",
+        "slug": "coffee-beans",
+        "image": "/images/coffee2.png",
+        "shortDesc": "Premium quality coffee sourced from India.",
+        
+        "items":[
+           {
+            "name": "Arabica Coffee Beans",
+            "slug": "arabica-coffee-beans",
+            "image": "/images/coffee.jpg",
+            "gallery": ["/images/coffee1.jpg","/images/arabica1.png","/images/arabica2.png","/images/unwashed.png"],
+            "shortDesc": "Smooth and flavorful arabica coffee beans.",
+            "description": "Our Arabica Coffee Beans are sourced from the highest quality plantations in India. I offed a Washed and Unwashed variety, these beans are known for their smooth, mild flavor and aromatic profile. Ideal for drip coffee and espresso, our Arabica beans provide a delightful coffee experience. for bulk orders, please contact us directly."
 
-     
-        "products": [
-          {
-            "name": "Cow Dung Cakes (Dry)",
-            "slug": "cow-dung-cakes-dry",
-            "image": "/images/Cow.png",
-            "gallery": ["/images/Cow1.png", "/images/Cow2.png", "/images/Cow3.png"],
-            "shortDesc": "Bio-Fertilizer",
-            
-            "description": " Biofertilizer - At Bumi Organic Exim, our Cow Dung Cakes are 100% organic, chemical-free, and crafted to enrich soil naturally. Ideal for sustainable farming, they enhance microbial activity, improve soil structure, and promote healthy crop growth."
-          },
-          {
-            "name": "Vermicompost with Dung",
-            "slug": "vermicompost-with-dung",
-            "image": "/images/vermicompost.png",
+           },
+           {
+            "name": "Robusta Coffee Beans",
+            "slug": "robusta-coffee-beans",
+            "image": "/images/coffee3.jpg",
+            "gallery": ["/images/r.png","/images/r1.png","/images/r2.png","/images/unwashed.png","/images/u1.png","/images/u2.png"],
+            "shortDesc": "Strong and bold robusta coffee beans.",
+            "description": "Our Robusta Coffee Beans are sourced from select farms in India, known for their strong, bold flavor and higher caffeine content. These beans are ideal for espresso blends and those who prefer a more intense coffee experience."
 
-            "gallery": ["/images/vermicompost.jpg"],
+           }
 
-          
-          
-            "shortDesc": "Bio-Fertilizer",
-            "description": "Biofertilizer - Our Vermicompost with Dung is a nutrient-rich organic fertilizer produced through the natural breakdown of organic matter by earthworms. It enhances soil fertility, promotes healthy plant growth, and supports sustainable agriculture practices."
-          }
+        ]
+      },
+      {
+        "name": "Cocoa Powder",
+        "slug": "cocoa-powder",
+        "image": "/images/cocoa.png",
+        "shortDesc": "Premium quality cocoa powder sourced from India.",
+        "description":"Bumi Organic Exim offers premium quality Cocoa Powder sourced from the finest cocoa-growing regions of India. Our cocoa powder is carefully processed to retain its rich flavor, deep color, and nutritional benefits. Ideal for baking, beverages, and culinary applications, our cocoa powder caters to both home cooks and professional chefs. Free from additives and preservatives, our products ensure purity and consistent quality for both domestic and international markets.",
+        "items":[
+           {
+            "name": "Dutch Processed Cocoa Powder",
+            "slug": "dutch-processed-cocoa-powder",
+            "image": "/images/dutch-cocoa.png",
+            "gallery": ["/images/dutch-cocoa1.png","/images/dutch-cocoa2.png","/images/dutch-cocoa3.png"],
+            "shortDesc": "Rich and smooth dutch processed cocoa powder.",
+            "description": "Our Dutch Processed Cocoa Powder is treated with an alkalizing agent to neutralize its acidity, resulting in a smoother, milder flavor and darker color. Perfect for baking and making rich chocolate beverages, this cocoa powder enhances the taste and texture of your culinary creations."
+           }
+
         ]
       }
     ]
+  },
+  {
+    "category":"dairy products",
+    "slug":"dairy-products",
+    "products":[
+      {
+        "name":"Desi Ghee",
+        "slug":"desi-ghee",
+        "image": "/images/ghee.png",
+        "shortDesc": "Premium quality desi ghee sourced from India.",
+        "description":"Bumi Organic Exim offers premium quality Desi Ghee made from the finest cow milk sourced from trusted farms in India. Our desi ghee is prepared using traditional methods to ensure a rich aroma, authentic taste, and superior nutritional profile. Ideal for cooking, baking, and traditional Indian recipes, our desi ghee caters to health-conscious consumers worldwide. Free from additives and preservatives, our products ensure purity and consistent quality for both domestic and international markets."
+      },
+      {
+        "name":"skimmed milk powder",
+        "slug":"skimmed-milk-powder",
+        "image": "/images/skimmed-milk-powder.png",
+        "shortDesc": "Premium quality skimmed milk powder sourced from India.",
+        "description":"Bumi Organic Exim offers premium quality Skimmed Milk Powder made from fresh cow milk sourced from trusted farms in India. Our skimmed milk powder is carefully processed to retain its natural flavor, nutritional value, and shelf life. Ideal for baking, cooking, and beverage applications, our skimmed milk powder caters to both domestic and international markets. Free from additives and preservatives, our products ensure purity and consistent quality."
+      },
+      {
+        "name":"Flavored coffee",
+        "slug":"flavored-coffee",
+        "image": "/images/flavored-coffee.png",
+        "shortDesc": "Variety of flavored coffee powders.",
+        "description":"Bumi Organic Exim offers a delightful range of Flavored Coffee Powders crafted to tantalize your taste buds. Our flavored coffee powders are made from premium coffee beans blended with natural flavors such as vanilla, hazelnut, caramel, and mocha. Perfect for creating café-style beverages at home or in commercial settings, our flavored coffee powders provide a rich aroma and smooth taste experience. Free from artificial additives, our products ensure purity and consistent quality for both domestic and international markets."
+      }
+    ]
+  }
+]
+
   
 
 

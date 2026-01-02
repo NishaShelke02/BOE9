@@ -102,7 +102,7 @@ const Navbar = () => {
                   </li>
                   <li>
                     <Link to="/products/indian-super-foods">
-                      Indian Super Foods
+                      Indian Super Foods/Gluten-free Products
                     </Link>
                   </li>
                   <li>
@@ -115,19 +115,20 @@ const Navbar = () => {
                   </li>
                   <li>
                     <Link to="/products/food-and-fmcg-health-food">
-                      Food & FMCG – Ready to Eat & Cook Products
+                      Food & FMCG – Fresh Vegetables & Fruits
                     </Link>
                   </li>
                   <li>
-                    <Link to="/products/medicinal-herbal-plants">
-                      Medicinal & Herbal Products
+                    <Link to="/products/coffee-and-cocoa-powder">
+                      Coffee & Cocoa Powder
                     </Link>
                   </li>
                   <li>
-                    <Link to="/products/agriculture">
-                      Agriculture Organic Fertilizer – Save the Soil
+                    <Link to="/products/dairy-products">
+                      Dairy Products
                     </Link>
                   </li>
+                 
                 </ul>
               )}
             </li>
