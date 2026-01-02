@@ -118,7 +118,7 @@ const Home = () => {
       link: "/products/indian-super-foods",
     },
     {
-      name: "Food & FMCG - Fresh Vegetables & Fruits",
+      name: "Fresh Vegetables & Fruits",
       image: "/images/food.png",
       description: "Convenient and nutritious ready-to-eat and cook food products.",
       link: "/products/food-and-fmcg-health-food",
@@ -128,7 +128,7 @@ const Home = () => {
    
     {
       name: "Coffee & Cocoa Powder",
-      image: "/images/coffee2.png",
+      image: "/images/coffeemain.png",
       description: "Rich and aromatic coffee and cocoa powders for a delightful experience.",
       link: "/products/coffee-and-cocoa-powder",
     },

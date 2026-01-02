@@ -652,7 +652,7 @@
       {
         "name": "Coffee Beans",
         "slug": "coffee-beans",
-        "image": "/images/coffee2.png",
+        "image": "/images/coffeemain.png",
         "shortDesc": "Premium quality coffee sourced from India.",
         
         "items":[
