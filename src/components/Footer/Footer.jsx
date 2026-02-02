@@ -39,13 +39,12 @@ const Footer = () => {
           <h4>Products</h4>
           <ul className="footer-links">
             <li><Link to="/products/organic-products">Organic Products(NPOP Certified)</Link></li>
-            <li><Link to="/products/indian-super-foods">Indian Super Foods</Link></li>
+            <li><Link to="/products/indian-super-foods">Indian Super Foods/Gluten-free Products</Link></li>
             <li><Link to="/products/indian-spices">Indian Spices</Link></li>
             <li><Link to="/products/dehydrated-products">Dehydrated Products & Powder</Link></li>
             
-            <li><Link to="/products/food-and-fmcg-health-food">Food & FMCG - Health Food</Link></li>
-            <li><Link to="/products/medicinal-herbal-plants">Medicinal & Herbal Products</Link></li>
-           <li><Link to="/products/agriculture">Agriculture Organic Fertilizer</Link></li>
+            <li><Link to="/products/food-and-fmcg-health-food">Fresh Vegetables & Fruits</Link></li>
+            
             
             
             

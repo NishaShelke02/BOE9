@@ -71,7 +71,7 @@ const Home = () => {
       cta: "Order Now"
     },
     {
-      image: "/images/coffee2.png",
+      image: "/images/coffeemain.png",
       title: "Coffee & Cocoa Powder",
       description:
         "Rich and aromatic coffee and cocoa powders for a delightful experience.",

@@ -136,7 +136,31 @@ const Certification = () => {
                 risk mitigation in international trade and export financing.
               </p>
               <img src="/images/ECGC.png" alt="ECGC Logo" className="cert-logo" />
-              <button className="view-pdf-btn" onClick={() => handleViewPDF('/pdfs/ECGC.pdf')}>
+              <button className="view-pdf-btn" onClick={() => handleViewPDF('/pdf/ECGC.pdf')}>
+                View PDF
+              </button>
+            </div>
+            {/* ISO 9001 */}
+            <div className="cert-item">
+              <h3>✅ ISO 9001:2015</h3>
+              <p>
+                Certified for Quality Management Systems, demonstrating our
+                commitment to consistent quality and customer satisfaction.
+              </p>
+              <img src="/images/QRO.png" alt="ISO 9001 Logo" className="cert-logo" />
+              <button className="view-pdf-btn" onClick={() => handleViewPDF('/pdf/iso.pdf')}>
+                View PDF
+              </button>
+            </div>
+
+            {/*Halal */ }
+            <div className="cert-item">
+              <h3>✅ Halal Certified</h3>
+              <p>
+                Halal certified products, ensuring compliance with Islamic dietary laws.
+              </p>
+              <img src="/images/HALAL.png" alt="Halal Logo" className="cert-logo" />
+              <button className="view-pdf-btn" onClick={() => handleViewPDF('/pdf/HALAL.pdf')}>
                 View PDF
               </button>
             </div>
