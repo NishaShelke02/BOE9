@@ -1,10 +1,15 @@
 // AboutUs.jsx
 import React from "react";
 import "./our-company.css";
+import { Helmet } from "react-helmet";
 
 const AboutUs = () => {
   return (
     <div className="about-container">
+      <Helmet>
+        <title>About Us | BOE9</title>
+        <meta name="description" content="Learn about BOE9 and our Organic products." />
+      </Helmet>
       {/* Intro Section */}
       <section className="about-intro">
         <div className="container">
@@ -122,6 +127,7 @@ const AboutUs = () => {
         ↑ Back to Top
       </button>
     </div>
+   
   );
 };
 

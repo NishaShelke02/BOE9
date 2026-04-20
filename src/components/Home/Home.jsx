@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import { Helmet } from "react-helmet";
 import "./Home.css";
 
 // Reusable FeatureCard Component
@@ -28,6 +29,9 @@ const ProductCard = ({ product, onClick }) => (
 const Home = () => {
   const navigate = useNavigate();
   const [currentSlide, setCurrentSlide] = useState(0);
+  <h1 className="main-heading">
+  Organic Products Exporter in India - BOE9
+</h1>
 
   const slides = [
     {
@@ -154,6 +158,32 @@ const Home = () => {
 
   return (
     <div className="home">
+      <Helmet>
+  <title>BOE9 | Organic Products Exporter in India | Spices, Millets & More</title>
+
+  <meta
+    name="description"
+    content="BOE9 (Bumi Organic Exim) is a leading exporter of organic products, Indian spices, millets, dehydrated vegetables, and premium food products from India."
+  />
+
+  <meta
+    name="keywords"
+    content="BOE9, Bumi Organic Exim, organic products India, turmeric supplier, Indian spices exporter, millets, dehydrated vegetables, coffee powder"
+  />
+
+  {/* Open Graph (Facebook, WhatsApp) */}
+  <meta property="og:title" content="BOE9 Organic Products Exporter" />
+  <meta
+    property="og:description"
+    content="Premium organic products, spices, and healthy foods exported worldwide."
+  />
+  <meta property="og:image" content="https://www.boe9.com/images/Organic.png" />
+  <meta property="og:url" content="https://www.boe9.com/" />
+
+  {/* SEO Extra */}
+  <meta name="robots" content="index, follow" />
+</Helmet>
+
       {/* Hero Slider */}
       <section className="hero-slider">
         {slides.map((slide, index) => (

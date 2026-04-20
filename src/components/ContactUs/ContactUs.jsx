@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import emailjs from "@emailjs/browser";
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaClock } from "react-icons/fa";
+import { Helmet } from "react-helmet";
 import "./ContactUs.css";
 
 const ContactUs = () => {
@@ -23,16 +24,16 @@ const ContactUs = () => {
     e.preventDefault();
 
     try {
-      // ✅ Send email using EmailJS
+      // Send Email via EmailJS
       await emailjs.send(
-        "service_9ad4tbj", // Your service ID
-        "template_ea20mjg", // Your template ID
+        "service_9ad4tbj",
+        "template_ea20mjg",
         formData,
-        "V4XOc5_23GjM09fQN" // Your public key
+        "V4XOc5_23GjM09fQN"
       );
 
-      // ✅ Send data to Google Sheet via Apps Script
-      const response = await fetch(
+      // Save to Google Sheet
+      await fetch(
         "https://script.google.com/macros/s/AKfycbwb5VDFVH93PwxXsdgPGgwLokFbPzoVptpu3-BhJKlLjUxmWWfMuuOTvAozqHh6d7NO/exec",
         {
           method: "POST",
@@ -42,11 +43,7 @@ const ContactUs = () => {
         }
       );
 
-      if (response.ok) {
-        setStatus("✅ Message sent & saved to Google Sheet!");
-      } else {
-        setStatus("Successfully submitted details,I will get back to you soon!");
-      }
+      setStatus("✅ Successfully submitted! We will contact you soon.");
 
       setFormData({
         fullName: "",
@@ -57,7 +54,7 @@ const ContactUs = () => {
       });
     } catch (error) {
       console.error("Error:", error);
-      setStatus("❌ Failed to send or save message.");
+      setStatus("❌ Failed to send message. Please try again.");
     }
   };
 
@@ -70,33 +67,66 @@ const ContactUs = () => {
 
   return (
     <div className="contact-container">
-      <h2>Welcome to Bumi Organic Exim</h2>
-      <p>Get in touch with us for all your organic product needs</p>
 
+      {/* ✅ SEO */}
+      <Helmet>
+        <title>
+          Contact BOE9 | Lakadong Turmeric Supplier organic spices, and export inquiries. Trusted global supplier from India.
+        </title>
+
+        <meta
+          name="description"
+          content="Contact BOE9 (Bumi Organic Exim) for bulk Lakadong turmeric, organic spices, and export inquiries. Trusted global supplier from India."
+        />
+
+        <meta
+          name="keywords"
+          content="contact BOE9, turmeric supplier India contact, organic exporter India, bulk turmeric supplier contact"
+        />
+
+        <meta name="robots" content="index, follow" />
+      </Helmet>
+
+      {/* ✅ Main Heading */}
+      <h1>
+        Contact Turmeric Supplier & Organic Exporter - BOE9 India
+      </h1>
+
+      <p className="contact-subtext">
+        Get in touch with BOE9 (Bumi Organic Exim) for bulk organic products,
+        turmeric supply, and international export inquiries.
+      </p>
+
+      {/* Contact Details */}
       <div className="contact-details">
         <div>
-          <h3><FaMapMarkerAlt /> Address</h3>
+          <h2><FaMapMarkerAlt /> Address</h2>
           <p>Nashik, Maharashtra, India - 422010</p>
         </div>
+
         <div>
-          <h3><FaPhoneAlt /> Phone</h3>
+          <h2><FaPhoneAlt /> Phone</h2>
           <p>+91 9272131561</p>
           <p>+91 9737305655</p>
         </div>
+
         <div>
-          <h3><FaEnvelope /> Email</h3>
+          <h2><FaEnvelope /> Email</h2>
           <p>info@boe9.com</p>
           <p>exports@boe9.com</p>
         </div>
+
         <div>
-          <h3><FaClock /> Business Hours</h3>
+          <h2><FaClock /> Business Hours</h2>
           <p>Available 24/7</p>
         </div>
       </div>
 
+      {/* Form + Map */}
       <div className="contact-form-map">
         <form onSubmit={handleSubmit}>
-          <h3>Send us an enquiry</h3>
+          <h2>Send Business Enquiry</h2>
+
           <input
             type="text"
             name="fullName"
@@ -105,14 +135,16 @@ const ContactUs = () => {
             onChange={handleChange}
             required
           />
+
           <input
             type="email"
             name="email"
-            placeholder="Email"
+            placeholder="Email Address"
             value={formData.email}
             onChange={handleChange}
             required
           />
+
           <input
             type="tel"
             name="phone"
@@ -121,33 +153,37 @@ const ContactUs = () => {
             onChange={handleChange}
             required
           />
+
           <input
             type="text"
             name="subject"
-            placeholder="Subject"
+            placeholder="Subject (Bulk Order / Export Inquiry)"
             value={formData.subject}
             onChange={handleChange}
             required
           />
+
           <textarea
             name="message"
-            placeholder="Your Message"
+            placeholder="Your Requirement (Quantity, Country, Product)"
             value={formData.message}
             onChange={handleChange}
             required
           ></textarea>
-          <button type="submit">Send Message</button>
+
+          <button type="submit">Send Enquiry</button>
+
           {status && <p className="status-message">{status}</p>}
         </form>
 
+        {/* Map */}
         <div className="map-container">
           <iframe
-            title="Bumi Organic Exim Location"
-            src="https://www.google.com/maps/embed?pb=!1m18..."
+            title="BOE9 Location Nashik India"
+            src="https://www.google.com/maps?q=Nashik,Maharashtra&output=embed"
             width="100%"
-            height="400"
+            height="400px"
             style={{ border: 0 }}
-            allowFullScreen=""
             loading="lazy"
           ></iframe>
         </div>
