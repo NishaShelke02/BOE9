@@ -126,8 +126,9 @@ const ContactUs = () => {
       <div className="contact-form-map">
         <form onSubmit={handleSubmit}>
           <h2>Send Business Enquiry</h2>
-
+          <label htmlFor="fullName">Full Name</label>
           <input
+            id="fullName"
             type="text"
             name="fullName"
             placeholder="Full Name"
@@ -136,7 +137,10 @@ const ContactUs = () => {
             required
           />
 
+          <label htmlFor="email">Email Address</label>
+
           <input
+            id="email"
             type="email"
             name="email"
             placeholder="Email Address"
@@ -145,7 +149,11 @@ const ContactUs = () => {
             required
           />
 
+
+           <label htmlFor="phone">Phone Number</label>
+
           <input
+            id="phone"
             type="tel"
             name="phone"
             placeholder="Phone Number"
@@ -154,7 +162,10 @@ const ContactUs = () => {
             required
           />
 
+          <label htmlFor="subject">Subject</label>
+
           <input
+            id="subject"
             type="text"
             name="subject"
             placeholder="Subject (Bulk Order / Export Inquiry)"
@@ -163,7 +174,9 @@ const ContactUs = () => {
             required
           />
 
+            <label htmlFor="message">Your Requirement</label>
           <textarea
+            id="message"
             name="message"
             placeholder="Your Requirement (Quantity, Country, Product)"
             value={formData.message}
@@ -172,8 +185,11 @@ const ContactUs = () => {
           ></textarea>
 
           <button type="submit">Send Enquiry</button>
+           <p className={`status-message ${status.includes("❌") ? "error" : "success"}`}>
+    {status}
+  </p>
 
-          {status && <p className="status-message">{status}</p>}
+          
         </form>
 
         {/* Map */}

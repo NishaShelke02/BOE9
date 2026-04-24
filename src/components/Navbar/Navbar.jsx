@@ -37,15 +37,15 @@ const Navbar = () => {
             href="https://www.facebook.com/profile.php?id=61580965360742&mibextid=ZbWKwL"
             target="_blank"
             rel="noopener noreferrer"
-            arial-label="BOE9 Facebook"
+            aria-label="BOE9 Facebook"
           >
             <FaFacebook />
           </a>
           
-          <a href="https://www.instagram.com/bumi_organicexim?igsh=MWFjMW0yazUzbjZ6Nw==" target="_blank" rel="noopener noreferrer" arial-label="BOE9 Instagram">
+          <a href="https://www.instagram.com/bumi_organicexim?igsh=MWFjMW0yazUzbjZ6Nw==" target="_blank" rel="noopener noreferrer" aria-label="BOE9 Instagram">
             <FaInstagram />
           </a>
-          <a href="https://www.linkedin.com/company/109393938/admin/dashboard/" target="_blank" rel="noopener noreferrer" arial-label="BOE9 LinkedIn">
+          <a href="https://www.linkedin.com/company/109393938/admin/dashboard/" target="_blank" rel="noopener noreferrer" aria-label="BOE9 LinkedIn">
             <FaLinkedin />
 
           </a>
@@ -53,7 +53,7 @@ const Navbar = () => {
             href="https://wa.me/919272131561"
             target="_blank"
             rel="noopener noreferrer"
-            arial-label="BOE9 WhatsApp"
+            aria-label="BOE9 WhatsApp"
           >
             <FaWhatsapp />
           </a>

@@ -1,733 +1,703 @@
 [
- 
   {
     "category": "Food & FMCG - Health Food",
     "slug": "food-and-fmcg-health-food",
     "categoryImage": "/images/food.png",
-   
+    "categoryDesc": "BOE9 (Bumi Organic Exim) exports premium-grade fresh vegetables and fruits sourced directly from trusted Indian farms in Nashik, Maharashtra. Our produce is carefully sorted, graded, and packed to meet international quality and hygiene standards. We supply retail chains, wholesale importers, and food processing industries across the Middle East, Europe, Southeast Asia, and beyond. All products are available in bulk export quantities with full documentation support.",
     "products": [
-      
-      
       {
         "name": "Pomegranate",
         "slug": "pomegranate",
         "image": "/images/pomegranate.png",
-        "gallery": ["/images/pomegranate.png", "/images/pomegranate1.png","/images/pomegranate2.png"],
-        "shortDesc": "High-quality, ruby-red fruits packed with antioxidants and known for their deep color and sweet-tart arils.",
-        "description": " Bumi Organic Exim sources premium-quality pomegranates from trusted Indian farms known for their ideal growing conditions. Our pomegranates are handpicked at peak ripeness to ensure optimal sweetness, juiciness, and vibrant color. Carefully sorted, cleaned, and packed, they maintain freshness and quality during transit. Ideal for retail, export, and bulk supply to food industries worldwide, our pomegranates meet global quality and hygiene standards."
+        "gallery": ["/images/pomegranate.png", "/images/pomegranate1.png", "/images/pomegranate2.png"],
+        "shortDesc": "Export-grade Indian pomegranates (Bhagwa variety) — deep red arils, high Brix value, available in bulk from Nashik, India. Ideal for retail chains and fruit importers worldwide.",
+        "description": "BOE9 supplies premium export-grade Pomegranates sourced from the fertile farms of Nashik and Solapur, Maharashtra — India's top pomegranate-producing regions. We primarily export the Bhagwa variety, prized for its deep ruby-red arils, high juice content, and Brix value of 15–17°. Each fruit is handpicked at peak ripeness, graded by size (250g–450g), sorted for blemish-free skin, and packed in ventilated corrugated boxes to ensure freshness during long-haul transit. Our pomegranates comply with FSSAI, EU pesticide residue norms, and GlobalG.A.P. standards. Available in 3kg, 4kg, and 5kg export cartons. MOQ: 1 metric tonne. Ideal for supermarkets, fresh produce importers, and juice manufacturers in the Middle East, Europe, UK, and Southeast Asia."
       },
       {
-        "name":"Grapes",
-        "slug":"grapes",
+        "name": "Grapes",
+        "slug": "grapes",
         "image": "/images/grapes1.png",
-        "gallery": ["/images/grapes.png","/images/grapes2.png","/images/grapes3.png","/images/grapes4.png"],
-        "shortDesc": "Premium, juicy table grapes available in seedless varieties, offering a perfect balance of sweetness and firm texture.",
-        "description": "Bumi Organic Exim sources premium-quality Grapes from trusted Indian farms known for their ideal growing conditions. Our grapes are handpicked at peak maturity to ensure optimal taste, texture, and nutritional value. Carefully sorted, cleaned, and packed, they maintain freshness and quality during transit. Ideal for retail, export, and bulk supply to food industries worldwide, our grapes meet global quality and hygiene standards."
-
+        "gallery": ["/images/grapes.png", "/images/grapes2.png", "/images/grapes3.png", "/images/grapes4.png"],
+        "shortDesc": "Premium Indian seedless table grapes (Thompson & Sharad Seedless) — export quality from Nashik. Firm texture, high Brix, available February to May. Ideal for retail and wholesale importers.",
+        "description": "BOE9 exports premium-quality seedless table grapes sourced from Nashik, India — one of the world's leading grape-producing regions. We offer Thompson Seedless (green) and Sharad Seedless (black/red) varieties known for their firm texture, thin skin, and natural sweetness with a Brix value of 16–20°. Grapes are harvested in bunches, hand-sorted to remove damaged or under-sized berries, sulfur dioxide treated for shelf-life extension, and packed in 4.5kg or 9kg cartons with SO2 generator pads. Our grapes comply with EU MRL (Maximum Residue Limits) and are suitable for EurepGAP-certified markets. Export season: February to May. MOQ: 1 metric tonne. Ideal for supermarkets, fresh produce importers, and food retailers in Europe, UK, Middle East, and Russia."
       },
       {
         "name": "Frozen Green Peas",
         "slug": "frozen-green-peas",
         "image": "/images/peas.png",
         "gallery": ["/images/peas1.png", "/images/peas.png"],
-        "shortDesc": "Farm-fresh peas harvested at peak ripeness and IQF-frozen to lock in natural sweetness and vibrant green color.",
-        "description": "Bumi Organic Exim offers premium-quality Frozen Green Peas processed from fresh, tender harvests to preserve natural sweetness, vibrant color, and nutrition. Quickly frozen using advanced IQF technology, our peas maintain farm-fresh taste and texture in every bite. Ideal for restaurants, retailers, and households, they are perfect for curries, soups, salads, and ready-to-cook meals—all year round freshness, convenience, and quality guaranteed."
-    },
+        "shortDesc": "IQF-frozen green peas from India — farm-fresh, vibrant color, no additives. Available in bulk 10kg/20kg bags. Ideal for food manufacturers, restaurants, and retail pack re-branding.",
+        "description": "BOE9 supplies premium IQF (Individually Quick Frozen) Green Peas processed from tender, farm-fresh harvests in India. Our peas are blanched and frozen within hours of harvest using advanced IQF tunnel technology, locking in natural sweetness, vibrant green color (ASTA value maintained), and nutritional value. Free from added salt, preservatives, or colorants. Available in bulk 10kg and 20kg polyethylene bags, or retail-ready 500g/1kg packs for private-label buyers. Storage: -18°C. Shelf life: 24 months. Meets USFDA, EU, and FSSAI food safety standards. MOQ: 5 metric tonnes. Ideal for food manufacturers, ready-meal producers, restaurant chains, and importers in the Middle East, Europe, and Southeast Asia."
+      },
       {
         "name": "Onions",
         "slug": "onions",
         "image": "/images/onions.png",
-        "gallery": ["/images/onions1.png","/images/onions6.png","/images/onions.png", "/images/onions5.png","/images/onions3.png","/images/onions4.png"],
-        "shortDesc": "Export-grade onions featuring crisp layers, strong pungency, and excellent shelf life for global shipping.",
-        "description": "Bumi Organic Exim supplies premium-grade Fresh Onions sourced from trusted Indian farms known for quality and freshness. Our onions are carefully sorted, cleaned, and packed to ensure long shelf life, uniform size, and consistent flavor. Rich in natural nutrients and aroma, they are ideal for retail, export, and bulk supply to food industries worldwide. Available in red, white, and yellow varieties, our onions meet global quality and hygiene standards."
+        "gallery": ["/images/onions1.png", "/images/onions6.png", "/images/onions.png", "/images/onions5.png", "/images/onions3.png", "/images/onions4.png"],
+        "shortDesc": "Export-grade Indian red onions from Nashik — strong pungency, 3–4 month shelf life, 40mm–80mm size range. Bulk supply available year-round. Ideal for importers in the Middle East, Europe, and Southeast Asia.",
+        "description": "BOE9 exports premium-grade Fresh Red Onions sourced directly from Nashik and Lasalgaon — India's largest onion trading hub — ensuring consistent supply, competitive pricing, and superior quality. Our onions are characterized by deep red skin, high dry matter content (>13%), strong pungency, and excellent shelf life of 3–4 months under proper storage. Available in size grades: 25–35mm, 35–50mm, 50–65mm, and 65–80mm. Packed in 25kg mesh bags, jute bags, or net bags as per buyer preference. Moisture: <86%. Free from soil, disease, and sprouting. All export shipments are accompanied by phytosanitary certificates, fumigation certificates, and certificate of origin. MOQ: 1 FCL (20 feet container = approximately 24 metric tonnes). Ideal for wholesale importers, supermarket chains, and food processors in the UAE, Malaysia, Sri Lanka, UK, and Europe."
       },
       {
         "name": "Potato",
         "slug": "potato",
         "image": "/images/potato.png",
-        "gallery": ["/images/potato1.png", "/images/potato2.png","/images/potato3.png"],
-        "shortDesc": "Versatile, starch-rich potatoes with smooth skin and consistent sizing, ideal for both retail and industrial processing.",
-        "description": "Bumi Organic Exim sources premium-quality Potatoes from trusted Indian farms known for their ideal growing conditions. Our potatoes are handpicked at peak maturity to ensure optimal taste, texture, and nutritional value. Carefully sorted, cleaned, and packed, they maintain freshness and quality during transit. Ideal for retail, export, and bulk supply to food industries worldwide, our potatoes meet global quality and hygiene standards."
+        "gallery": ["/images/potato1.png", "/images/potato2.png", "/images/potato3.png"],
+        "shortDesc": "Export-grade Indian potatoes — smooth skin, consistent sizing (45mm–80mm), low bruising. Bulk supply from Agra and Uttar Pradesh. Ideal for retail chains, food processors, and wholesale importers.",
+        "description": "BOE9 supplies export-quality Fresh Potatoes sourced from the fertile fields of Uttar Pradesh and Madhya Pradesh — India's major potato-producing states. Our potatoes are available in table varieties (Kufri Jyoti, Kufri Chandramukhi) and processing varieties (Kufri Chipsona) suitable for retail, industrial, and food service applications. Size grades: 35–55mm, 55–65mm, 65–80mm. Packed in 25kg mesh bags or 50kg jute bags. Dry matter content: >18%. Free from green patches, sprouting, and mechanical damage. All shipments include phytosanitary certificates and fumigation documentation. MOQ: 1 metric tonne. Ideal for wholesale importers, supermarkets, and potato chip/processing manufacturers in the Middle East, Southeast Asia, and Sri Lanka."
       },
       {
-        "name":"Elephant Foot Yam(Suran)",
-        "slug":"elephant-foot-yam-suran",
+        "name": "Elephant Foot Yam (Suran)",
+        "slug": "elephant-foot-yam-suran",
         "image": "/images/suran.png",
-        "gallery": ["/images/suran1.png","/images/suran2.png","/images/suran3.png"],
-        "shortDesc": "Nutritious, earthy tubers with a firm texture, carefully cured for long-distance transport and durability.",
-        "description": "Bumi Organic Exim sources premium-quality Elephant Foot Yam (Suran) from trusted Indian farms known for their ideal growing conditions. Our suran is handpicked at peak maturity to ensure optimal taste, texture, and nutritional value. Carefully sorted, cleaned, and packed, they maintain freshness and quality during transit. Ideal for retail, export, and bulk supply to food industries worldwide, our elephant foot yam meets global quality and hygiene standards."
+        "gallery": ["/images/suran1.png", "/images/suran2.png", "/images/suran3.png"],
+        "shortDesc": "Fresh Elephant Foot Yam (Suran) from India — firm texture, cured for long-distance export, rich in dietary fiber. Available in bulk for importers in the Middle East and Southeast Asia.",
+        "description": "BOE9 exports fresh Elephant Foot Yam (Suran / Amorphophallus paeoniifolius) sourced from farms in Maharashtra and Andhra Pradesh. This nutrient-dense tuber is rich in dietary fiber, potassium, and vitamin B6, making it a popular vegetable in Indian, Sri Lankan, and Southeast Asian cuisines. Our suran is carefully cured after harvest to harden the skin, reduce moisture loss, and extend shelf life for long-distance shipping. Packed in ventilated crates or mesh bags in 20kg units. Size: 500g–3kg per piece. Free from rot, cracks, and pest damage. Phytosanitary certificate provided. MOQ: 1 metric tonne. Suitable for wholesale vegetable importers and ethnic grocery distributors in the UAE, UK, Malaysia, and Singapore."
       },
       {
-        "name":"Broccoli",
-        "slug":"broccoli",
+        "name": "Broccoli",
+        "slug": "broccoli",
         "image": "/images/bro.png",
-        "gallery": ["/images/bro1.png","/images/bro2.png","/images/bro3.png"],
-        "shortDesc": "Fresh, densely packed green florets rich in nutrients and maintained under strict cold-chain standards for maximum crispness.",
-        "description": "Bumi Organic Exim sources premium-quality Broccoli from trusted Indian farms known for their ideal growing conditions. Our broccoli is handpicked at peak maturity to ensure optimal taste, texture, and nutritional value. Carefully sorted, cleaned, and packed, they maintain freshness and quality during transit. Ideal for retail, export, and bulk supply to food industries worldwide, our broccoli meets global quality and hygiene standards."
+        "gallery": ["/images/bro1.png", "/images/bro2.png", "/images/bro3.png"],
+        "shortDesc": "Fresh Indian broccoli — dense green florets, cold-chain maintained, high in Vitamin C and sulforaphane. Export quality from Maharashtra. Ideal for supermarkets and food service buyers.",
+        "description": "BOE9 supplies fresh export-grade Broccoli grown in the cool climate regions of Maharashtra and Himachal Pradesh during the winter season (October–March). Our broccoli features tightly-packed dark green florets, a firm stem, and superior shelf life maintained through strict cold-chain handling from farm to port. Rich in Vitamin C, Vitamin K, and sulforaphane — a powerful antioxidant — our broccoli meets the growing demand for healthy vegetables in international markets. Packed in 5kg or 10kg ventilated cartons with moisture-absorbent lining. Storage temperature: 0–4°C. Shelf life: 14–21 days. MOQ: 500kg. Ideal for supermarket chains, food service distributors, and fresh produce importers in the Middle East, Southeast Asia, and Europe."
       },
       {
-        "name":"G4 Green Chilli",
-        "slug":"green-chilli",
+        "name": "G4 Green Chilli",
+        "slug": "green-chilli",
         "image": "/images/green.png",
-        "gallery": ["/images/green1.png","/images/green2.png","/images/green3.png"],
-        "shortDesc": "High-pungency, slender chillies (including the G4 variety) prized for their intense heat and bright green color.",
-        "description": "Bumi Organic Exim sources premium-quality Green Chilli from trusted Indian farms known for their ideal growing conditions. Our green chillies are handpicked at peak maturity to ensure optimal heat, flavor, and nutritional value. Carefully sorted, cleaned, and packed, they maintain freshness and quality during transit. Ideal for retail, export, and bulk supply to food industries worldwide, our green chillies meet global quality and hygiene standards."
-
+        "gallery": ["/images/green1.png", "/images/green2.png", "/images/green3.png"],
+        "shortDesc": "High-pungency G4 Green Chilli from India — Scoville 20,000–30,000 SHU, slender finger type, export quality. Bulk supply from Andhra Pradesh. Ideal for spice importers and food processors.",
+        "description": "BOE9 exports premium-quality G4 Green Chillies — one of India's most sought-after export chilli varieties — sourced from farms in Andhra Pradesh and Maharashtra. The G4 variety is prized for its slender finger shape, bright green color, intense heat (20,000–30,000 Scoville Heat Units), and consistent size (10–12cm length). Our green chillies are hand-harvested at the correct maturity stage, sorted for uniform size and color, and packed in ventilated corrugated cartons (5kg/10kg) with fresh moisture management. Also available in bulk field-run packing for processing units. Cold-chain storage maintained at 7–10°C. Shelf life: 2–3 weeks under refrigeration. Phytosanitary certificate provided. MOQ: 1 metric tonne. Ideal for spice processors, pickle manufacturers, and fresh vegetable importers in the Middle East, Europe, and Southeast Asia."
       }
-      
     ]
   },
-  
-      
-    
+
   {
     "category": "Organic Products",
     "slug": "organic-products",
+    "categoryImage": "/images/Organic.png",
+    "categoryDesc": "BOE9 (Bumi Organic Exim) is an NPOP-certified organic products exporter from India. We supply a comprehensive range of certified organic pulses, cold-pressed oils, desi ghee, natural sweeteners, honey, dry fruits, and healthy jams — all cultivated and processed without synthetic pesticides or fertilizers. Our organic products meet EU, USDA NOP, and India NPOP certification standards. Bulk export available worldwide with complete documentation.",
     "products": [
-      
       {
         "name": "Organic Pulses",
         "slug": "organic-pulses",
         "image": "/images/Organic.png",
-        "shortDesc": "A wide range of certified organic pulsees rich in protein and nutrients.",
-        
-        "items":[
-           {
+        "shortDesc": "NPOP-certified organic pulses from India — toor dal, moong dal, chana, rajma, masoor & more. Bulk export in 25kg/50kg bags. Ideal for organic food brands, health food stores, and wholesale importers.",
+        "items": [
+          {
             "name": "Organic Brown Chickpeas (Kala Chana)",
             "slug": "organic-brown-chickpeas-kala-chana",
             "image": "/images/Organic/kalachana.png",
-            "gallery": ["/images/Organic/kalachana.png","/images/Organic/kalachana1.png","/images/Organic/kalachana2.png"],
-            "shortDesc": "High-protein brown chickpeas ideal for curries and salads.",
-            "description": "Organic Brown Chana, also known as Kala Chana, is packed with fiber, iron, and protein. Grown organically without synthetic inputs, it supports a balanced diet and sustainable agriculture."
-
-           },
-           {
+            "gallery": ["/images/Organic/kalachana.png", "/images/Organic/kalachana1.png", "/images/Organic/kalachana2.png"],
+            "shortDesc": "NPOP-certified organic Kala Chana (Brown Chickpeas) — high protein (20g/100g), earthy flavor, available in 25kg bulk bags. Ideal for organic food brands and health-conscious retail buyers.",
+            "description": "BOE9 supplies NPOP-certified Organic Brown Chickpeas (Kala Chana) grown on certified organic farms in Madhya Pradesh and Rajasthan. Rich in plant-based protein (20g per 100g), dietary fiber, iron, and folate, Kala Chana is a staple in Indian, Middle Eastern, and Mediterranean cuisines. Our organic brown chickpeas are free from synthetic pesticides, herbicides, and chemical fertilizers. Carefully cleaned, sorted, and packed in 25kg or 50kg food-grade woven bags with NPOP certification labels. Moisture: <12%. Admixture: <1%. Available year-round. MOQ: 1 metric tonne. Ideal for organic food retailers, health food brands, Ayurvedic product manufacturers, and wholesale importers in Europe, North America, and the Middle East."
+          },
+          {
             "name": "Organic Moong Dal Yellow Split",
             "slug": "organic-moong-dal-yellow-split",
             "image": "/images/Organic/moong.png",
-            "gallery": ["/images/Organic/moong.png","/images/Organic/moong1.png","/images/Organic/moong2.png"],
-            "shortDesc": "Easily digestible split yellow moong dal.",
-            "description": "Our Organic Moong Dal Yellow Split is a rich source of plant-based protein and essential nutrients. Cultivated on certified organic farms, it is perfect for making wholesome soups and dals."
-           },
-           {
+            "gallery": ["/images/Organic/moong.png", "/images/Organic/moong1.png", "/images/Organic/moong2.png"],
+            "shortDesc": "NPOP-certified Organic Moong Dal (Yellow Split) — easy to digest, 24g protein per 100g, gluten-free. Bulk export in 25kg bags from India. Ideal for health food brands and organic grocery importers.",
+            "description": "BOE9 exports NPOP-certified Organic Moong Dal Yellow Split (dehulled split green gram) from certified organic farms across Maharashtra and Madhya Pradesh. One of the most digestible legumes available, it is a rich source of plant-based protein (24g/100g), B vitamins, and essential minerals like magnesium and potassium. Naturally gluten-free and low in fat, it is widely used in soups, dals, khichdi, and baby food formulations. Cleaned, de-stoned, and packed in 25kg or 50kg food-grade bags. Moisture: <12%. Purity: >99.5%. NPOP certified. MOQ: 500kg. Ideal for organic food manufacturers, Ayurvedic brands, baby food producers, and retail importers in Europe, USA, Canada, and the Middle East."
+          },
+          {
             "name": "Organic Kabuli Chana (Chickpeas)",
             "slug": "organic-kabuli-chana-chickpeas",
             "image": "/images/Organic/chana.png",
-            "gallery": ["/images/Organic/chana.png","/images/Organic/chana1.png","/images/Organic/chana2.png"],
-            "shortDesc": "Nutritious kabuli chickpeas for diverse culinary uses. Large white chickpeas full of protein and fiber.",
-            "description": "Our Organic Kabuli Chana is a versatile pulse rich in protein, fiber, and essential minerals. Grown without synthetic chemicals, it is ideal for salads, stews, and snacks."
-           },
-           {
+            "gallery": ["/images/Organic/chana.png", "/images/Organic/chana1.png", "/images/Organic/chana2.png"],
+            "shortDesc": "NPOP-certified Organic Kabuli Chana (White Chickpeas) — large bold count, 19g protein per 100g, gluten-free. Bulk export from India. Ideal for hummus manufacturers and organic food importers.",
+            "description": "BOE9 supplies NPOP-certified Organic Kabuli Chana (Chickpeas / Garbanzo Beans) sourced from organic farms in Rajasthan and Madhya Pradesh — India's top chickpea-growing regions. Available in bold count sizes (38/40, 40/42, 42/44 per 100g). Our organic white chickpeas are prized for their large uniform size, creamy color, and rich nutty flavor. High in protein (19g/100g), fiber, and folate — they are a key ingredient in hummus, falafel, salads, and curries. Free from synthetic chemicals. Cleaned, sorted by size, and packed in 25kg or 50kg food-grade bags. Moisture: <13%. NPOP certified. MOQ: 1 metric tonne. Ideal for hummus manufacturers, organic food retailers, and wholesale importers in Europe, USA, and the Middle East."
+          },
+          {
             "name": "Organic Arhar Dal (Toor Dal)",
             "slug": "organic-arhar-dal-toor-dal",
             "image": "/images/Organic/toor.png",
-            "gallery": ["/images/Organic/toor.png","/images/Organic/toor1.png","/images/Organic/toor2.png"],
-            "shortDesc": "High-quality organic toor dal for traditional Indian dishes.",
-            "description": "Our Organic Arhar Dal, also known as Toor Dal, is a staple in Indian cuisine. Rich in protein and dietary fiber, it is cultivated on certified organic farms, ensuring purity and superior taste."
-           },
-           {
-            "name":"Organic Mix Dal",
-            "slug":"organic-mix-dal",
+            "gallery": ["/images/Organic/toor.png", "/images/Organic/toor1.png", "/images/Organic/toor2.png"],
+            "shortDesc": "NPOP-certified Organic Toor Dal (Arhar Dal / Split Pigeon Pea) — 22g protein per 100g, staple Indian pulse. Bulk export in 25kg bags. Ideal for Indian grocery importers and organic food brands globally.",
+            "description": "BOE9 exports NPOP-certified Organic Arhar Dal (Toor Dal / Split Pigeon Pea) sourced from certified organic farms in Maharashtra, Karnataka, and Andhra Pradesh. The most consumed pulse in India, Toor Dal is a staple in sambar, dal fry, and khichdi. Rich in protein (22g/100g), dietary fiber, and essential vitamins including B1 and B9. Available in oily (castor oil coated) and dry (plain) varieties. Cleaned, de-stoned, and packed in 25kg or 50kg food-grade bags. Moisture: <12%. Purity: >99%. NPOP certified. MOQ: 500kg. Ideal for Indian grocery importers, organic food retailers, restaurant supply companies, and wholesale buyers in the USA, UK, UAE, Canada, and Australia."
+          },
+          {
+            "name": "Organic Mix Dal",
+            "slug": "organic-mix-dal",
             "image": "/images/Organic/mix.png",
-            "gallery": ["/images/Organic/mix.png","/images/Organic/mix1.png"],
-            "shortDesc": "Nutrient-rich organic mixed dal blend.",
-            "description": "Our Organic Mix Dal combines various pulses to provide a balanced nutritional profile. Grown organically, it is perfect for hearty soups and traditional dishes.A perfect mix of high-quality organic pulses like moong, masoor, arhar, and chana for wholesome and protein-packed meals."
-           },
-           {
+            "gallery": ["/images/Organic/mix.png", "/images/Organic/mix1.png"],
+            "shortDesc": "NPOP-certified Organic Mix Dal — a nutritious blend of moong, masoor, arhar, and chana dals. High protein, easy to cook, gluten-free. Bulk supply from India for health food brands and organic retailers.",
+            "description": "BOE9 offers NPOP-certified Organic Mix Dal — a carefully blended combination of moong dal, masoor dal, arhar dal, and chana dal, sourced from certified organic farms across India. This multi-pulse blend delivers a complete amino acid profile, high dietary fiber, and balanced micronutrients in a single convenient product. Naturally gluten-free, low glycemic, and rich in plant protein (>21g/100g). Ideal for health food brands looking to offer single-SKU lentil solutions. Packed in 25kg or 50kg food-grade bags, or in retail-ready 500g/1kg custom packs for private-label clients. NPOP certified. MOQ: 500kg. Ideal for organic food manufacturers, health food stores, and retail importers in Europe, USA, and the Middle East."
+          },
+          {
             "name": "Organic Moong Whole (Green Gram Whole)",
             "slug": "organic-moong-whole-green-gram-whole",
             "image": "/images/Organic/wmoong.png",
-            "gallery": ["/images/Organic/wmoong.png","/images/Organic/wmoong1.png","/images/Organic/wmoong2.png"],
-            "shortDesc": "Whole green gram rich in protein and fiber.",
-            "description": "Our Organic Moong Whole, also known as Green Gram Whole, is a nutrient-dense pulse cultivated without synthetic chemicals. It is an excellent source of plant-based protein and dietary fiber, ideal for soups, salads, and sprouting."
-           },
-           {
-            "name":"Organic Yellow Chana Dal",
-            "slug":"organic-yellow-chana-dal",
+            "gallery": ["/images/Organic/wmoong.png", "/images/Organic/wmoong1.png", "/images/Organic/wmoong2.png"],
+            "shortDesc": "NPOP-certified Organic Whole Moong (Green Gram) — 24g protein, excellent for sprouting, gluten-free. Bulk export from India in 25kg bags. Ideal for health food brands, sprout producers, and organic importers.",
+            "description": "BOE9 exports NPOP-certified Organic Whole Moong (Green Gram Whole / Vigna radiata) sourced from certified organic farms in Rajasthan and Madhya Pradesh. This nutrient-dense whole legume is high in protein (24g/100g), chlorophyll, iron, and antioxidants. Widely used for sprouting, soups, salads, and traditional Indian preparations. Our whole moong has excellent germination rates (>95%), making it ideal for the growing sprout production market. Cleaned, stone-free, and packed in 25kg or 50kg food-grade bags. Moisture: <12%. Purity: >99%. NPOP certified. MOQ: 500kg. Ideal for sprout producers, health food manufacturers, organic food retailers, and importers in Europe, USA, Canada, and Australia."
+          },
+          {
+            "name": "Organic Yellow Chana Dal",
+            "slug": "organic-yellow-chana-dal",
             "image": "/images/Organic/chanadal.png",
-            "gallery": ["/images/Organic/chanadal.png","/images/Organic/chanadal1.png","/images/Organic/chanadal2.png"],
-            "shortDesc": "Protein-rich yellow chana dal for nutritious meals.",
-            "description": "Our Organic Yellow Chana Dal is a split version of brown chickpeas, rich in protein and dietary fiber. Grown on certified organic farms, it is perfect for making wholesome dals and curries."
-
-           },
-           {
-            "name":"Organic Black Urad Dal",
-            "slug":"organic-black-urad-dal",
+            "gallery": ["/images/Organic/chanadal.png", "/images/Organic/chanadal1.png", "/images/Organic/chanadal2.png"],
+            "shortDesc": "NPOP-certified Organic Yellow Chana Dal (Split Bengal Gram) — 20g protein, low glycemic, gluten-free. Bulk export from India. Ideal for organic food manufacturers and health-conscious retail buyers.",
+            "description": "BOE9 supplies NPOP-certified Organic Yellow Chana Dal (Split Bengal Gram / Cicer arietinum), a split and dehulled form of brown chickpeas grown on certified organic farms across Rajasthan and Maharashtra. Rich in protein (20g/100g), slow-digesting complex carbohydrates, and dietary fiber — it has a low glycemic index making it ideal for diabetic-friendly and weight management food products. Naturally gluten-free. Bright golden-yellow color with uniform split size. Cleaned, sorted, and packed in 25kg or 50kg food-grade bags. Moisture: <13%. NPOP certified. MOQ: 500kg. Ideal for organic food manufacturers, dal mills, health food retailers, and importers in Europe, USA, UAE, and Canada."
+          },
+          {
+            "name": "Organic Black Urad Dal",
+            "slug": "organic-black-urad-dal",
             "image": "/images/Organic/urad.png",
-            "gallery": ["/images/Organic/urad.png","/images/Organic/urad1.png","/images/Organic/urad2.png"],
-            "shortDesc": "Nutrient-dense black urad dal for traditional recipes.",
-            "description": "Our Organic Black Urad Dal is a staple in Indian cuisine, known for its rich protein and fiber content. Cultivated without synthetic inputs, it is ideal for making dals, idlis, and dosas."
-           },
-           {
-            "name":"Organic Malka Masoor Dal (Red Lentils)",
-            "slug":"organic-malka-masoor-dal-red-lentils",
+            "gallery": ["/images/Organic/urad.png", "/images/Organic/urad1.png", "/images/Organic/urad2.png"],
+            "shortDesc": "NPOP-certified Organic Black Urad Dal (Whole Black Gram) — 25g protein, key ingredient for idli/dosa batter and Dal Makhani. Bulk export from India. Ideal for Indian food manufacturers and organic importers.",
+            "description": "BOE9 exports NPOP-certified Organic Black Urad Dal (Whole Black Gram / Vigna mungo) grown on certified organic farms in Madhya Pradesh and Uttar Pradesh. One of the most protein-dense pulses (25g/100g), Urad Dal is the key ingredient in South Indian idli and dosa batter, North Indian Dal Makhani, and papad. Rich in calcium, iron, and B vitamins. Available as whole (with husk), split with husk, and split without husk (white urad). Cleaned, de-stoned, and packed in 25kg or 50kg food-grade bags. Moisture: <13%. NPOP certified. MOQ: 500kg. Ideal for Indian food manufacturers, South Asian grocery importers, organic food brands, and bulk buyers in USA, UK, UAE, Canada, and Australia."
+          },
+          {
+            "name": "Organic Malka Masoor Dal (Red Lentils)",
+            "slug": "organic-malka-masoor-dal-red-lentils",
             "image": "/images/Organic/masoor.png",
-            "gallery": ["/images/Organic/masoor.png","/images/Organic/masoor1.png","/images/Organic/masoor2.png"],
-            "shortDesc": "High-quality red lentils for nutritious meals.",
-            "description": "Our Organic Malka Masoor Dal, or Red Lentils, is a quick-cooking pulse rich in protein and essential nutrients. Grown on certified organic farms, it is perfect for making wholesome soups and dals."
-           },
-           {
-            "name":"Organic Whole Masoor Dal",
-            "slug":"organic-whole-masoor-dal",
+            "gallery": ["/images/Organic/masoor.png", "/images/Organic/masoor1.png", "/images/Organic/masoor2.png"],
+            "shortDesc": "NPOP-certified Organic Red Lentils (Malka Masoor Dal) — 26g protein, quick-cooking, gluten-free. Bulk export from India in 25kg bags. Ideal for European organic food brands and soup manufacturers.",
+            "description": "BOE9 exports NPOP-certified Organic Malka Masoor Dal (Red Lentils / Lens culinaris) sourced from certified organic farms in Madhya Pradesh and Uttar Pradesh. The highest-protein pulse in our range at 26g per 100g, red lentils are quick-cooking (no soaking required), making them ideal for soups, stews, and ready-meal formulations popular in European and North American markets. Naturally gluten-free with a low glycemic index. Bright salmon-orange color, uniform split size. Cleaned, sorted, and packed in 25kg or 50kg food-grade bags. Moisture: <13%. Purity: >99%. NPOP certified. MOQ: 500kg. Ideal for organic soup manufacturers, health food brands, ready-meal producers, and wholesale importers in Europe, USA, Canada, and Australia."
+          },
+          {
+            "name": "Organic Whole Masoor Dal",
+            "slug": "organic-whole-masoor-dal",
             "image": "/images/Organic/wmasoor.png",
-            "gallery": ["/images/Organic/wmasoor.png","/images/Organic/wmasoor1.png","/images/Organic/wmasoor2.png"],
-            "shortDesc": "Whole masoor dal rich in protein and fiber.",
-            "description": "Our Organic Whole Masoor Dal is a nutrient-dense pulse cultivated without synthetic chemicals. It is an excellent source of plant-based protein and dietary fiber, ideal for soups, salads, and traditional dishes."
-
-           },
-           {
-            "name":"Organic Rajma (Kidney Beans)",
-            "slug":"organic-rajma-kidney-beans",
+            "gallery": ["/images/Organic/wmasoor.png", "/images/Organic/wmasoor1.png", "/images/Organic/wmasoor2.png"],
+            "shortDesc": "NPOP-certified Organic Whole Masoor Dal (Brown Lentils) — 26g protein, earthy flavor, excellent shelf life. Bulk export from India. Ideal for health food brands and organic lentil importers globally.",
+            "description": "BOE9 supplies NPOP-certified Organic Whole Masoor Dal (Brown Lentils / Lens culinaris) with husk, grown on certified organic farms across India. This nutrient-dense whole lentil retains its outer bran layer, providing higher fiber content and a slightly earthy, nutty flavor compared to split red lentils. Excellent source of protein (26g/100g), iron, and folate. Widely used in Indian dal preparations, European lentil salads, and Middle Eastern mujadara. Cleaned, de-stoned, and packed in 25kg or 50kg food-grade bags. Moisture: <13%. NPOP certified. MOQ: 500kg. Ideal for organic food manufacturers, Indian grocery importers, health food stores, and bulk buyers in Europe, USA, UAE, and Canada."
+          },
+          {
+            "name": "Organic Rajma (Kidney Beans)",
+            "slug": "organic-rajma-kidney-beans",
             "image": "/images/Organic/rajma.png",
-            "gallery": ["/images/Organic/rajma.png","/images/Organic/rajma1.png","/images/Organic/rajma2.png"],
-            "shortDesc": "Nutritious kidney beans for hearty meals.",
-            "description": "Our Organic Rajma, or Kidney Beans, is a versatile pulse rich in protein, fiber, and essential minerals. Grown without synthetic chemicals, it is ideal for stews, salads, and traditional dishes."
-           },
-           {
-            "name":"Organic Cowpea White (Lobia)",
-            "slug":"organic-cowpea-white-lobia",
+            "gallery": ["/images/Organic/rajma.png", "/images/Organic/rajma1.png", "/images/Organic/rajma2.png"],
+            "shortDesc": "NPOP-certified Organic Rajma (Kidney Beans) — dark red variety, 24g protein, high fiber, gluten-free. Bulk export in 25kg bags from India. Ideal for organic food brands and South Asian grocery importers.",
+            "description": "BOE9 exports NPOP-certified Organic Rajma (Kidney Beans / Phaseolus vulgaris) sourced from the foothills of Himachal Pradesh and Jammu — known for producing India's finest kidney beans with superior color retention and taste. Rich in protein (24g/100g), iron, potassium, and dietary fiber. Available in Dark Red Kidney Beans and Light Speckled varieties. Our organic rajma is cleaned, sorted by size, and packed in 25kg or 50kg food-grade bags. Moisture: <14%. Purity: >99%. NPOP certified. MOQ: 500kg. Ideal for Indian grocery importers, canned food manufacturers, organic food retailers, and restaurant supply companies in USA, UK, UAE, Canada, and Europe."
+          },
+          {
+            "name": "Organic Cowpea White (Lobia)",
+            "slug": "organic-cowpea-white-lobia",
             "image": "/images/Organic/lobia.png",
-            "gallery": ["/images/Organic/lobia.png","/images/Organic/lobia1.png","/images/Organic/lobia2.png"],
-            "shortDesc": "High-protein white cowpeas for diverse culinary uses.",
-            "description": "Our Organic Cowpea White, also known as Lobia, is a versatile pulse rich in protein and dietary fiber. Grown on certified organic farms, it is perfect for soups, stews, and salads."
-           }
+            "gallery": ["/images/Organic/lobia.png", "/images/Organic/lobia1.png", "/images/Organic/lobia2.png"],
+            "shortDesc": "NPOP-certified Organic White Cowpea (Lobia) — 24g protein, high iron, gluten-free. Bulk export from India in 25kg bags. Ideal for health food brands and wholesale organic importers in Europe and the Middle East.",
+            "description": "BOE9 exports NPOP-certified Organic Cowpea White (Lobia / Black-Eyed Peas / Vigna unguiculata) grown on certified organic farms across Maharashtra and Gujarat. A highly nutritious legume rich in protein (24g/100g), iron, zinc, and dietary fiber. Cowpea is a staple ingredient in South Asian, African, and Caribbean cuisines and gaining popularity in European health food markets. Naturally gluten-free with a low glycemic index. Available in white and light cream varieties. Cleaned, de-stoned, and packed in 25kg or 50kg food-grade bags. Moisture: <13%. NPOP certified. MOQ: 500kg. Ideal for organic food retailers, Indian and African grocery importers, health food manufacturers, and bulk buyers in Europe, USA, UAE, and Canada."
+          }
         ]
       },
       {
-        "name":"Natural Oils & Ghee",
-        "slug":"natural-oils-ghee",
+        "name": "Natural Oils & Ghee",
+        "slug": "natural-oils-ghee",
         "image": "/images/Organic/neemoil-ghee.png",
-        "shortDesc": "A variety of natural oils and ghee sourced from India.",
-        "description":"Bumi Organic Exim offers a premium selection of Natural Oils and Ghee sourced from trusted Indian producers. Our oils and ghee are extracted using traditional methods that preserve their natural flavor, aroma, and nutritional benefits. Free from synthetic additives, our products are ideal for cooking, baking, and health applications.",
-        "items":[
+        "shortDesc": "NPOP-certified organic cold-pressed oils and traditional desi ghee from India — mustard, coconut, sunflower, groundnut oils and A2/Bilona cow ghee. Bulk export for health food brands and organic retailers worldwide.",
+        "description": "BOE9 offers a premium range of Natural Oils and Ghee produced using traditional cold-pressing and Bilona churning methods. Our oils are extracted without heat or chemical solvents, preserving natural flavor, aroma, and nutritional properties. All products are NPOP certified organic, free from synthetic additives, and suitable for culinary, cosmetic, and Ayurvedic applications. Available in bulk export quantities for health food brands, organic retailers, and Ayurvedic product manufacturers worldwide.",
+        "items": [
           {
-            "name":"Organic Cold Pressed Black Mustard Oil - Argemone Free",
-            "slug":"organic-cold-pressed-black-mustard-oil-argemone-free",
+            "name": "Organic Cold Pressed Black Mustard Oil - Argemone Free",
+            "slug": "organic-cold-pressed-black-mustard-oil-argemone-free",
             "image": "/images/Organic/mustard.png",
-            "gallery": ["/images/Organic/mustard.png","/images/Organic/mustard1.png","/images/Organic/mustard2.png"],
-            "shortDesc": "Premium organic cold-pressed black mustard oil.",
-            "description": "Our Organic Cold Pressed Black Mustard Oil is extracted using traditional cold-pressing methods, ensuring maximum retention of its natural flavor, aroma, and nutritional benefits. Free from argemone contamination, this oil is ideal for cooking, massage, and therapeutic applications."
-            
+            "gallery": ["/images/Organic/mustard.png", "/images/Organic/mustard1.png", "/images/Organic/mustard2.png"],
+            "shortDesc": "NPOP-certified organic cold-pressed black mustard oil — 100% argemone-free, pungent & flavorful, tested for purity. Bulk export from India. Ideal for Indian grocery importers and Ayurvedic product brands.",
+            "description": "BOE9 supplies NPOP-certified Organic Cold Pressed Black Mustard Oil extracted from organically grown black mustard seeds (Brassica nigra) using traditional wooden cold-press (ghani) or steel cold-press methods — without any heat treatment or chemical extraction. This ensures full retention of allyl isothiocyanate (the compound responsible for its characteristic pungency), omega-3 fatty acids, and natural antioxidants. Critically, our mustard oil is 100% tested and certified argemone-free, meeting FSSAI and export quality standards. Available in bulk (15L/30L jerry cans, 200L drums) and retail-ready glass or PET bottles with private-label options. Acidity: <1%. Erucic acid content: as per natural variety (not refined/blended). NPOP certified. MOQ: 500 litres. Ideal for Indian grocery importers, Ayurvedic brands, organic food retailers, and hair/skincare product manufacturers in Europe, USA, UAE, and Canada."
           },
           {
-            "name":"Jivamrit Organic Desi Cow Ghee (Bilona Method,Glass Jar)",
-            "slug":"jivamrit-organic-desi-cow-ghee-bilona-method-glass-jar",
+            "name": "Jivamrit Organic Desi Cow Ghee (Bilona Method, Glass Jar)",
+            "slug": "jivamrit-organic-desi-cow-ghee-bilona-method-glass-jar",
             "image": "/images/Organic/ghee.png",
-            "gallery": ["/images/Organic/ghee.png","/images/Organic/ghee1.png","/images/Organic/ghee2.png"],
-            "shortDesc": "Premium organic desi cow ghee made using the Bilona method.",
-            "description": "Our Jivamrit Organic Desi Cow Ghee is crafted using the traditional Bilona method, ensuring a rich, authentic flavor and superior nutritional profile. Made from the milk of organically raised desi cows, this ghee is ideal for cooking, Ayurvedic practices, and enhancing the taste of various dishes."
-
-
+            "gallery": ["/images/Organic/ghee.png", "/images/Organic/ghee1.png", "/images/Organic/ghee2.png"],
+            "shortDesc": "Jivamrit Organic Desi Cow Ghee — traditional Bilona hand-churned method, A2 milk, glass jar packaging. NPOP certified. Ideal for premium organic food retailers and Ayurvedic brands in Europe and USA.",
+            "description": "BOE9 offers Jivamrit Organic Desi Cow Ghee — crafted using the ancient Bilona (hand-churning) method from the curd of organically raised Gir and Sahiwal desi cow A2 milk. The process: organic cow milk → set as curd → hand-churned to extract white butter (makhan) → slow-cooked over a wood fire to yield pure golden ghee. This traditional method produces ghee rich in CLA (conjugated linoleic acid), fat-soluble vitamins A, D, E & K, and butyric acid — shown to support gut health and immunity. Packaged in premium amber glass jars (250ml, 500ml, 1000ml) to prevent oxidation and maintain purity. No hydrogenation, no synthetic additives, no preservatives. NPOP certified organic. MOQ: 50 units. Ideal for premium organic food retailers, Ayurvedic wellness brands, specialty food importers, and health-conscious consumers in Europe, USA, UK, Canada, and Australia."
           },
           {
-            "name":"Organic Extra Virgin Coconut Oil - Cold Pressed",
-            "slug":"organic-extra-virgin-coconut-oil-cold-pressed",
+            "name": "Organic Extra Virgin Coconut Oil - Cold Pressed",
+            "slug": "organic-extra-virgin-coconut-oil-cold-pressed",
             "image": "/images/Organic/coconut.png",
-            "gallery": ["/images/Organic/coconut.png","/images/Organic/coconut1.png","/images/Organic/coconut2.png"],
-            "shortDesc": "Premium organic extra virgin coconut oil.",
-            "description": "Our Organic Extra Virgin Coconut Oil is cold-pressed from fresh, mature coconuts, preserving its natural aroma, flavor, and health benefits. This versatile oil is perfect for cooking, skincare, haircare, and therapeutic uses."
-
+            "gallery": ["/images/Organic/coconut.png", "/images/Organic/coconut1.png", "/images/Organic/coconut2.png"],
+            "shortDesc": "NPOP-certified Organic Extra Virgin Coconut Oil — cold-pressed from fresh coconuts, unrefined, natural aroma. Bulk and retail export from India. Ideal for health food brands and cosmetics manufacturers.",
+            "description": "BOE9 exports NPOP-certified Organic Extra Virgin Coconut Oil cold-pressed from freshly harvested mature coconuts grown on certified organic farms in Kerala and Tamil Nadu — India's premier coconut-producing states. Extracted using cold-press technology without any heat treatment, bleaching, or deodorizing, preserving its natural lauric acid content (>48%), fresh coconut aroma, and medium-chain triglycerides (MCTs) linked to metabolic health benefits. Moisture and volatile matter: <0.1%. Free fatty acid: <0.2%. Free from hexane or solvent extraction. Available in bulk (15L jerry cans, 200L drums) and retail-ready glass jars or PET bottles (100ml–5L) with private-label options. NPOP certified. MOQ: 500 litres (bulk) / 100 units (retail). Ideal for health food brands, cosmetics and skincare manufacturers, Ayurvedic product companies, and organic food retailers in Europe, USA, UK, and Australia."
           },
           {
-            "name":"Organic Sunflower Oil - Cold Pressed",
-            "slug":"organic-sunflower-oil-cold-pressed",
+            "name": "Organic Sunflower Oil - Cold Pressed",
+            "slug": "organic-sunflower-oil-cold-pressed",
             "image": "/images/Organic/sunflower.png",
-            "gallery": ["/images/Organic/sunflower.png","/images/Organic/sunflower1.png","/images/Organic/sunflower2.png"],
-
-            "shortDesc": "Premium organic cold-pressed sunflower oil.",
-            "description": "Our Organic Sunflower Oil is extracted using cold-pressing techniques, ensuring the retention of its natural flavor, aroma, and nutritional properties. Rich in essential fatty acids and vitamin E, this oil is ideal for cooking, baking, and salad dressings."
-
+            "gallery": ["/images/Organic/sunflower.png", "/images/Organic/sunflower1.png", "/images/Organic/sunflower2.png"],
+            "shortDesc": "NPOP-certified Organic Cold Pressed Sunflower Oil — high in Vitamin E and linoleic acid, light flavor, unrefined. Bulk export from India. Ideal for organic cooking oil brands and health food importers.",
+            "description": "BOE9 supplies NPOP-certified Organic Sunflower Oil cold-pressed from organically grown sunflower seeds (Helianthus annuus) cultivated in Maharashtra and Karnataka. Cold-pressing retains the oil's natural Vitamin E content (>50mg/100g), linoleic acid (omega-6), and mild, neutral flavor — qualities lost in refined sunflower oils. Ideal for salad dressings, light sautéing, and cosmetic formulations. Free fatty acid: <1%. Moisture: <0.1%. No chemical solvents or preservatives used. Available in bulk (15L jerry cans, 200L drums) and retail-ready glass bottles (250ml–2L) with private-label options. NPOP certified. MOQ: 500 litres (bulk). Ideal for organic food retailers, cold-pressed oil brands, salad dressing manufacturers, and natural cosmetics companies in Europe, USA, UAE, and Canada."
           },
           {
-            "name":"Organic Groundnut Oil(Peanut Oil)- Cold Pressed",
-            "slug":"organic-groundnut-oil-peanut-oil-cold-pressed",
+            "name": "Organic Groundnut Oil (Peanut Oil) - Cold Pressed",
+            "slug": "organic-groundnut-oil-peanut-oil-cold-pressed",
             "image": "/images/Organic/groundnut.png",
-            "gallery": ["/images/Organic/groundnut.png","/images/Organic/groundnut1.png","/images/Organic/groundnut2.png"],
-            "shortDesc": "Premium organic cold-pressed groundnut (peanut) oil.",
-            "description": "Our Organic Groundnut Oil, also known as Peanut Oil, is cold-pressed to retain its natural flavor, aroma, and nutritional benefits. Rich in monounsaturated fats and vitamin E, this oil is perfect for cooking, frying, and salad dressings."
+            "gallery": ["/images/Organic/groundnut.png", "/images/Organic/groundnut1.png", "/images/Organic/groundnut2.png"],
+            "shortDesc": "NPOP-certified Organic Cold Pressed Groundnut (Peanut) Oil — rich nutty aroma, high smoke point (232°C), ideal for stir-frying. Bulk export from India. Ideal for Asian food manufacturers and organic oil retailers.",
+            "description": "BOE9 exports NPOP-certified Organic Groundnut Oil (Peanut Oil) cold-pressed from organically grown groundnut (Arachis hypogaea) seeds sourced from Gujarat — India's largest groundnut-producing state. Known for its distinctive nutty aroma, rich golden color, and high smoke point (232°C / 450°F), this oil is ideal for stir-frying, deep-frying, Asian cuisine, and confectionery applications. Rich in monounsaturated fats (oleic acid ~50%) and Vitamin E. Free fatty acid: <1%. Moisture: <0.1%. No heat treatment or chemical extraction. Available in bulk (15L jerry cans, 200L drums) and retail-ready glass or PET bottles with private-label options. NPOP certified. MOQ: 500 litres (bulk). Ideal for Asian food manufacturers, organic food retailers, nut butter brands, and natural cosmetics companies in Europe, USA, UAE, and Southeast Asia."
           },
           {
             "name": "A2 Cow Ghee - 100% Pure Desi Cow Ghee",
             "slug": "a2-cow-ghee-100-pure-desi-cow-ghee",
             "image": "/images/Organic/cowghee.png",
-            "gallery": ["/images/Organic/cowghee.png","/images/Organic/cowghee1.png","/images/Organic/cowghee2.png"],
-            "shortDesc": "Premium A2 desi cow ghee made from organic milk.",
-            "description": "Our A2 Cow Ghee is made from the milk of A2 desi cows, ensuring a rich, authentic flavor and superior nutritional profile. Crafted using traditional methods, this ghee is ideal for cooking, Ayurvedic practices, and enhancing the taste of various dishes."
+            "gallery": ["/images/Organic/cowghee.png", "/images/Organic/cowghee1.png", "/images/Organic/cowghee2.png"],
+            "shortDesc": "Pure A2 Desi Cow Ghee from indigenous Gir/Sahiwal cows — rich in CLA, butyric acid, and fat-soluble vitamins. NPOP certified. Bulk and retail export from India for premium health food and Ayurvedic brands.",
+            "description": "BOE9 supplies pure A2 Cow Ghee made exclusively from the milk of indigenous A2 beta-casein-producing Gir and Sahiwal cows raised on certified organic pastures in India. Unlike A1 milk from crossbred cows, A2 milk is considered easier to digest and is preferred by health-conscious consumers globally. Our A2 ghee is prepared using the traditional curd-to-butter-to-ghee process, producing a rich golden ghee with a grainy texture, nutty aroma, and superior nutritional profile: high in CLA, butyric acid, vitamins A, D, E, and K2. No adulteration, no hydrogenated fat, no preservatives. Tested for purity via spectrophotometry. Available in 250ml, 500ml, 1L glass jars and bulk 15kg tins. NPOP certified. MOQ: 50 units (retail) / 50kg (bulk). Ideal for premium health food retailers, Ayurvedic brands, South Asian grocery importers, and specialty food distributors in USA, UK, Europe, UAE, and Australia."
           }
         ]
       },
       {
-        "name":"Organic Sweetners & Honey",
-        "slug":"organic-sweetners-honey",
+        "name": "Organic Sweeteners & Honey",
+        "slug": "organic-sweetners-honey",
         "image": "/images/Organic/sh.png",
-        "shortDesc": "A variety of organic sweeteners and honey sourced from India.",
-        "description":"Bumi Organic Exim offers a premium selection of Organic Sweeteners and Honey sourced from trusted Indian producers. Our sweeteners are derived from natural sources and processed minimally to retain their authentic flavor and nutritional benefits. Free from synthetic additives, our products are ideal for cooking, baking, beverages, and health applications.",
-        "items":[
+        "shortDesc": "NPOP-certified organic sweeteners and honey from India — jaggery powder, coconut sugar, raw honey, mishri & more. Ideal for health food brands, confectionery manufacturers, and organic grocery importers worldwide.",
+        "description": "BOE9 offers a comprehensive range of NPOP-certified Organic Sweeteners and Natural Honey sourced from trusted Indian producers. Our sweeteners are derived from organically grown sugarcane, coconut palm, and forest nectar — minimally processed to retain authentic flavor and nutritional benefits. Free from synthetic additives, bleaching agents, and preservatives. Ideal for health food brands, Ayurvedic products, confectionery manufacturers, and organic grocery importers worldwide.",
+        "items": [
           {
-            "name":"Organic Jaggery Powder",
-            "slug":"organic-jaggery-powder",
+            "name": "Organic Jaggery Powder",
+            "slug": "organic-jaggery-powder",
             "image": "/images/Organic/jagery.png",
-            "gallery": ["/images/Organic/jagery.png","/images/Organic/jagery1.png","/images/Organic/jagery2.png"],
-            "shortDesc": "Premium organic jaggery powder.",
-            "description": "Our Organic Jaggery Powder is made from the concentrated juice of organically grown sugarcane or palm, ensuring a rich, caramel-like flavor and superior nutritional profile. This natural sweetener is ideal for cooking, baking, and traditional desserts."
+            "gallery": ["/images/Organic/jagery.png", "/images/Organic/jagery1.png", "/images/Organic/jagery2.png"],
+            "shortDesc": "NPOP-certified Organic Jaggery Powder — unrefined cane sugar substitute, rich in iron and minerals, low GI. Bulk export in 25kg bags from India. Ideal for health food brands and organic sugar importers in Europe and USA.",
+            "description": "BOE9 exports NPOP-certified Organic Jaggery Powder (Organic Gur Powder) made from the concentrated juice of organically grown sugarcane in Maharashtra and Karnataka — processed without any synthetic chemicals, bleaching agents, or sulphur. Unlike refined white sugar, organic jaggery powder retains its natural molasses content, providing iron (11mg/100g), calcium, magnesium, and potassium. It has a lower glycemic index than refined sugar and a distinctive caramel-like flavor. Free-flowing, fine granule form (mesh 30–60) for easy use in baking, beverages, confectionery, and Ayurvedic formulations. Moisture: <3%. Total sugar: >85%. Available in 25kg food-grade bags or 1kg/500g retail packs for private-label buyers. NPOP certified. MOQ: 500kg. Ideal for health food manufacturers, organic sugar importers, confectionery brands, and Ayurvedic product companies in Europe, USA, UK, UAE, and Canada."
           },
           {
-            "name":"Organic Raw Sugar",
-            "slug":"organic-raw-sugar",
+            "name": "Organic Raw Sugar",
+            "slug": "organic-raw-sugar",
             "image": "/images/Organic/sugar.png",
-            "gallery": ["/images/Organic/sugar.png","/images/Organic/sugar1.png","/images/Organic/sugar2.png"],
-            "shortDesc": "Premium organic raw sugar.",
-            "description": "Our Organic Raw Honey is harvested from the nectar of flowers collected by bees on certified organic farms. This unprocessed honey retains its natural enzymes, antioxidants, and health benefits, making it a perfect addition to beverages, desserts, and wellness routines."
-
+            "gallery": ["/images/Organic/sugar.png", "/images/Organic/sugar1.png", "/images/Organic/sugar2.png"],
+            "shortDesc": "NPOP-certified Organic Raw Sugar (unrefined cane sugar) — golden color, natural molasses, 99%+ purity. Bulk export in 50kg bags from India. Ideal for organic food manufacturers and natural sweetener importers.",
+            "description": "BOE9 supplies NPOP-certified Organic Raw Sugar — a minimally processed, unrefined cane sugar produced from organically grown sugarcane without bleaching or chemical treatment. Our organic raw sugar retains a light golden color and subtle molasses flavor, distinguishing it from refined white sugar. Sucrose content: >99%. Moisture: <0.1%. Available in bulk 50kg food-grade poly-lined bags and 25kg retail bags. Suitable for USDA NOP and EU organic certification markets. Free from sulphur dioxide processing aids. NPOP certified. MOQ: 1 metric tonne. Ideal for organic food manufacturers, beverage companies, bakeries, and natural sweetener importers in Europe, USA, Canada, and the Middle East."
           },
-          
           {
-            "name":"Organic Dhaga Mishri – Organic Sugar Threads",
-            "slug":"organic-dhaga-mishri-organic-sugar-threads",
+            "name": "Organic Dhaga Mishri – Organic Sugar Threads",
+            "slug": "organic-dhaga-mishri-organic-sugar-threads",
             "image": "/images/Organic/mishri.png",
-            "gallery": ["/images/Organic/mishri.png","/images/Organic/mishri1.png","/images/Organic/mishri2.png"],
-            "shortDesc": "Premium organic sugar threads (mishri).",
-            "description": "Our Organic Dhaga Mishri is made from the concentrated juice of organically grown sugarcane, formed into delicate threads. This natural sweetener is ideal for traditional uses, cooking, and as a wholesome treat."
+            "gallery": ["/images/Organic/mishri.png", "/images/Organic/mishri1.png", "/images/Organic/mishri2.png"],
+            "shortDesc": "NPOP-certified Organic Dhaga Mishri (Sugar Threads / Rock Sugar) — traditional Ayurvedic sweetener, natural crystallization process, no synthetic additives. Ideal for Ayurvedic brands and Indian grocery importers worldwide.",
+            "description": "BOE9 offers NPOP-certified Organic Dhaga Mishri (Sugar Threads / Khand), a traditional Indian crystallized sugar formed by slow natural crystallization of organic sugarcane juice around cotton threads. Used for centuries in Ayurvedic formulations (kadhas, churnas), temple offerings, and traditional Indian sweets. Considered more digestible than refined sugar. Our mishri is produced without synthetic chemicals, artificial colors, or sulphur. White to light cream in color. Packed in 500g, 1kg, or 5kg food-grade bags. NPOP certified. MOQ: 100kg. Ideal for Ayurvedic product manufacturers, Indian grocery importers, organic food retailers, and wellness brands in USA, UK, UAE, Canada, and Europe."
           },
           {
-            "name":"Organic Multiflora Forest Honey – Organic Honey",
-            "slug":"organic-multiflora-forest-honey-organic-honey",
+            "name": "Organic Multiflora Forest Honey",
+            "slug": "organic-multiflora-forest-honey-organic-honey",
             "image": "/images/Organic/multiflora.png",
-            "gallery": ["/images/Organic/multiflora.png","/images/Organic/multiflora1.png","/images/Organic/multiflora2.png"],
-            "shortDesc": "Premium organic multiflora forest honey.",
-            "description": "Our Organic Multiflora Forest Honey is harvested from the nectar of diverse wildflowers collected by bees in organic forest areas. This unprocessed honey retains its natural enzymes, antioxidants, and health benefits, making it a perfect addition to beverages, desserts, and wellness routines."
-
+            "gallery": ["/images/Organic/multiflora.png", "/images/Organic/multiflora1.png", "/images/Organic/multiflora2.png"],
+            "shortDesc": "NPOP-certified Organic Multiflora Forest Honey — raw, unfiltered, NMR-tested for purity, collected from wild forest areas. Bulk export from India. Ideal for premium organic honey brands and health food retailers.",
+            "description": "BOE9 exports NPOP-certified Organic Multiflora Forest Honey collected by Apis cerana (Indian bee) and Apis mellifera colonies from wild forest areas of Madhya Pradesh, Chhattisgarh, and the Nilgiri Hills — regions free from industrial agricultural activity. Our raw forest honey is collected from forests with no synthetic pesticides or GM crops within a 3km foraging radius, earning its organic certification. Cold-extracted and minimally filtered to preserve natural enzymes (diastase, invertase), antioxidants (flavonoids, phenolic acids), and bee pollen. Not subjected to pasteurization or heat treatment. Moisture: <20%. HMF: <40mg/kg. Available NMR (nuclear magnetic resonance) tested for adulteration on request. Packed in food-grade glass jars (250g, 500g, 1kg) and bulk containers (25kg). NPOP certified. MOQ: 100kg. Ideal for premium honey brands, health food retailers, specialty food importers, and Ayurvedic companies in Europe, USA, UK, and Canada."
           },
           {
-            "name":"Organic Coconut Sugar Powder – Organic Coconut Sugar",
-            "slug":"organic-coconut-sugar-powder-organic-coconut-sugar",
+            "name": "Organic Coconut Sugar Powder",
+            "slug": "organic-coconut-sugar-powder-organic-coconut-sugar",
             "image": "/images/Organic/coco.png",
-            "gallery": ["/images/Organic/coco.png","/images/Organic/coco1.png","/images/Organic/coco2.png"],
-            "shortDesc": "Premium organic coconut sugar powder.",
-            "description": "Our Organic Coconut Sugar Powder is made from the sap of organically grown coconut palm trees. This natural sweetener has a low glycemic index and retains its natural nutrients, making it ideal for cooking, baking, and beverages."
-
+            "gallery": ["/images/Organic/coco.png", "/images/Organic/coco1.png", "/images/Organic/coco2.png"],
+            "shortDesc": "NPOP-certified Organic Coconut Sugar Powder — low glycemic index (GI 35), rich in inulin and minerals, natural caramel flavor. Bulk export from India. Ideal for diabetic-friendly food brands and health food importers.",
+            "description": "BOE9 exports NPOP-certified Organic Coconut Sugar Powder made from the nectar of organic coconut palm (Cocos nucifera) blossoms grown in coastal Karnataka and Kerala. Coconut sugar has a naturally low glycemic index (GI ~35 vs. refined sugar GI 65), contains inulin (a prebiotic fiber that slows glucose absorption), and retains trace minerals including potassium, zinc, and iron. Our coconut sugar is spray-dried into a fine, free-flowing powder for easy use in baking, beverages, and food formulations. Moisture: <3%. Sucrose: >70%. Free from anti-caking agents. Available in 25kg food-grade bags or retail-ready 500g/1kg packs. NPOP certified. MOQ: 500kg. Ideal for diabetic-friendly food manufacturers, Keto/Paleo product brands, health food retailers, and organic sugar importers in Europe, USA, Australia, and Canada."
           },
           {
-            "name":"Organic Jaggery Kaju Katli – Organic Sweeteners",
-            "slug":"organic-jaggery-kaju-katli-organic-sweeteners",
+            "name": "Organic Jaggery Kaju Katli",
+            "slug": "organic-jaggery-kaju-katli-organic-sweeteners",
             "image": "/images/Organic/kaju.png",
-            "gallery": ["/images/Organic/kaju.png","/images/Organic/kaju1.png","/images/Organic/kaju2.png"],
-            "shortDesc": "Delicious organic jaggery kaju katli sweets.",
-            "description": "Our Organic Jaggery Kaju Katli is a traditional Indian sweet made from organic jaggery and premium cashew nuts. This delectable treat combines the rich flavor of jaggery with the creamy texture of cashews, making it a perfect indulgence for festive occasions and everyday enjoyment."
-
+            "gallery": ["/images/Organic/kaju.png", "/images/Organic/kaju1.png", "/images/Organic/kaju2.png"],
+            "shortDesc": "Organic Jaggery Kaju Katli — traditional Indian cashew sweet made with organic jaggery instead of refined sugar. No preservatives, no artificial color. Ideal for Indian grocery importers and premium gifting brands worldwide.",
+            "description": "BOE9 offers premium Organic Jaggery Kaju Katli — a healthier rendition of India's most beloved festive sweet, crafted from NPOP-certified organic jaggery and premium-grade organic cashew nuts (W240/W320 grade). Made without refined sugar, artificial colors, or preservatives. The use of organic jaggery adds trace minerals (iron, calcium) and a subtle caramel depth not found in the standard version. Each piece is hand-rolled to the traditional diamond shape and wrapped in edible silver vark (optional). Shelf life: 15 days at room temperature, 30 days refrigerated. Packed in food-safe boxes (250g, 500g) suitable for retail or gifting. MOQ: 100 units. Ideal for Indian grocery importers, premium gift food brands, South Asian festive retailers, and specialty food stores in USA, UK, UAE, Canada, and Australia."
           },
           {
-            "name":"Organic Brown Sugar – Organically Processed & Refined Cane Sugar",
-            "slug":"organic-brown-sugar-organically-processed-refined-cane-sugar",
+            "name": "Organic Brown Sugar",
+            "slug": "organic-brown-sugar-organically-processed-refined-cane-sugar",
             "image": "/images/Organic/brown-sugar.png",
-            "gallery": ["/images/Organic/brown-sugar.png","/images/Organic/brown-sugar1.png","/images/Organic/brown-sugar2.png"],
-            "shortDesc": "Premium organic brown sugar.",
-            "description": "Our Organic Brown Sugar is made from organically grown sugarcane and processed to retain its natural molasses content. This natural sweetener offers a rich flavor and superior nutritional profile, making it ideal for cooking, baking, and beverages."
+            "gallery": ["/images/Organic/brown-sugar.png", "/images/Organic/brown-sugar1.png", "/images/Organic/brown-sugar2.png"],
+            "shortDesc": "NPOP-certified Organic Brown Sugar — natural molasses retained, moist texture, rich caramel flavor, 99%+ purity. Bulk export in 50kg bags from India. Ideal for organic food manufacturers and specialty baking brands.",
+            "description": "BOE9 supplies NPOP-certified Organic Brown Sugar produced from organically grown sugarcane, processed to retain its natural molasses coating — giving it a characteristic moist texture, rich brown color, and deep caramel flavor. Unlike conventionally produced brown sugar (refined white sugar with added molasses), our organic brown sugar is processed from minimally refined cane syrup. Total sugar: >97%. Moisture: 2–5%. Free from sulphur dioxide and synthetic additives. Available in moist fine and moist coarse crystal variants. Packed in 50kg food-grade poly-lined bags or retail-ready 1kg/2kg pouches for private-label clients. NPOP certified. MOQ: 1 metric tonne. Ideal for organic bakeries, confectionery manufacturers, beverage companies, and natural sweetener importers in Europe, USA, Canada, and the Middle East."
           },
           {
-            "name":"Organic White Crystal Sugar",
-            "slug":"organic-white-crystal-sugar",
+            "name": "Organic White Crystal Sugar",
+            "slug": "organic-white-crystal-sugar",
             "image": "/images/Organic/white.png",
-            "gallery": ["/images/Organic/white.png","/images/Organic/white1.png","/images/Organic/white2.png"],
-            "shortDesc": "Premium organic white crystal sugar.",
-            "description": "Our Organic White Crystal Sugar is made from organically grown sugarcane and processed to produce pure, white crystals. This natural sweetener is ideal for cooking, baking, and beverages, providing a clean, sweet taste without synthetic additives."
+            "gallery": ["/images/Organic/white.png", "/images/Organic/white1.png", "/images/Organic/white2.png"],
+            "shortDesc": "NPOP-certified Organic White Crystal Sugar — 99.8%+ sucrose, no sulphur treatment, EU and USDA NOP compliant. Bulk export in 50kg bags from India. Ideal for organic food manufacturers and beverage companies.",
+            "description": "BOE9 exports NPOP-certified Organic White Crystal Sugar produced from organically grown sugarcane using sulphur-free processing technology — meeting strict EU and USDA NOP organic standards that prohibit sulphur dioxide as a processing aid. Crystal size: 0.3–1.2mm (standard fine crystal). Sucrose: >99.8%. Moisture: <0.04%. Colour (ICUMSA): <45 IU. Completely free from synthetic pesticide residues, GMOs, and sulphur treatment. Available in bulk 50kg food-grade poly-lined bags and 25kg retail bags. NPOP certified. MOQ: 5 metric tonnes. Ideal for certified organic food manufacturers, beverages companies, confectionery brands, and sugar importers in Europe, USA, Canada, and Southeast Asia."
           },
-          
           {
-            "name":"Organic Jaggery Whole – Organic Jaggery Cubes",
-            "slug":"organic-jaggery-whole-organic-jaggery-cubes",
+            "name": "Organic Jaggery Whole – Organic Jaggery Cubes",
+            "slug": "organic-jaggery-whole-organic-jaggery-cubes",
             "image": "/images/cube.png",
-            "gallery": ["/images/cube1.png","/images/cube2.png","/images/cube.png"],
-            "shortDesc": "Premium organic jaggery cubes.",
-            "description": "Our Organic Jaggery Whole is made from the concentrated juice of organically grown sugarcane or palm, formed into convenient cubes. This natural sweetener is ideal for cooking, baking, and traditional desserts."
+            "gallery": ["/images/cube1.png", "/images/cube2.png", "/images/cube.png"],
+            "shortDesc": "NPOP-certified Organic Jaggery Cubes (Whole Jaggery) — unrefined, sulphur-free, rich in iron and minerals. Bulk export from India in 25kg bags. Ideal for Indian grocery importers, Ayurvedic brands, and health food retailers.",
+            "description": "BOE9 exports NPOP-certified Organic Jaggery Whole (Jaggery Cubes / Gur) produced from organically grown sugarcane in Maharashtra and Karnataka using traditional open-pan cooking methods — without any sulphur dioxide, synthetic clarifying agents, or artificial colors. Available in cube (1-inch blocks), circular round, and slab forms. Our organic jaggery is dark golden to brown in color with a characteristic earthy sweetness and rich mineral content: iron (~11mg/100g), calcium, magnesium, and potassium. Sucrose equivalent: >65%. Moisture: <8%. Packed in 25kg food-grade corrugated boxes or jute bags, and in 500g/1kg retail packs for private-label buyers. NPOP certified. MOQ: 500kg. Ideal for Indian grocery importers, Ayurvedic brands, health food retailers, and organic food manufacturers in USA, UK, UAE, Europe, and Canada."
           }
-
         ]
       },
       {
-        "name":"Organic Healthy Jams",
-        "slug":"organic-healthy-jams",
+        "name": "Organic Healthy Jams",
+        "slug": "organic-healthy-jams",
         "image": "/images/Organic/jam.png",
-        "shortDesc": "A variety of organic healthy jams sourced from India.",
-        "description":"Bumi Organic Exim offers a premium selection of Organic Healthy Jams made from fresh, organically grown fruits. Our jams are prepared using traditional recipes with minimal processing to retain the natural flavor, color, and nutritional benefits of the fruits. Free from synthetic additives and preservatives, our jams are perfect for spreading on bread, adding to desserts, or enjoying as a wholesome snack.",
-        "items":[
+        "shortDesc": "NPOP-certified organic fruit jams — mango, mixed fruit, pineapple, orange, and apple — no added preservatives or artificial colors. Ideal for organic food retailers, hotel chains, and private-label jam brands globally.",
+        "description": "BOE9 offers a premium range of NPOP-certified Organic Healthy Jams made from fresh, organically grown Indian fruits. Prepared using minimal processing — no artificial preservatives, no synthetic colors, and no added flavors — our jams retain the natural taste, color, and nutrients of the fruit. Sweetened with organic cane sugar or jaggery. Shelf life: 12 months. Available in 200g, 500g glass jars and bulk 5kg/10kg food-service packs. Ideal for organic food retailers, hotel and restaurant chains, airline catering, and private-label brand buyers worldwide.",
+        "items": [
           {
-            "name":"Organic Mango Jam",
-            "slug":"organic-mango-jam",
+            "name": "Organic Mango Jam",
+            "slug": "organic-mango-jam",
             "image": "/images/Organic/mango.png",
-            "gallery": ["/images/Organic/mango.png","/images/Organic/mango1.png","/images/Organic/mango2.png"],
-            "shortDesc": "Delicious organic mango jam made from ripe mangoes.",
-            "description": "Our Organic Mango Jam is crafted from fresh, organically grown mangoes, ensuring a rich, tropical flavor and vibrant color. This wholesome jam is perfect for spreading on bread, adding to desserts, or enjoying as a sweet treat."
+            "gallery": ["/images/Organic/mango.png", "/images/Organic/mango1.png", "/images/Organic/mango2.png"],
+            "shortDesc": "NPOP-certified Organic Mango Jam — made from Alphonso and Kesar mangoes, no artificial preservatives, rich tropical flavor. Available in 200g/500g glass jars. Ideal for premium organic food retailers and hotel chains.",
+            "description": "BOE9 supplies NPOP-certified Organic Mango Jam crafted from India's finest Alphonso (Hapus) and Kesar mangoes — grown on certified organic farms in Ratnagiri, Maharashtra, and Junagadh, Gujarat. Made by slow-cooking fresh mango pulp with organic cane sugar and natural pectin — no artificial preservatives, no synthetic colors, no added flavors. Fruit content: >55%. Brix: 65–67°. pH: 3.0–3.5. Shelf life: 12 months from date of manufacture. Packed in food-grade glass jars (200g, 500g, 1kg) with tamper-evident lids and in bulk food-service containers (5kg). Private-label packaging available. NPOP certified. MOQ: 100 units. Ideal for premium organic food retailers, hotel and airline catering, Indian grocery importers, and private-label food brands in Europe, USA, UAE, and Canada."
           },
           {
-            "name":"Organic Mixed Fruit Jam",
-            "slug":"organic-mixed-fruit-jam",
+            "name": "Organic Mixed Fruit Jam",
+            "slug": "organic-mixed-fruit-jam",
             "image": "/images/Organic/mix-jam.png",
-            "gallery": ["/images/Organic/mix-jam3.png","/images/Organic/mix-jam1.png","/images/Organic/mix-jam2.png"],
-            "shortDesc": "Tasty organic mixed fruit jam made from a blend of fruits.",
-            "description": "Our Organic Mixed Fruit Jam combines a variety of fresh, organically grown fruits to create a delightful blend of flavors. This versatile jam is perfect for spreading on toast, enhancing desserts, or enjoying as a wholesome snack."
+            "gallery": ["/images/Organic/mix-jam3.png", "/images/Organic/mix-jam1.png", "/images/Organic/mix-jam2.png"],
+            "shortDesc": "NPOP-certified Organic Mixed Fruit Jam — blend of seasonal organic fruits, no artificial additives, rich color and flavor. Available in 200g/500g glass jars. Ideal for organic grocery chains and private-label food brands.",
+            "description": "BOE9 offers NPOP-certified Organic Mixed Fruit Jam — a vibrant blend of seasonal organically grown fruits including mango, pineapple, papaya, guava, and apple, combined with organic cane sugar and natural fruit pectin. This versatile jam delivers a complex, fruity flavor profile ideal for breakfast spreads, dessert toppings, and bakery applications. Fruit content: >55%. Brix: 65–67°. No artificial preservatives, colors, or flavors. Shelf life: 12 months. Packed in 200g, 500g, and 1kg glass jars and bulk 5kg food-service containers. Private-label options available. NPOP certified. MOQ: 100 units. Ideal for organic grocery retailers, hospitality chains, airline catering, bakeries, and private-label food brands in Europe, USA, UK, UAE, and Canada."
           },
           {
             "name": "Organic Pineapple Jam",
             "slug": "organic-pineapple-jam",
             "image": "/images/Organic/pineapple.png",
-            "gallery": ["/images/Organic/pineapple1.png","/images/Organic/pineapple2.png","/images/Organic/pineapple3.png"],
-            "shortDesc": "Sweet and tangy organic pineapple jam.",
-            "description": "Our Organic Pineapple Jam is made from fresh, organically grown pineapples, delivering a perfect balance of sweetness and tanginess. This delicious jam is ideal for spreading on bread, adding to desserts, or enjoying as a refreshing treat."
+            "gallery": ["/images/Organic/pineapple1.png", "/images/Organic/pineapple2.png", "/images/Organic/pineapple3.png"],
+            "shortDesc": "NPOP-certified Organic Pineapple Jam — sweet-tangy flavor, high fruit content (>55%), no preservatives. Available in 200g/500g glass jars. Ideal for health food retailers and bakery ingredient importers worldwide.",
+            "description": "BOE9 supplies NPOP-certified Organic Pineapple Jam made from organically grown Kew and Queen variety pineapples sourced from certified farms in Assam and Kerala. Slow-cooked with organic cane sugar to achieve a bright golden color, intense tropical flavor, and balanced sweet-tangy taste profile. Rich in Vitamin C and natural bromelain enzyme. Fruit content: >55%. Brix: 65–67°. Free from artificial preservatives, colors, and flavors. Shelf life: 12 months. Packed in 200g, 500g, and 1kg glass jars and bulk 5kg food-service containers. Private-label packaging available. NPOP certified. MOQ: 100 units. Ideal for organic food retailers, bakeries, hotel chains, juice brands, and specialty food importers in Europe, USA, UAE, Canada, and Australia."
           },
           {
-            "name":"Organic Orange Jam",
-            "slug":"organic-orange-jam",
+            "name": "Organic Orange Jam",
+            "slug": "organic-orange-jam",
             "image": "/images/Organic/orange.png",
-            "gallery": ["/images/Organic/orange1.png","/images/Organic/orange2.png","/images/Organic/orange3.png"],
-            "shortDesc": "Zesty organic orange jam made from ripe oranges.",
-            "description": "Our Organic Orange Jam is crafted from fresh, organically grown oranges, providing a vibrant citrus flavor and bright color. This tangy jam is perfect for spreading on toast, enhancing desserts, or enjoying as a refreshing snack."
+            "gallery": ["/images/Organic/orange1.png", "/images/Organic/orange2.png", "/images/Organic/orange3.png"],
+            "shortDesc": "NPOP-certified Organic Orange Jam — made from Nagpur oranges with natural peel, zesty citrus flavor, no artificial additives. Available in 200g/500g glass jars. Ideal for premium organic food brands and hotel chains.",
+            "description": "BOE9 offers NPOP-certified Organic Orange Jam made from organically grown Nagpur Santra (Citrus sinensis) — India's most prized orange variety, known globally for its vibrant color, high juice content, and distinctive citrus flavor. Made with fresh orange pulp and natural orange peel zest, combined with organic cane sugar and natural pectin — producing a marmalade-style preserve with bright citrus notes and a refreshing tartness. Rich in Vitamin C. Fruit content: >55%. Brix: 65–67°. No artificial preservatives, synthetic colors, or flavor enhancers. Shelf life: 12 months. Packed in 200g, 500g, and 1kg glass jars with private-label options. NPOP certified. MOQ: 100 units. Ideal for premium organic food retailers, hotel and restaurant chains, airline catering, and specialty food importers in Europe, USA, UK, and the Middle East."
           },
           {
-            "name":"Organic Apple Jam",
-            "slug":"organic-apple-jam",
+            "name": "Organic Apple Jam",
+            "slug": "organic-apple-jam",
             "image": "/images/Organic/apple.png",
-            "gallery": ["/images/Organic/apple1.png","/images/Organic/apple2.png","/images/Organic/apple3.png"],
-            "shortDesc": "Delicious organic apple jam made from fresh apples.",
-            "description": "Our Organic Apple Jam is made from fresh, organically grown apples, ensuring a sweet and comforting flavor. This wholesome jam is perfect for spreading on bread, adding to desserts, or enjoying as a nutritious treat."
+            "gallery": ["/images/Organic/apple1.png", "/images/Organic/apple2.png", "/images/Organic/apple3.png"],
+            "shortDesc": "NPOP-certified Organic Apple Jam — made from Himalayan apples, natural pectin, no added preservatives, classic sweet flavor. Available in 200g/500g glass jars. Ideal for organic grocery retailers and bakery brands.",
+            "description": "BOE9 supplies NPOP-certified Organic Apple Jam crafted from organically grown apples (Royal Delicious, Golden Delicious) sourced from certified organic orchards in Himachal Pradesh and Jammu & Kashmir — India's top apple-producing states. Made with fresh apple pulp cooked with organic cane sugar and the fruit's own natural pectin — delivering a classic, comforting flavor with smooth texture. High in soluble fiber (pectin) and Vitamin C. Fruit content: >55%. Brix: 65–67°. Free from artificial preservatives, synthetic colors, and flavor additives. Shelf life: 12 months. Packed in 200g, 500g, and 1kg glass jars and 5kg food-service bulk containers. Private-label options available. NPOP certified. MOQ: 100 units. Ideal for organic food retailers, bakeries, breakfast brands, hotel chains, and specialty food importers in Europe, USA, UK, UAE, and Canada."
           }
         ]
       },
       {
-        "name":"Organic dryfruits & nuts",
-        "slug":"organic-dryfruits-nuts",
+        "name": "Organic Dry Fruits & Nuts",
+        "slug": "organic-dryfruits-nuts",
         "image": "/images/Organic/spices.png",
-        "shortDesc": "A variety of organic dry fruits and nuts sourced from India.",
-        "description":"Bumi Organic Exim offers a premium selection of Organic Dry Fruits and Nuts sourced from trusted Indian producers. Our dry fruits and nuts are cultivated on certified organic farms, ensuring they are free from synthetic pesticides and fertilizers. Carefully processed and packed, our products retain their natural flavor, texture, and nutritional benefits. Ideal for snacking, baking, cooking, and health applications, our organic dry fruits and nuts cater to health-conscious consumers worldwide.",
-        "items":[
+        "shortDesc": "NPOP-certified organic dry fruits and nuts from India — almonds, cashews, walnuts, pistachios, raisins, and dates. Bulk export for health food brands, organic snack manufacturers, and premium grocery importers worldwide.",
+        "description": "BOE9 offers a premium selection of NPOP-certified Organic Dry Fruits and Nuts sourced from certified organic farms and orchards across India. Cultivated without synthetic pesticides or fertilizers, our dry fruits and nuts are carefully sorted, processed, and packed to retain their natural flavor, texture, and nutritional benefits. Ideal for healthy snacking, baking, confectionery, trail mix manufacturing, and health food applications. All products are tested for aflatoxin, pesticide residues, and moisture levels. Bulk export in 25kg/50kg bags and retail packs available.",
+        "items": [
           {
-            "name":"Organic Almonds (Badam)",
-            "slug":"organic-almonds-badam",
+            "name": "Organic Almonds (Badam)",
+            "slug": "organic-almonds-badam",
             "image": "/images/Organic/almond.png",
-            "gallery": ["/images/Organic/almond.png","/images/Organic/almond1.png","/images/Organic/almond2.png"],
-            "shortDesc": "Premium organic almonds (badam) rich in nutrients.",
-            "description": "Our Organic Almonds (Badam) are sourced from certified organic farms, ensuring they are free from synthetic pesticides and fertilizers. These nutrient-dense nuts are perfect for snacking, baking, cooking, and health applications."
-            
+            "gallery": ["/images/Organic/almond.png", "/images/Organic/almond1.png", "/images/Organic/almond2.png"],
+            "shortDesc": "NPOP-certified Organic Almonds (Badam) — 21g protein per 100g, high in Vitamin E, available in California and Gurbandi varieties. Bulk export in 25kg bags. Ideal for organic snack brands and health food importers.",
+            "description": "BOE9 supplies NPOP-certified Organic Almonds (Badam / Prunus dulcis) — available in California (Nonpareil, Carmel) and native Indian Gurbandi varieties — sourced from certified organic orchards. Rich in protein (21g/100g), Vitamin E (25mg/100g), monounsaturated fats, magnesium, and fiber. Our organic almonds are tested for aflatoxin (<4ppb), pesticide residues, and moisture (<5.5%). Available as raw whole, blanched (skin-removed), slivered, and almond flour. Packed in 25kg food-grade poly bags or retail-ready 250g/500g resealable pouches with private-label options. NPOP certified. MOQ: 500kg. Ideal for organic snack manufacturers, almond butter brands, health food retailers, trail mix companies, and wholesale importers in Europe, USA, UAE, Canada, and Australia."
           },
           {
-            "name":"Organic Cashews (Kaju)",
-            "slug":"organic-cashews-kaju",
+            "name": "Organic Cashews (Kaju)",
+            "slug": "organic-cashews-kaju",
             "image": "/images/Organic/cashew.png",
-            "gallery": ["/images/Organic/cashew.png","/images/Organic/cashew1.png","/images/Organic/cashew2.png"],
-            "shortDesc": "High-quality organic cashews (kaju) for snacking and cooking.",
-            "description": "Our Organic Cashews (Kaju) are cultivated on certified organic farms, ensuring they are free from synthetic pesticides and fertilizers. These creamy, nutrient-rich nuts are ideal for snacking, baking, cooking, and health applications."
-
+            "gallery": ["/images/Organic/cashew.png", "/images/Organic/cashew1.png", "/images/Organic/cashew2.png"],
+            "shortDesc": "NPOP-certified Organic Cashews (W240/W320 grade) — creamy texture, 18g protein, rich in zinc and magnesium. Bulk export from India in 25lb vacuum packs. Ideal for organic snack brands and nut importers in Europe and USA.",
+            "description": "BOE9 exports NPOP-certified Organic Cashews (Anacardium occidentale) sourced from certified organic farms in Goa, Kerala, and Maharashtra — India's premium cashew-growing states. Available in export grades: W180, W210, W240, W320, W450, and splits/pieces. Our cashews are steamed, shelled, graded, and roasted or supplied raw. Rich in protein (18g/100g), healthy monounsaturated fats, zinc, magnesium, and copper. Tested for aflatoxin (<10ppb) and pesticide residues. Packed in 25lb (11.34kg) vacuum-sealed tins or 25kg food-grade boxes for bulk export, and in 250g/500g retail pouches for private-label buyers. NPOP certified. MOQ: 500kg. Ideal for organic snack manufacturers, cashew butter brands, confectionery companies, and nut importers in Europe, USA, UAE, Canada, and Australia."
           },
           {
-            "name":"Organic Walnuts (Akhrot)",
-            "slug":"organic-walnuts-akhrot",
+            "name": "Organic Walnuts (Akhrot)",
+            "slug": "organic-walnuts-akhrot",
             "image": "/images/Organic/walnut.png",
-            "gallery": ["/images/Organic/walnut.png","/images/Organic/walnut1.png","/images/Organic/walnut2.png"],
-            "shortDesc": "Nutrient-dense organic walnuts (akhrot) for health-conscious consumers.",
-            "description": "Our Organic Walnuts (Akhrot) are sourced from certified organic farms, ensuring they are free from synthetic pesticides and fertilizers. These nutrient-dense nuts are perfect for snacking, baking, cooking, and health applications."
+            "gallery": ["/images/Organic/walnut.png", "/images/Organic/walnut1.png", "/images/Organic/walnut2.png"],
+            "shortDesc": "NPOP-certified Organic Walnuts (Akhrot) from Kashmir and Himachal Pradesh — highest plant-based omega-3 source (ALA 9g/100g), 15g protein. Bulk export in 25kg bags. Ideal for health food brands and organic nut importers.",
+            "description": "BOE9 exports NPOP-certified Organic Walnuts (Akhrot / Juglans regia) sourced from certified organic orchards in Jammu & Kashmir and Himachal Pradesh — India's premium walnut-producing regions known for large, light-colored kernels with thin shells. Walnuts are the richest plant-based source of alpha-linolenic acid (ALA omega-3 fatty acids — 9g/100g), plus protein (15g/100g), manganese, and antioxidants (ellagic acid, vitamin E). Available as in-shell and shelled (halves, quarters, and pieces — light, light amber, amber grades). Moisture: <8%. Tested for aflatoxin and pesticide residues. Packed in 25kg food-grade poly bags and vacuum-sealed retail pouches. NPOP certified. MOQ: 500kg. Ideal for organic snack manufacturers, walnut oil producers, health food brands, and nut importers in Europe, USA, UAE, and Canada."
           },
           {
-            "name":"Organic Pistachios (Pista)",
-            "slug":"organic-pistachios-pista",
+            "name": "Organic Pistachios (Pista)",
+            "slug": "organic-pistachios-pista",
             "image": "/images/Organic/pistachio.png",
-            "gallery": ["/images/Organic/pistachio.png","/images/Organic/pistachio1.png","/images/Organic/pistachio2.png"],
-            "shortDesc": "Premium organic pistachios (pista) for snacking and culinary uses.",
-            "description": "Our Organic Pistachios (Pista) are cultivated on certified organic farms, ensuring they are free from synthetic pesticides and fertilizers. These flavorful, nutrient-rich nuts are ideal for snacking, baking, cooking, and health applications."
+            "gallery": ["/images/Organic/pistachio.png", "/images/Organic/pistachio1.png", "/images/Organic/pistachio2.png"],
+            "shortDesc": "NPOP-certified Organic Pistachios (Pista) — naturally split, 20g protein, rich in antioxidants and Vitamin B6. Bulk export from India. Ideal for organic snack manufacturers, confectionery brands, and premium nut importers.",
+            "description": "BOE9 supplies NPOP-certified Organic Pistachios (Pista / Pistacia vera) sourced from certified organic farms. Prized for their naturally split shells (indicating ripeness), vibrant green kernels, and distinctive sweet-savory flavor. Rich in protein (20g/100g), healthy fats, Vitamin B6, potassium, and lutein/zeaxanthin antioxidants. Available as in-shell, raw shelled, and roasted (with or without salt). Tested for aflatoxin (<4ppb) and pesticide residues. Packed in 25kg food-grade poly bags and vacuum-sealed retail pouches (250g/500g). NPOP certified. MOQ: 500kg. Ideal for organic snack manufacturers, trail mix companies, ice cream and confectionery brands, and premium nut importers in Europe, USA, UAE, Canada, and Australia."
           },
           {
-            "name":"Organic Raisins (Kishmish)",
-            "slug":"organic-raisins-kishmish",
+            "name": "Organic Raisins (Kishmish)",
+            "slug": "organic-raisins-kishmish",
             "image": "/images/Organic/raisin.png",
-            "gallery": ["/images/Organic/raisin.png","/images/Organic/raisin1.png","/images/Organic/raisin2.png"],
-            "shortDesc": "Sweet and nutritious organic raisins (kishmish).",
-            "description": "Our Organic Raisins (Kishmish) are made from organically grown grapes, ensuring they are free from synthetic pesticides and fertilizers. These naturally sweet dried fruits are perfect for snacking, baking, cooking, and health applications."
+            "gallery": ["/images/Organic/raisin.png", "/images/Organic/raisin1.png", "/images/Organic/raisin2.png"],
+            "shortDesc": "NPOP-certified Organic Raisins (Kishmish) from Nashik grapes — natural sweetness, high iron, no sulphur dioxide treatment. Bulk export in 25kg bags from India. Ideal for organic bakeries, cereal brands, and health food importers.",
+            "description": "BOE9 exports NPOP-certified Organic Raisins (Kishmish) made from organically grown Thompson Seedless and Sharad Seedless grapes from Nashik, Maharashtra — India's largest raisin-producing region. Sun-dried or mechanically dried without sulphur dioxide (SO2) treatment — unlike conventional raisins, making them truly sulphite-free and safe for sulphite-sensitive consumers. Natural golden to dark amber color. Sweet, concentrated grape flavor. Rich in iron (1.8mg/100g), potassium, and natural antioxidants. Moisture: 14–18%. Available in Grade A (large, uniform) and Grade B (medium). Packed in 12.5kg and 25kg food-grade poly bags, and 250g/500g retail pouches. NPOP certified. MOQ: 500kg. Ideal for organic bakeries, breakfast cereal manufacturers, trail mix companies, and health food importers in Europe, USA, UAE, and Canada."
           },
           {
-            "name":"Organic Dates (Khajoor)",
-            "slug":"organic-dates-khajoor",
+            "name": "Organic Dates (Khajoor)",
+            "slug": "organic-dates-khajoor",
             "image": "/images/Organic/dates.png",
-            "gallery": ["/images/Organic/dates.png","/images/Organic/dates1.png","/images/Organic/dates2.png"],
-            "shortDesc": "Delicious and nutrient-rich organic dates (khajoor).",  
-            "description": "Our Organic Dates (Khajoor) are sourced from certified organic farms, ensuring they are free from synthetic pesticides and fertilizers. These naturally sweet dried fruits are perfect for snacking, baking, cooking, and health applications."
+            "gallery": ["/images/Organic/dates.png", "/images/Organic/dates1.png", "/images/Organic/dates2.png"],
+            "shortDesc": "NPOP-certified Organic Dates (Khajoor) — Medjool and Kimia varieties, naturally sweet, high in fiber and potassium, no added sugar. Bulk export from India and the Middle East. Ideal for health food brands and organic snack importers.",
+            "description": "BOE9 supplies NPOP-certified Organic Dates (Khajoor / Phoenix dactylifera) in Medjool (large, premium, caramel-soft) and Kimia/Mazafati (soft, dark, intensely sweet) varieties sourced from certified organic date farms. Dates are naturally rich in fiber (6.7g/100g), potassium, magnesium, and natural sugars (glucose + fructose) — providing a clean, sustained energy boost. No added sugar, no sulphur, no preservatives. Moisture: 15–25% (variety-dependent). Available as pitted, unpitted, and date paste for food manufacturing. Packed in 5kg and 10kg food-grade boxes, and retail-ready 250g/500g pouches. NPOP certified. MOQ: 500kg. Ideal for energy bar manufacturers, organic snack brands, Ramadan specialty retailers, and health food importers in Europe, USA, UK, UAE, Canada, and Australia."
           }
-
         ]
       }
-
-
     ]
   },
+
   {
     "category": "Dehydrated Products",
     "slug": "dehydrated-products",
     "categoryImage": "/images/dehydrated.png",
-    "shortDesc": "A variety of dehydrated products sourced from India."
-    ,
+    "categoryDesc": "BOE9 (Bumi Organic Exim) is a leading exporter of dehydrated vegetables, dehydrated onion powder, dehydrated garlic powder, moringa leaf powder, and dehydrated fruits from India. Our dehydrated products are processed using advanced hot-air drying and FD (freeze-dry) technology to preserve color, flavor, and nutritional value. Free from additives, artificial colors, and preservatives. Available in flakes, granules, and powder forms. Bulk export in 25kg bags worldwide.",
     "products": [
       {
         "name": "Dehydrated Onion",
         "slug": "dehydrated-onion",
         "image": "/images/dehydrated-onions.png",
         "gallery": ["/images/dehydrated-onions.png"],
-        "shortDesc": "Premium quality dehydrated onion products from India.",
-        "description": "At Bumi Organic Exim, we offer premium quality Dehydrated Onion products sourced from India’s finest farms. Our dehydrated onions are carefully processed to retain their natural flavor, aroma, and nutritional value, making them an ideal ingredient for a variety of culinary applications. Available in various forms such as flakes, granules, and powder, our dehydrated onions are perfect for soups, sauces, seasonings, and ready-to-eat meals. Free from additives and preservatives, our products ensure purity and consistent quality for both domestic and international markets."
+        "shortDesc": "Export-grade Dehydrated Onion — flakes, granules, minced, and powder forms. Pungency: >30 µmol pyruvic acid/g. Bulk supply in 25kg cartons from Nashik, India. Ideal for spice blenders, seasoning manufacturers, and food processors worldwide.",
+        "description": "BOE9 exports premium Dehydrated Onion products sourced from Nashik and Mahuva — India's dehydrated onion processing capitals — supplying some of the world's largest spice companies and food manufacturers. Available in four forms: Dehydrated Onion Flakes (3–6mm), Granules (1–3mm), Minced (2–4mm), and Powder (40/60/80 mesh). Made from high-pungency red or white onion varieties, processed in HACCP and ISO 22000 certified facilities. Key specs: Moisture <5%; Ash <7%; Total plate count <1 lakh cfu/g; E. coli: absent; Salmonella: absent. Pungency: >30 µmol pyruvic acid per gram. No additives, no artificial colors, no anti-caking agents (on request). Packed in 25kg double-layer (kraft paper + polyethylene) cartons with inner moisture barrier. MOQ: 1 metric tonne. Ideal for spice blenders, seasoning manufacturers, soup manufacturers, ready-meal producers, and food importers in the USA, Europe, Japan, Australia, and the Middle East."
       },
       {
-        "name": "Moringa",
+        "name": "Moringa Leaf Powder",
         "slug": "moringa",
         "image": "/images/moringa.png",
-        "gallery": ["/images/moringa.png","/images/moringa1.png","/images/moringa2.png"],
-        "shortDesc": "Superfood herbal product.",
-        "description": "Organic Moringa with full nutritional profile, harvested from certified farms for global wellness markets."
+        "gallery": ["/images/moringa.png", "/images/moringa1.png", "/images/moringa2.png"],
+        "shortDesc": "NPOP-certified Organic Moringa Leaf Powder from India — 27% protein, 7x Vitamin C of oranges, 4x calcium of milk. Bulk export in 25kg bags. Ideal for nutraceutical brands, health food manufacturers, and supplement importers.",
+        "description": "BOE9 exports NPOP-certified Organic Moringa Leaf Powder (Moringa oleifera) — sourced from certified organic Moringa farms in Andhra Pradesh and Tamil Nadu, where the tropical climate produces the highest nutrient-density leaves. Often called the 'Miracle Tree', Moringa leaves contain extraordinary nutritional density: Protein: 27g/100g (all 9 essential amino acids); Vitamin C: 220mg/100g (7× that of oranges); Calcium: 2003mg/100g (4× that of milk); Iron: 28mg/100g (3× that of spinach); Potassium: 1324mg/100g (15× that of bananas). Our moringa leaves are shade-dried at <40°C to preserve heat-sensitive vitamins and phytonutrients, then milled to a fine bright green powder (60–80 mesh). Moisture: <6%. Ash: <10%. Heavy metals and pesticide residue tested. Available as conventional and NPOP-certified organic. Packed in 25kg food-grade poly bags and retail-ready 100g/250g/500g pouches with private-label options. NPOP certified. MOQ: 100kg. Ideal for nutraceutical manufacturers, protein supplement brands, green superfood powder companies, Ayurvedic brands, and health food importers in Europe, USA, UK, Canada, and Australia."
       },
       {
         "name": "Dehydrated Garlic",
         "slug": "dehydrated-garlic",
         "image": "/images/dehydrated-garlic.png",
         "gallery": ["/images/dehydrated-garlic.png"],
-        "shortDesc": "Premium quality dehydrated garlic products from India.",
-        "description": "At Bumi Organic Exim, we provide premium quality Dehydrated Garlic products sourced from India’s top farms. Our dehydrated garlic is processed to preserve its robust flavor, aroma, and health benefits, making it a versatile ingredient for various culinary uses. Available in forms such as flakes, granules, and powder, our dehydrated garlic is perfect for enhancing the taste of soups, sauces, marinades, and spice blends. Free from additives and preservatives, our products guarantee purity and consistent quality for both domestic and international markets."
+        "shortDesc": "Export-grade Dehydrated Garlic — flakes, granules, minced, and powder (80 mesh). Allicin-rich, sulfur-tested. Bulk supply in 25kg cartons from India. Ideal for spice manufacturers, seasoning blenders, and food processors worldwide.",
+        "description": "BOE9 exports premium Dehydrated Garlic products sourced from Madhya Pradesh and Gujarat — India's top garlic-growing states — processed in HACCP-certified facilities. Available in forms: Dehydrated Garlic Flakes (3–5mm), Granules (1–3mm), Minced (2–4mm), and Powder (80 mesh / fine powder). Made from high-allicin garlic varieties with characteristic strong aroma and pungency. Key specs: Moisture <6%; Sulfur content: >1%; Total plate count <1 lakh cfu/g; E. coli: absent; Salmonella: absent. No synthetic additives or anti-caking agents on request. Packed in 25kg double-layer cartons (kraft + poly inner). MOQ: 1 metric tonne. Ideal for spice blenders, seasoning manufacturers, marinades and sauce producers, instant noodle manufacturers, and food importers in the USA, Europe, Japan, Australia, and the Middle East."
       },
       {
         "name": "Dehydrated Ginger",
         "slug": "dehydrated-ginger",
         "image": "/images/dehydrated-ginger.png",
         "gallery": ["/images/dehydrated-ginger.png"],
-        "shortDesc": "Premium quality dehydrated ginger products from India.",
-        "description": "At Bumi Organic Exim, we offer premium quality Dehydrated Ginger products sourced from India’s finest farms. Our dehydrated ginger is carefully processed to retain its natural pungency, aroma, and health benefits, making it an essential ingredient for various culinary applications. Available in forms such as flakes, granules, and powder, our dehydrated ginger is perfect for adding flavor to teas, baked goods, sauces, and spice blends. Free from additives and preservatives, our products ensure purity and consistent quality for both domestic and international markets."
+        "shortDesc": "Export-grade Dehydrated Ginger Powder and Flakes from India — 1–3% gingerol content, ASTA-compliant, no SO2. Bulk supply in 25kg cartons. Ideal for spice manufacturers, herbal tea brands, and bakery ingredient suppliers.",
+        "description": "BOE9 exports premium Dehydrated Ginger products sourced from Cochin (Kerala) and Sonth (dried ginger) farms in Rajasthan — two of India's premium ginger origins. Available in: Dehydrated Ginger Powder (ASTA 60 mesh), Sliced Flakes (2–4mm), and Granules (1–3mm). Key phytochemical specs: Gingerol content: 1–3% (fresh equivalent); Volatile oil: >1.5%; Oleoresin: >3.5%. Distinctive spicy, warm aroma. ASTA (American Spice Trade Association) compliant. Free from sulphur dioxide (SO2) treatment. Moisture: <8%. Heavy metals tested. Packed in 25kg double-layer cartons. MOQ: 500kg. Ideal for spice manufacturers, herbal tea producers, bakery ingredient suppliers, Ayurvedic companies, and food importers in the USA, Europe, Japan, UK, and Australia."
       },
       {
         "name": "Dehydrated Turmeric",
         "slug": "dehydrated-turmeric",
         "image": "/images/dehydrated-turmeric.png",
         "gallery": ["/images/dehydrated-turmeric.png"],
-        "shortDesc": "Premium quality dehydrated turmeric products from India.",
-        "description": "At Bumi Organic Exim, we provide premium quality Dehydrated Turmeric products sourced from India’s top farms. Our dehydrated turmeric is processed to preserve its vibrant color, earthy flavor, and health benefits, making it a valuable ingredient for various culinary and medicinal applications. Available in forms such as flakes, granules, and powder, our dehydrated turmeric is perfect for enhancing the taste and color of curries, soups, sauces, and spice blends. Free from additives and preservatives, our products guarantee purity and consistent quality for both domestic and international markets."
+        "shortDesc": "Export-grade Dehydrated Turmeric Powder from India — 3–5% curcumin content, vibrant golden color (ASTA 35+), no lead chromate. Bulk supply in 25kg cartons. Ideal for spice brands, curry powder manufacturers, and food processors.",
+        "description": "BOE9 exports premium Dehydrated Turmeric products — available as Turmeric Powder (60/80 mesh) and Turmeric Finger (dried rhizome for grinding) — sourced from Erode (Tamil Nadu) and Sangli (Maharashtra), India's top turmeric-producing regions. Key quality specs: Curcumin content: 3–5%; Color value (ASTA): >35; Moisture: <10%; Total Ash: <8%; E. coli: absent; Salmonella: absent. Critically, our turmeric is tested and certified free from lead chromate adulteration — a major concern in international markets. Available as conventional and organic. Packed in 25kg double-layer cartons with inner poly liner. MOQ: 500kg. We also supply Lakadong Turmeric Powder (7–8% curcumin) — available separately on request. Ideal for curry powder manufacturers, spice blenders, dietary supplement brands, and food importers in the USA, Europe, Japan, Middle East, and Australia."
       },
       {
-        "name": "ALL Types of Dehydrated Fruits",
+        "name": "All Types of Dehydrated Fruits",
         "slug": "all-types-of-dehydrated-fruits",
         "image": "/images/dehydrated-fruits.png",
         "gallery": ["/images/dehydrated-fruits1.png", "/images/dehydrated-fruits2.png"],
-        "shortDesc": "Premium quality dehydrated fruit products from India.",
-        "description": "At Bumi Organic Exim, we offer a wide range of premium quality Dehydrated Fruit products sourced from India’s finest farms. Our dehydrated fruits are carefully processed to retain their natural sweetness, flavor, and nutritional value, making them an ideal ingredient for various culinary applications. Available in various forms such as slices, chunks, and powders, our dehydrated fruits are perfect for snacks, baking, cereals, trail mixes, and desserts. Free from additives and preservatives, our products ensure purity and consistent quality for both domestic and international markets."
-      
+        "shortDesc": "Export-grade Dehydrated Fruits from India — mango slices, banana chips, papaya, guava, amla, and more. No SO2 or preservatives. Bulk supply in 25kg cartons. Ideal for cereal brands, trail mix manufacturers, and snack food importers.",
+        "description": "BOE9 exports a wide range of premium Dehydrated Fruit products sourced from India's rich fruit-growing regions, processed in HACCP-certified facilities using hot-air drying and FD (freeze-dry) technology. Available dehydrated fruits include: Mango Slices (Alphonso/Kesar), Banana Chips, Papaya Cubes/Powder, Guava Powder, Amla (Indian Gooseberry) Powder, Tamarind Powder, Kokum Powder, and seasonal fruits on request. All products are free from SO2, artificial colors, and preservatives. Key specs: Moisture <5–8% (variety-dependent); Rehydration ratio: 1:5–1:8; Ash as per variety. Available in slice, chunk, and powder forms. Packed in 25kg double-layer cartons with inner poly liner. Private-label retail packs available. MOQ: 500kg. Ideal for breakfast cereal manufacturers, trail mix companies, baking ingredient suppliers, health food snack brands, and food importers in Europe, USA, Japan, UAE, and Canada."
       },
       {
-        "name": "ALL Types of Dehydrated Vegetables",
+        "name": "All Types of Dehydrated Vegetables",
         "slug": "all-types-of-dehydrated-vegetables",
         "image": "/images/dehyadrated-veg.png",
         "gallery": ["/images/dehydrated-veg1.png", "/images/dehydrated-vegetables1.png", "/images/dehydrated-vegetables2.png"],
-        "shortDesc": "Premium quality dehydrated vegetable products from India.",
-        "description": "At Bumi Organic Exim, we provide a wide range of premium quality Dehydrated Vegetable products sourced from India’s top farms. Our dehydrated vegetables are processed to preserve their natural flavor, texture, and nutritional value, making them versatile ingredients for various culinary uses. Available in forms such as flakes, granules, and powders, our dehydrated vegetables are perfect for soups, stews, sauces, seasonings, and ready-to-eat meals. Free from additives and preservatives, our products guarantee purity and consistent quality for both domestic and international markets."
+        "shortDesc": "Export-grade Dehydrated Vegetables from India — spinach, tomato, carrot, cabbage, beetroot, and more in flakes/powder. No additives. Bulk supply in 25kg cartons. Ideal for soup manufacturers, instant food brands, and seasoning blenders.",
+        "description": "BOE9 exports a comprehensive range of premium Dehydrated Vegetables sourced from farms across India, processed in HACCP and ISO 22000 certified facilities using hot-air tunnel drying. Available dehydrated vegetables include: Spinach Powder/Flakes, Tomato Powder/Flakes/Paste Powder, Carrot Flakes/Powder, Cabbage Flakes, Beetroot Powder, Green Peas (dehydrated), Potato Flakes/Granules, Sweet Corn, Red/Green Bell Pepper Flakes, and more. All products are free from artificial colors, preservatives, and sulfiting agents. Key specs: Moisture <5–8%; Total plate count <1 lakh cfu/g; E. coli and Salmonella: absent. Available in flake, granule, and powder forms (40/60/80 mesh). Packed in 25kg double-layer (kraft + poly) cartons. MOQ: 500kg per variety. Ideal for instant soup manufacturers, ready-meal producers, seasoning and spice blenders, baby food companies, and food importers in Europe, USA, Japan, UAE, Canada, and Australia."
       }
     ]
   },
- {
-  "category": "Indian Spices",
-  "slug": "indian-spices",
-  "categoryImage": "/images/Spices.png"
-  
-,
-  "products":[
-  {
-    "name": "Red Chili",
-    "slug": "red-chili",
-    "image": "/images/chilli.png",
-    "gallery": ["/images/chilli.png"],
-    "shortDesc": "Premium quality red chili powder and whole red chilies from India.",
-    "description": "Step into the world of organic with our Red Chili, sourced from India’s finest farms. Carefully sun-dried and ground, it delivers vibrant color, bold flavor, and natural heat to enhance your culinary creations. Free from additives and preservatives, this premium organic chili ensures purity, aroma, and consistent quality, perfect for both home kitchens and global export markets."
-  },
-  {
-    "name": "Turmeric",
-    "slug": "turmeric",
-    "image": "/images/turmeric.png",
-    "gallery": ["/images/turmeric.png"],
-    "shortDesc": "Premium quality turmeric powder and whole turmeric from India.",
-    "description": "Step into the world of organic with our Turmeric, harvested from India’s finest farms. Naturally dried and finely ground, it offers a rich golden color, earthy aroma, and authentic taste. Free from additives and preservatives, this premium organic turmeric ensures purity and consistent quality, making it perfect for culinary, medicinal, and global export purposes."
-  },
-  {
-    "name": "Coriander",
-    "slug": "coriander",
-    "image": "/images/coriander.png",
-    "gallery": ["/images/coriander.png"],
-    "shortDesc": "Premium quality coriander powder and whole coriander from India.",
-    "description": "Experience the world of organic with our Coriander, carefully selected from India’s best farms. Its sweet, citrusy aroma and delicate flavor elevate curries, sauces, and spice blends. Free from additives, this premium organic coriander offers purity, natural fragrance, and consistent quality for both domestic and international kitchens."
-  },
-  {
-    "name": "Cumin",
-    "slug": "cumin",
-    "image": "/images/cumin.png",
-    "gallery": ["/images/cumin.png"],
-    "shortDesc": "Premium quality cumin powder and whole cumin from India.",
-    "description": "Step into the world of organic with our Cumin, sourced from India’s top farms. Known for its warm, earthy aroma and rich flavor, this premium organic spice enhances a variety of dishes. Carefully processed and free from additives, it ensures purity, freshness, and consistent quality for culinary and export purposes."
-  },
-  {
-    "name": "Black Pepper",
-    "slug": "black-pepper",
-    "image": "/images/black.png",
-    "gallery": ["/images/black.png"],
-    "shortDesc": "Premium quality black pepper powder and whole black pepper from India.",
-    "description": "Enter the world of organic with our Black Pepper, harvested from select farms in India. Its bold, pungent flavor and natural aroma enrich any cuisine. Free from preservatives, this premium organic pepper guarantees purity, freshness, and consistent quality for culinary enthusiasts and global markets."
-  },
-  {
-    "name": "Fenugreek",
-    "slug": "fenugreek",
-    "image": "/images/fenugreek.png",
-    "gallery": ["/images/fenugreek.png", "/images/fenugreek1.png"],
-    "shortDesc": "Premium quality fenugreek powder and whole fenugreek from India.",
-    "description": "Discover the world of organic with our Fenugreek, sourced from India’s finest farms. Its slightly bitter, nutty flavor adds depth to curries and spice blends. Carefully processed and free from additives, this premium organic spice ensures purity, aroma, and consistent quality for both home and export use."
-  },
-  {
-    "name": "Mustard Seeds",
-    "slug": "mustard-seeds",
-    "image": "/images/Spices1.jpg",
-    "gallery": ["/images/Spices1.jpg"],
-    "shortDesc": "Premium quality mustard seeds from India.",
-    "description": "Step into the world of organic with our Mustard Seeds, sourced from India’s top farms. With a pungent aroma and robust flavor, these seeds enhance pickles, curries, and spice blends. Free from additives, our premium organic mustard seeds deliver purity, freshness, and consistent quality for culinary and international markets."
-  },
-  {
-    "name": "Asafoetida (Hing)",
-    "slug": "asafoetida-hing",
-    "image": "/images/Hing.png",
-    "gallery": ["/images/Hing.png"],
-    "shortDesc": "Premium quality asafoetida (hing) from India.",
-    "description": "Experience the world of organic with our Asafoetida (Hing), carefully harvested from India’s finest farms. Known for its strong aroma and flavor-enhancing properties, this premium organic spice adds authenticity to Indian cooking. Free from additives and preservatives, it ensures purity and consistent quality for both domestic and export kitchens."
-  },
-  {
-    "name": "Cloves",
-    "slug": "cloves",
-    "image": "/images/cloves.png",
-    "gallery": ["/images/cloves.png"],
-    "shortDesc": "Premium quality cloves from India.",
-    "description": "Step into the world of organic with our Cloves, sourced from India’s select farms. With a rich, aromatic flavor, they enhance curries, desserts, and beverages. Carefully processed and free from additives, this premium organic spice ensures purity, aroma, and consistent quality for culinary and global export purposes."
-  },
-  {
-    "name": "Cardamom",
-    "slug": "cardamom",
-    "image": "/images/cardamom.png",
-    "gallery": ["/images/cardamom.png"],
-    "shortDesc": "Premium quality cardamom from India.",
-    "description": "Enter the world of organic with our Cardamom, handpicked from India’s finest farms. Its sweet, aromatic flavor is perfect for both savory and sweet dishes. Free from additives, this premium organic spice guarantees purity, fragrance, and consistent quality for culinary and export markets."
-  },
-  {
-    "name": "Cinnamon",
-    "slug": "cinnamon",
-    "image": "/images/cinnamon.png",
-    "gallery": ["/images/cinnamon.png"],
-    "shortDesc": "Premium quality cinnamon from India.",
-    "description": "Step into the world of organic with our Cinnamon, sourced from India’s top farms. Its warm, sweet aroma and flavor enhance desserts, beverages, and spice blends. Carefully processed and free from additives, this premium organic spice ensures purity, quality, and consistent flavor for both domestic and global markets."
-  }
-  ]
 
-},
   {
-    "category": "Indian Super Foods/Gulten-free Products",
+    "category": "Indian Spices",
+    "slug": "indian-spices",
+    "categoryImage": "/images/Spices.png",
+    "categoryDesc": "BOE9 (Bumi Organic Exim) exports premium-quality Indian spices — whole and ground — from certified farms across India. Our spices are processed in HACCP-certified facilities and meet ASTA, FSSAI, EU, and USFDA quality standards. Available as conventional and NPOP-certified organic. We supply red chili, turmeric, coriander, cumin, black pepper, fenugreek, mustard seeds, asafoetida, cloves, cardamom, and cinnamon in bulk. Lakadong Turmeric (7–8% curcumin) available. MOQ from 500kg.",
+    "products": [
+      {
+        "name": "Lakadong Turmeric (High Curcumin)",
+        "slug": "lakadong-turmeric-high-curcumin",
+        "image": "/images/turmeric.png",
+        "gallery": ["/images/turmeric.png"],
+        "shortDesc": "GI-tagged Lakadong Turmeric from Meghalaya — 7–8% curcumin content (vs 3–5% standard), deep golden color, NMR/lab tested. Bulk export from India. Ideal for nutraceutical brands, premium spice importers, and pharmaceutical buyers.",
+        "description": "BOE9 supplies premium GI-tagged Lakadong Turmeric sourced directly from small-scale tribal farmers in the Jaintia Hills district of Meghalaya, Northeast India — the exclusive growing region for this world-class variety. Lakadong Turmeric is globally recognized as one of the finest turmeric varieties due to its exceptional curcumin content of 7–8% (compared to 3–5% in standard Erode or Sangli turmeric), making it highly sought after by nutraceutical, pharmaceutical, and premium culinary markets. Key quality specs: Curcumin: 7–8% (lab-certified); ASTA Color Value: >45; Volatile Oil: >3%; Moisture: <10%; Free from lead chromate adulteration (tested). Available as: dried finger (whole rhizome), powder (60/80 mesh), and slices. Naturally grown using traditional organic farming methods. Lab reports (curcumin quantification by HPLC) provided with each shipment. Packed in 25kg food-grade poly bags or double-layer cartons. MOQ: 100kg. Ideal for nutraceutical manufacturers, curcumin extract producers, premium spice importers, Ayurvedic brands, and pharmaceutical ingredient buyers in Europe, USA, UK, Canada, Japan, and Australia."
+      },
+      {
+        "name": "Red Chili",
+        "slug": "red-chili",
+        "image": "/images/chilli.png",
+        "gallery": ["/images/chilli.png"],
+        "shortDesc": "Export-grade Indian Red Chili — Teja, Byadagi, and Kashmiri varieties. ASTA color 80–120+, pungency 30,000–90,000 SHU. Whole and powder. Bulk supply from Andhra Pradesh. Ideal for spice importers and curry powder manufacturers.",
+        "description": "BOE9 exports premium Indian Red Chili in multiple varieties to meet diverse market needs: Teja (S17) from Andhra Pradesh — high pungency, 60,000–90,000 SHU, ASTA color 80+, ideal for heat-forward applications; Byadagi from Karnataka — low-medium pungency, deep red color, ASTA 120+, ideal for color-focused applications (sauces, paprika substitutes); Kashmiri Chili — mild, vibrant red, primarily for color. Available whole (de-stemmed / stemmed / with stem), crushed (3–5mm flakes), and powder (40/60/80 mesh). Key specs: Moisture <10%; ASTA color value 80–120+; Capsaicin content tested per variety; Aflatoxin <10ppb; Salmonella: absent. Free from Sudan dye adulteration (tested). Packed in 25kg jute or poly-lined bags. MOQ: 1 metric tonne. Ideal for spice importers, curry powder manufacturers, sauce producers, and seasoning blenders in Europe, USA, UAE, Japan, and Canada."
+      },
+      {
+        "name": "Turmeric",
+        "slug": "turmeric",
+        "image": "/images/turmeric.png",
+        "gallery": ["/images/turmeric.png"],
+        "shortDesc": "Export-grade Indian Turmeric — Erode, Sangli, and Rajapuri varieties. 3–5% curcumin, ASTA color 35+, lead chromate-free. Whole finger and powder. Bulk from India. Ideal for curry powder manufacturers and spice importers worldwide.",
+        "description": "BOE9 exports premium Indian Turmeric in multiple varieties: Erode Turmeric (Tamil Nadu) — 3–4% curcumin, bright orange-yellow color, ASTA 35+, ideal for culinary and export markets; Sangli Turmeric (Maharashtra) — 3.5–5% curcumin, finger and bulb type; Rajapuri Turmeric — large rhizome, moderate curcumin. Available as dried finger (polished / raw), bulb, powder (60/80 mesh), and turmeric oil. Key specs: Curcumin: 3–5% (HPLC tested); ASTA Color: >35; Moisture: <10%; Total Ash: <8%; Free from lead chromate (certified); Aflatoxin <10ppb; Salmonella: absent. For premium applications requiring >7% curcumin, see our Lakadong Turmeric listing. Packed in 25kg jute bags or double-layer cartons. MOQ: 500kg. Ideal for curry powder manufacturers, spice importers, food colorant producers, and Ayurvedic ingredient suppliers in Europe, USA, UAE, Japan, and Canada."
+      },
+      {
+        "name": "Coriander",
+        "slug": "coriander",
+        "image": "/images/coriander.png",
+        "gallery": ["/images/coriander.png"],
+        "shortDesc": "Export-grade Indian Coriander Seeds and Powder — Eagle and Scooter varieties, volatile oil >0.3%, ASTA compliant. Bulk supply from Rajasthan. Ideal for spice manufacturers, curry powder blenders, and food importers worldwide.",
+        "description": "BOE9 exports premium Indian Coriander (Dhania / Coriandrum sativum) in Eagle and Scooter varieties sourced from Rajasthan and Madhya Pradesh — India's largest coriander-producing region. Known for its sweet citrus-earthy aroma and clean flavor. Available as whole seeds (bold, uniform) and powder (40/60/80 mesh). Key specs: Volatile oil: >0.3ml/100g; Moisture: <10%; Total ash: <7%; Acid insoluble ash: <1%; Extraneous matter: <0.5%; E. coli: absent. ASTA quality compliant. Packed in 25kg jute bags or double-layer poly-lined cartons. MOQ: 500kg. Ideal for spice manufacturers, curry powder and masala blenders, food seasoning companies, sausage and meat processors, and food importers in Europe, USA, UAE, Canada, and Japan."
+      },
+      {
+        "name": "Cumin",
+        "slug": "cumin",
+        "image": "/images/cumin.png",
+        "gallery": ["/images/cumin.png"],
+        "shortDesc": "Export-grade Indian Cumin Seeds and Powder — Gujarat origin, 2.5–4% volatile oil, ASTA compliant, machine-cleaned. Bulk supply from India. Ideal for Middle Eastern food manufacturers, spice importers, and curry powder blenders.",
+        "description": "BOE9 exports premium Indian Cumin (Jeera / Cuminum cyminum) sourced from Gujarat and Rajasthan — producing >80% of India's cumin output. Our cumin is machine-cleaned, double-sortexed, and available as whole seeds and powder. Key specs: Volatile oil: 2.5–4ml/100g (major constituent: cuminaldehyde); Moisture: <9%; Total ash: <9.5%; Acid insoluble ash: <1.5%; Foreign matter: <1%; E. coli: absent; Aflatoxin: <10ppb. Bold, uniform seed size (3–5mm). ASTA compliant. Packed in 25kg jute bags or poly-lined cartons. MOQ: 500kg. Ideal for Middle Eastern food manufacturers, spice importers, hummus and falafel producers, curry powder blenders, and food seasoning companies in Europe, USA, UAE, Saudi Arabia, and Canada."
+      },
+      {
+        "name": "Black Pepper",
+        "slug": "black-pepper",
+        "image": "/images/black.png",
+        "gallery": ["/images/black.png"],
+        "shortDesc": "Export-grade Indian Black Pepper — MG1 and TGEB grades, 550–650g/L bulk density, piperine >4%, machine-cleaned. Bulk supply from Kerala. Ideal for spice manufacturers, food processors, and wholesale importers worldwide.",
+        "description": "BOE9 exports premium Indian Black Pepper (Piper nigrum) sourced from Kerala and Karnataka — the birthplace of pepper and India's finest pepper-producing regions. Available grades: MG1 (Malabar Garbled Grade 1 — premium export quality), TGEB (Tellicherry Garbled Extra Bold — largest berry, most aromatic), and FAQ (Fair Average Quality). Key specs: Bulk density: 550–650g/L; Piperine content: >4%; Moisture: <12%; Total ash: <7%; Foreign matter: <0.5%; Salmonella: absent. Available whole (different grades), cracked, and as fine/coarse black pepper powder. Packed in 25kg/50kg jute or poly-lined bags. MOQ: 500kg. Ideal for spice manufacturers, food processors, meat and sausage producers, sauce manufacturers, and wholesale importers in Europe, USA, UAE, Japan, and Canada."
+      },
+      {
+        "name": "Fenugreek",
+        "slug": "fenugreek",
+        "image": "/images/fenugreek.png",
+        "gallery": ["/images/fenugreek.png", "/images/fenugreek1.png"],
+        "shortDesc": "Export-grade Indian Fenugreek Seeds and Powder — Rajasthan origin, 30%+ fiber, machine-cleaned. Bulk supply from India. Ideal for spice importers, dietary supplement brands, and Ayurvedic ingredient manufacturers.",
+        "description": "BOE9 exports premium Indian Fenugreek (Methi / Trigonella foenum-graecum) sourced from Rajasthan — producing >80% of India's fenugreek. Available as whole seeds and powder (40/60/80 mesh). Fenugreek is rich in dietary fiber (>30%), diosgenin (a phytoestrogen used in pharmaceutical applications), and galactomannan (used in the food and pharmaceutical industries). Characteristic slightly bitter, maple-like aroma. Key specs: Moisture: <10%; Total ash: <6%; Acid insoluble ash: <1.5%; Foreign matter: <1%; E. coli: absent. Machine-cleaned and double-sortexed. Packed in 25kg jute bags or poly-lined cartons. MOQ: 500kg. Ideal for spice manufacturers, curry powder blenders, dietary supplement brands, Ayurvedic ingredient suppliers, and health food importers in Europe, USA, UAE, and Canada."
+      },
+      {
+        "name": "Mustard Seeds",
+        "slug": "mustard-seeds",
+        "image": "/images/Spices1.jpg",
+        "gallery": ["/images/Spices1.jpg"],
+        "shortDesc": "Export-grade Indian Mustard Seeds — black and yellow varieties. Sinigrin-rich, <1% FFA, ASTA compliant. Bulk supply from Rajasthan. Ideal for pickle manufacturers, sauce producers, and spice importers worldwide.",
+        "description": "BOE9 exports premium Indian Mustard Seeds (Brassica juncea — brown/black; Sinapis alba — yellow/white) sourced from Rajasthan — India's leading mustard-producing state. Available as Black Mustard (small, pungent, Brassica nigra) and Yellow Mustard (larger, milder). Key specs: Moisture: <8%; Oil content: 38–42%; FFA (Free Fatty Acid): <1%; Foreign matter: <1%; Uniform size (1.5–2mm); Salmonella: absent. Machine-cleaned and sortexed for uniform quality. Packed in 25kg jute or poly-lined bags. MOQ: 500kg. Ideal for pickle manufacturers, mustard sauce and paste producers, spice importers, curry powder blenders, and food seasoning companies in Europe, USA, UAE, Canada, and Japan."
+      },
+      {
+        "name": "Asafoetida (Hing)",
+        "slug": "asafoetida-hing",
+        "image": "/images/Hing.png",
+        "gallery": ["/images/Hing.png"],
+        "shortDesc": "Premium Indian Asafoetida (Hing) — compounded and pure resin types, ferulic acid tested, authentic umami flavor. Bulk supply from India. Ideal for Indian grocery importers, Ayurvedic brands, and food manufacturers.",
+        "description": "BOE9 supplies premium Indian Asafoetida (Hing / Ferula asafoetida) — available as compounded hing (mixed with starch/gum for culinary use) and pure hing resin (raw oleo-gum-resin for pharmaceutical and high-end culinary applications). Sourced from trusted processors in Gujarat and Rajasthan. The characteristic pungent sulfur-allyl disulfide aroma transforms into a savory, umami-rich flavor when cooked — making it an irreplaceable ingredient in Indian vegetarian and Jain cooking. Key specs: Ferulic acid content (authenticity marker): tested; Moisture: <10%; Ash: <10%; Free from artificial flavors or adulterants. Packed in 100g to 1kg sealed containers for retail, and 5kg/10kg bulk packs for food manufacturers. MOQ: 50kg. Ideal for Indian grocery importers, Ayurvedic product manufacturers, Indian food manufacturers, and specialty spice retailers in USA, UK, UAE, Canada, Europe, and Australia."
+      },
+      {
+        "name": "Cloves",
+        "slug": "cloves",
+        "image": "/images/cloves.png",
+        "gallery": ["/images/cloves.png"],
+        "shortDesc": "Export-grade Indian Cloves — Zanzibar and Kerala varieties, eugenol >72%, ASTA compliant. Bulk supply from India. Ideal for spice importers, essential oil extractors, and pharmaceutical ingredient buyers worldwide.",
+        "description": "BOE9 exports premium Cloves (Syzygium aromaticum) available in Zanzibar (bold, high oil content) and Kerala varieties. Cloves are among the most valuable spices globally, primarily valued for their eugenol content (72–90%) used in essential oils, dental applications (clove oil), food flavoring, and pharmaceutical manufacturing. Key specs: Eugenol content: >72%; Volatile oil: >15%; Moisture: <12%; Broken/Split: <5%; Stems/stalks: <2%; Salmonella: absent. Available as whole cloves (buds), clove powder (60 mesh), and clove stem/leaf for industrial oil extraction. Machine-cleaned and graded. Packed in 25kg jute or poly-lined bags. MOQ: 100kg. Ideal for spice importers, essential oil extractors, pharmaceutical ingredient buyers, flavoring companies, and food manufacturers in Europe, USA, UAE, and Canada."
+      },
+      {
+        "name": "Cardamom",
+        "slug": "cardamom",
+        "image": "/images/cardamom.png",
+        "gallery": ["/images/cardamom.png"],
+        "shortDesc": "Export-grade Indian Green Cardamom — 7–10mm bold pods, >70% bold count, 6–8% volatile oil (1,8-cineole rich). Bulk supply from Kerala. Ideal for premium spice importers, tea/chai manufacturers, and confectionery brands.",
+        "description": "BOE9 exports premium Indian Green Cardamom (Elettaria cardamomum) sourced from the cardamom hills of Kerala and Coorg, Karnataka — home to the world's finest 'Queen of Spices'. Available grades: 7–8mm (Extra Bold), 6–7mm (Bold), and 5–6mm (Medium). Key quality specs: Volatile oil: 6–8%; Principal compounds: 1,8-cineole (>35%) and α-terpinyl acetate; Moisture: <10%; Extraneous matter: <0.5%; Bold count (>7mm): >70%; Color: Uniform pale green (not bleached). Available as whole pods, decorticated seeds, and cardamom powder (60/80 mesh). Packed in 10kg/25kg airtight poly bags. MOQ: 50kg. Ideal for premium spice importers, tea/masala chai manufacturers, confectionery and bakery brands, perfumery, and Ayurvedic companies in Europe, USA, UAE, Saudi Arabia, and Japan."
+      },
+      {
+        "name": "Cinnamon",
+        "slug": "cinnamon",
+        "image": "/images/cinnamon.png",
+        "gallery": ["/images/cinnamon.png"],
+        "shortDesc": "Export-grade Indian Cinnamon (Ceylon and Cassia) — coumarin levels tested, ASTA compliant. Quills, chips, and powder. Bulk supply from India. Ideal for spice importers, baking ingredient brands, and beverage manufacturers.",
+        "description": "BOE9 exports premium Indian Cinnamon in both Ceylon Cinnamon (Cinnamomum verum — 'true cinnamon') and Cassia (Cinnamomum aromaticum) varieties. Ceylon cinnamon is prized for its delicate, mild-sweet flavor and very low coumarin content (<0.04g/kg) — making it preferred for EU markets with strict coumarin limits. Cassia (Chinese/Vietnamese cinnamon) has a stronger, spicier flavor and is preferred in USA and the Middle East. Available as quills (sticks), bark chips, and powder (40/60/80 mesh). Key specs: Volatile oil: >0.5% (Ceylon) / >1% (Cassia); Moisture: <12%; Coumarin content tested (EU compliance); Salmonella: absent. Packed in 25kg jute bags or poly-lined cartons. MOQ: 250kg. Ideal for spice importers, baking ingredient brands, beverage and chai manufacturers, flavoring companies, and food processors in Europe, USA, UAE, Canada, and Japan."
+      }
+    ]
+  },
+
+  {
+    "category": "Indian Super Foods / Gluten-Free Products",
     "slug": "indian-super-foods",
+    "categoryImage": "/images/millet.png",
+    "categoryDesc": "BOE9 exports premium Indian superfoods and gluten-free products — including Makhana (Fox Nuts) from Bihar and a wide range of roasted gluten-free millets from certified farms. Our superfoods are rich in protein, fiber, and essential nutrients, and are free from gluten, GMOs, and synthetic additives. Growing global demand for plant-based, gluten-free, and ancient grain products makes these ideal for health food brands in Europe, USA, and beyond. Bulk export available with full documentation.",
     "products": [
       {
         "name": "Makhana (Fox Nuts)",
         "slug": "makhana-fox-nuts",
         "image": "/images/makhana.png",
         "gallery": ["/images/makhana1.png", "/images/makhana2.png", "/images/Makhan3.png", "/images/Makhana4.jpg", "/images/makhana5.jpg"],
-        "shortDesc": "Premium quality fox nuts from India.",
-        "description":"At Bumi Organic Exim, we offer premium quality Makhana (Fox Nuts) sourced from the pristine lakes of India. Our Makhana is carefully harvested, cleaned, and processed to retain its natural crunch, flavor, and nutritional benefits. Rich in protein, fiber, and essential minerals, our fox nuts are an ideal healthy snack for health-conscious consumers worldwide. Free from additives and preservatives, our products ensure purity and consistent quality for both domestic and international markets."
+        "shortDesc": "Premium Makhana (Fox Nuts / Phool Makhana) from Bihar — 9g protein per 100g, low fat, gluten-free, FSSAI tested. Bulk export in 25kg cartons. Ideal for healthy snack brands, Ayurvedic food companies, and organic retailers worldwide.",
+        "description": "BOE9 exports premium-quality Makhana (Fox Nuts / Phool Makhana / Euryale ferox) sourced from the pristine lakes and ponds of Mithila, Bihar — which produces >85% of the world's makhana supply. Often called India's 'Superfood from the Water', Makhana is experiencing a global demand surge driven by its exceptional nutritional profile: Protein: 9g/100g; Fat: <0.1g/100g (extremely low); Fiber: 14g/100g; Calcium: 60mg/100g; Iron: 1.3mg/100g; Glycemic Index: ~67 (lower than popcorn). Naturally gluten-free, non-GMO, and free from cholesterol. Available in sizes: 4-Suta (small), 6-Suta (medium), and 8-Suta (large premium grade). Raw/unroasted for food manufacturing, and lightly roasted for ready-to-eat snack applications. FSSAI, Organic, and Kosher certification available. Packed in 25kg cartons with inner poly bag. MOQ: 500kg. Also available as Makhana Flour (gluten-free baking ingredient). Ideal for healthy snack manufacturers, Ayurvedic food brands, organic food retailers, hotel and airline catering companies, and health food importers in Europe, USA, UK, UAE, Canada, Japan, and Australia."
       },
       {
-        "name": "Gluten-free/Roasted Millets Products",
+        "name": "Gluten-Free / Roasted Millets Products",
         "slug": "roasted-millets-products",
         "image": "/images/millet.png",
         "gallery": ["/images/millet.png", "/images/millets2.jpg", "/images/millets3.png", "/images/millets4.jpg", "/images/millets5.jpg", "/images/millets6.png", "/images/millets7.jpg"],
-        "shortDesc": "Healthy roasted millet snacks.",
-        "description": "At Bumi Organic Exim, we provide a variety of Gluten-free Roasted Millets Products sourced from India’s finest farms. Our millets are carefully roasted to enhance their natural flavor, crunch, and nutritional profile. Rich in fiber, protein, and essential nutrients, our roasted millet snacks are perfect for health-conscious consumers seeking gluten-free options. Free from additives and preservatives, our products ensure purity and consistent quality for both domestic and international markets."
+        "shortDesc": "Certified gluten-free millet products from India — foxtail, finger, pearl, sorghum, barnyard, kodo & little millet. Whole grain, roasted, and flour forms. Ideal for gluten-free food brands, ancient grain snack manufacturers, and health food importers worldwide.",
+        "description": "BOE9 exports a comprehensive range of certified Gluten-Free Millets — India's ancient grains experiencing a global renaissance driven by rising celiac disease awareness, low-carb dietary trends, and demand for sustainable crops. India is the world's largest producer of millets (2023 UN-declared International Year of Millets), and BOE9 sources directly from certified farms across Rajasthan, Karnataka, Maharashtra, and Andhra Pradesh. Available millet varieties: Pearl Millet (Bajra) — highest protein millet (12g/100g); Finger Millet (Ragi) — exceptional calcium (344mg/100g); Foxtail Millet (Kangni) — low GI (50), ideal for diabetic diets; Sorghum (Jowar) — energy-dense, mild flavor; Barnyard Millet (Sanwa) — fast-cooking, high fiber; Kodo Millet — antioxidant-rich; Little Millet (Kutki) — most delicate flavor. Available forms: Whole grain (cleaned/sortexed), roasted grain, flour (fine 60–80 mesh), flakes, and puffed. All varieties are naturally gluten-free (<20ppm tested). Packed in 25kg food-grade poly bags and retail-ready 500g/1kg resealable packs for private-label buyers. NPOP organic certification available. MOQ: 500kg. Ideal for gluten-free food manufacturers, ancient grain bread brands, health food retailers, sports nutrition companies, baby food producers, and health food importers in Europe, USA, UK, Canada, Japan, and Australia."
       }
     ]
-
   },
+
   {
-     "category": "Coffee & Cocoa Powder",
+    "category": "Coffee & Cocoa Powder",
     "slug": "coffee-and-cocoa-powder",
+    "categoryDesc": "BOE9 exports premium Indian coffee beans and cocoa powder from the finest growing regions in South India. Our Arabica and Robusta coffee beans are sourced from certified estates in Coorg, Chikmagalur, and Wayanad — India's specialty coffee origins. Our cocoa powder is processed from high-quality cocoa beans from Kerala and Tamil Nadu. Available as green beans, roasted beans, and processed powder for specialty roasters, food manufacturers, and beverage brands worldwide.",
     "products": [
-      
       {
         "name": "Coffee Beans",
         "slug": "coffee-beans",
         "image": "/images/coffeemain.png",
-        "shortDesc": "Premium quality coffee sourced from India.",
-        
-        "items":[
-           {
+        "shortDesc": "Premium Indian Coffee Beans — Arabica and Robusta from Coorg, Chikmagalur, and Wayanad. Specialty-grade, screen 15+, SCA score 80+. Green and roasted available. Ideal for specialty coffee roasters and beverage brands worldwide.",
+        "items": [
+          {
             "name": "Arabica Coffee Beans",
             "slug": "arabica-coffee-beans",
             "image": "/images/coffee.jpg",
-            "gallery": ["/images/coffee1.jpg","/images/arabica1.png","/images/arabica2.png","/images/unwashed.png"],
-            "shortDesc": "Smooth and flavorful arabica coffee beans.",
-            "description": "Our Arabica Coffee Beans are sourced from the highest quality plantations in India. I offed a Washed and Unwashed variety, these beans are known for their smooth, mild flavor and aromatic profile. Ideal for drip coffee and espresso, our Arabica beans provide a delightful coffee experience. for bulk orders, please contact us directly."
-
-           },
-           {
+            "gallery": ["/images/coffee1.jpg", "/images/arabica1.png", "/images/arabica2.png", "/images/unwashed.png"],
+            "shortDesc": "Indian Specialty Arabica Coffee Beans — Washed and Natural (Unwashed) process, SCA score 82–86, screen 15–18. From Coorg and Chikmagalur estates. Ideal for specialty coffee roasters, third-wave cafes, and coffee importers in Europe and USA.",
+            "description": "BOE9 exports premium Indian Arabica Coffee Beans (Coffea arabica) sourced from high-altitude certified estates (900–1800m ASL) in Coorg (Kodagu), Chikmagalur, and Bababudangiri — India's celebrated specialty coffee origins. Available in two processing methods: Washed (Wet Process) — clean, bright acidity, delicate floral and citrus notes, SCA cupping score 82–85; Natural (Dry/Unwashed Process) — full-bodied, fruited, wine-like complexity, SCA score 83–86. Screen size: 15–18 (large bean, uniform). Moisture: 10–12%. Defect count: Grade 1 (<5 primary defects per 300g). Available as green beans and custom roasted (light, medium, dark) with cupping notes provided. Certifications available: Organic (NPOP), Rainforest Alliance, UTZ, Fair Trade on request. Packed in 60kg GrainPro-lined jute bags (export standard) or 1kg/5kg retail packs for roasters. MOQ: 100kg (green). Ideal for specialty coffee roasters, third-wave cafes, coffee importers, espresso blend manufacturers, and private-label coffee brands in Europe, USA, UK, Japan, Canada, and Australia."
+          },
+          {
             "name": "Robusta Coffee Beans",
             "slug": "robusta-coffee-beans",
             "image": "/images/coffee3.jpg",
-            "gallery": ["/images/r.png","/images/r1.png","/images/r2.png","/images/unwashed.png","/images/u1.png","/images/u2.png"],
-            "shortDesc": "Strong and bold robusta coffee beans.",
-            "description": "Our Robusta Coffee Beans are sourced from select farms in India, known for their strong, bold flavor and higher caffeine content. These beans are ideal for espresso blends and those who prefer a more intense coffee experience."
-
-           }
-
+            "gallery": ["/images/r.png", "/images/r1.png", "/images/r2.png", "/images/unwashed.png", "/images/u1.png", "/images/u2.png"],
+            "shortDesc": "Indian Robusta Coffee Beans — cherry, parchment, and FAQ grades, 2.7%+ caffeine, strong crema, from Wayanad and Coorg. Ideal for espresso blend manufacturers, instant coffee producers, and commercial roasters worldwide.",
+            "description": "BOE9 exports premium Indian Robusta Coffee Beans (Coffea canephora) sourced from certified estates in Wayanad (Kerala) and Coorg (Karnataka) — India's premium Robusta origins known for producing bold, clean cups with good crema potential. Indian Robusta is prized by Italian espresso blenders for its ability to add body, crema, and caffeine intensity to Arabica blends. Caffeine content: 2.7–3.2% (vs Arabica 1.2–1.5%). Low acidity, full body, earthy and chocolate-like flavor profile. Available grades: Cherry (Whole fruit), Parchment (with husk), and Cleaned/Polished green beans. Moisture: 10–12.5%. Defect count: Grade 1 and Grade 2. Also available: Robusta Natural Process (sun-dried cherries) for specialty segment. Packed in 60kg jute bags with GrainPro liner or 50kg poly bags. MOQ: 100kg (green). Ideal for espresso blend manufacturers, instant coffee processors, commercial roasters, and coffee importers in Europe, USA, UAE, Japan, South Korea, and Australia."
+          }
         ]
       },
       {
         "name": "Cocoa Powder",
         "slug": "cocoa-powder",
         "image": "/images/cocoa.png",
-        "shortDesc": "Premium quality cocoa powder sourced from India.",
-        
-        "items":[
-           {
+        "shortDesc": "Premium Indian Cocoa Powder — Dutch-processed (alkalized) and natural. Deep color (10–12% cocoa butter retained), rich chocolate flavor. Bulk export in 25kg cartons from India. Ideal for chocolate manufacturers, bakeries, and beverage brands.",
+        "items": [
+          {
             "name": "Dutch Processed Cocoa Powder",
             "slug": "dutch-processed-cocoa-powder",
             "image": "/images/dutch-cocoa.png",
-            "gallery": ["/images/dutch-cocoa1.png","/images/dutch-cocoa2.png","/images/dutch-cocoa3.png"],
-            "shortDesc": "Rich and smooth dutch processed cocoa powder.",
-            "description": "Our Dutch Processed Cocoa Powder is treated with an alkalizing agent to neutralize its acidity, resulting in a smoother, milder flavor and darker color. Perfect for baking and making rich chocolate beverages, this cocoa powder enhances the taste and texture of your culinary creations."
-           }
-
+            "gallery": ["/images/dutch-cocoa1.png", "/images/dutch-cocoa2.png", "/images/dutch-cocoa3.png"],
+            "shortDesc": "Dutch Processed (Alkalized) Cocoa Powder from India — pH 7.5–8.5, deep reddish-brown color, 10–12% cocoa butter, mild flavor. Bulk export in 25kg cartons. Ideal for chocolate brands, bakeries, confectionery, and beverage manufacturers.",
+            "description": "BOE9 exports premium Dutch Processed Cocoa Powder (Alkalized Cocoa Powder) produced from high-quality cocoa beans (Theobroma cacao) sourced from certified farms in Kerala and Tamil Nadu, processed in ISO-certified facilities. Dutch processing (treatment with potassium carbonate) raises the pH from ~5.5 to 7.5–8.5, resulting in a darker reddish-brown to deep mahogany color, milder less-bitter flavor, and better dispersibility in liquids compared to natural cocoa powder. Key quality specs: pH: 7.5–8.5; Fat content: 10–12%; Moisture: <5%; Total plate count: <5000 cfu/g; Salmonella and E. coli: absent; Heavy metals: within Codex Alimentarius limits. Available in light brown, medium brown, and dark brown color grades. Packed in 25kg food-grade double-layer (kraft + poly inner) cartons or 50kg bags. MOQ: 500kg. Ideal for chocolate manufacturers, bakeries, confectionery brands, hot chocolate/beverage producers, ice cream manufacturers, and food ingredient importers in Europe, USA, UAE, Canada, and Japan."
+          }
         ]
       }
     ]
   },
+
   {
-    "category":"dairy products",
-    "slug":"dairy-products",
-    "products":[
+    "category": "Dairy Products",
+    "slug": "dairy-products",
+    "categoryDesc": "BOE9 supplies premium-quality dairy products from trusted farms and processing units in India — including A2 Desi Cow Ghee, Skimmed Milk Powder, and specialty Flavored Coffee Powder. Our dairy products are produced under strict FSSAI-certified processing conditions, free from synthetic additives and preservatives. Available for bulk export worldwide with full documentation and cold-chain logistics support.",
+    "products": [
       {
-        "name":"Desi Ghee",
-        "slug":"desi-ghee",
+        "name": "Desi Ghee",
+        "slug": "desi-ghee",
         "image": "/images/ghee.png",
-        "shortDesc": "Premium quality desi ghee sourced from India.",
-        "description":"Bumi Organic Exim offers premium quality Desi Ghee made from the finest cow milk sourced from trusted farms in India. Our desi ghee is prepared using traditional methods to ensure a rich aroma, authentic taste, and superior nutritional profile. Ideal for cooking, baking, and traditional Indian recipes, our desi ghee caters to health-conscious consumers worldwide. Free from additives and preservatives, our products ensure purity and consistent quality for both domestic and international markets."
+        "shortDesc": "Premium Indian Desi Cow Ghee — traditional creamery or Bilona method, rich aroma, 99.5%+ fat content, FSSAI certified. Bulk export in 15kg tins from India. Ideal for Indian grocery importers and Ayurvedic product brands worldwide.",
+        "description": "BOE9 supplies premium Desi Ghee (Clarified Butter) made from pure cow milk sourced from trusted dairy farms in Maharashtra and Gujarat. Available in two process variants: Creamery Butter Method (large-scale production, consistent quality) and Traditional Bilona Method (hand-churned, small-batch, superior flavor profile). Key quality specs per AGMARK Grade 1: Fat content: >99.5%; Moisture: <0.3%; Free Fatty Acid (as oleic acid): <0.28%; Peroxide value: <0.6 meq/kg; Butyro-Refractometer reading at 40°C: 40–44; Baudouin test: negative (confirms no adulteration with vanaspati). Rich golden color, characteristic nutty aroma, and grainy texture on cooling. Packed in 500ml, 1L glass jars, 5kg and 15kg food-grade tin containers. No preservatives or synthetic additives. FSSAI certified. MOQ: 50kg. Ideal for Indian grocery importers, Ayurvedic brands, South Asian food retailers, hotel and restaurant chains, and specialty food distributors in USA, UK, UAE, Canada, and Australia."
       },
       {
-        "name":"skimmed milk powder",
-        "slug":"skimmed-milk-powder",
+        "name": "Skimmed Milk Powder",
+        "slug": "skimmed-milk-powder",
         "image": "/images/skimmed-milk-powder.png",
-        "shortDesc": "Premium quality skimmed milk powder sourced from India.",
-        "description":"Bumi Organic Exim offers premium quality Skimmed Milk Powder made from fresh cow milk sourced from trusted farms in India. Our skimmed milk powder is carefully processed to retain its natural flavor, nutritional value, and shelf life. Ideal for baking, cooking, and beverage applications, our skimmed milk powder caters to both domestic and international markets. Free from additives and preservatives, our products ensure purity and consistent quality."
+        "shortDesc": "Premium Indian Skimmed Milk Powder (SMP) — <1.5% fat, 34%+ protein, spray-dried, FSSAI and Codex Alimentarius compliant. Bulk export in 25kg bags. Ideal for dairy manufacturers, bakeries, chocolate producers, and food ingredient importers.",
+        "description": "BOE9 exports premium Skimmed Milk Powder (SMP) produced from fresh cow milk by spray-drying at FSSAI-certified processing facilities in India. Key quality specs (Codex Alimentarius Standard CXS 207-1999 compliant): Fat: <1.5%; Protein (on dry basis): >34%; Moisture: <4%; Scorched particles: Disc B or better; Titratable acidity: <0.15%; Total plate count: <50,000 cfu/g; Coliforms: <10/g; Salmonella: absent/25g. Free from vegetable fat, starch, or sucrose adulteration (tested). Available in Extra Grade and Standard Grade. Packed in 25kg food-grade multi-wall kraft bags with poly inner liner. Shelf life: 24 months. MOQ: 1 metric tonne. Ideal for dairy manufacturers, chocolate and confectionery producers, bakeries, infant food manufacturers, ice cream companies, and food ingredient importers in Europe, USA, UAE, Southeast Asia, and Africa."
       },
       {
-        "name":"Flavored coffee",
-        "slug":"flavored-coffee",
+        "name": "Flavored Coffee",
+        "slug": "flavored-coffee",
         "image": "/images/flavored-coffee.png",
-        "shortDesc": "Variety of flavored coffee powders.",
-        "description":"Bumi Organic Exim offers a delightful range of Flavored Coffee Powders crafted to tantalize your taste buds. Our flavored coffee powders are made from premium coffee beans blended with natural flavors such as vanilla, hazelnut, caramel, and mocha. Perfect for creating café-style beverages at home or in commercial settings, our flavored coffee powders provide a rich aroma and smooth taste experience. Free from artificial additives, our products ensure purity and consistent quality for both domestic and international markets."
+        "shortDesc": "Premium Indian Flavored Coffee Powder — South Indian filter coffee blend with chicory, plus vanilla, hazelnut, and caramel variants. No artificial flavors. Retail and bulk export from India. Ideal for South Asian grocery importers and specialty beverage brands.",
+        "description": "BOE9 offers premium Flavored Coffee Powder blends crafted from high-quality South Indian Arabica and Robusta coffee beans sourced from Coorg and Wayanad estates. Our flagship product is the South Indian Filter Coffee Blend — a traditional 80:20 or 60:40 coffee-to-chicory ratio blend known for its strong, rich taste and distinctive creamy texture when prepared with hot milk. Also available: Vanilla Flavored Coffee (natural vanilla extract, no artificial flavor), Hazelnut Flavored Coffee, and Caramel Coffee Powder — all blended with natural flavor extracts and free from artificial additives, colors, or preservatives. Medium grind (appropriate for filter/drip machines and South Indian stainless steel filters). Moisture: <5%. Available in 200g, 500g retail pouches and 5kg bulk packs for private-label and food service buyers. MOQ: 50kg. Ideal for South Asian and Indian grocery importers, specialty beverage brands, café supply companies, and private-label food businesses in USA, UK, UAE, Canada, Malaysia, Singapore, and Australia."
       }
     ]
   }
 ]
-
-  
-
-
-
-
